@@ -11,7 +11,7 @@ const Navbar = () => {
     { id: 2, name: "Roadmaps", href: "/roadmaps" },
     { id: 3, name: "Resources", href: "/resources" },
     { id: 4, name: "CGPA Calculator", href: "/cgpa" },
-    { id: 5, name: "Time Table", href: "/time-table" },
+    { id: 5, name: "Time Table", href: "https://timetable.acmthapar.in/" },
   ];
 
   return (
