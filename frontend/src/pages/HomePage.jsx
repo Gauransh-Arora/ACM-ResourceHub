@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Contributor from "../components/Contributor";
+import Snorlax from "../assets/143.png";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -15,11 +17,11 @@ const HomePage = () => {
   };
 
   return (
-    <div className="bg-[url('./src/assets/bg_image.png')]">
+    <div className=" bg-cover bg-no-repeat  m-0">
       <div className="flex flex-col justify-center items-center h-64 md:h-80 lg:h-96 px-4">
         <h1 className="font-bold text-5xl sm:text-5xl md:text-6xl lg:text-7xl text-center">
           <span className="">RESOURCE</span>{" "}
-          <span className="text-[#2041B5]">HUB</span>
+          <span className="text-[#15a6dd]">HUB</span>
         </h1>
         <span className="py-2 md:py-4 text-lg sm:text-xl md:text-2xl text-center">
           For all your Academic Needs
@@ -73,6 +75,71 @@ const HomePage = () => {
               Get Time Table
             </button>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col justify-center gap-[1rem] mt-10 mb-20">
+        <div className="text-3xl font-extrabold flex justify-center"> Contributors </div>
+        <div className="flex flex-wrap justify-center gap-[7.7rem] mt-10 mb-20">
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/Snorlax-Arora"
+          />
         </div>
       </div>
     </div>
