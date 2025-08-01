@@ -3,4 +3,8 @@
 
 *{
     font-family: "Urbanist" , sans-serif;
+
+}
+body::-webkit-scrollbar{
+    display: none;
 }
