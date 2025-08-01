@@ -17,27 +17,22 @@ const ResourcePage = () => {
 
   return (
     <>
-      {/* Top Bar with Heading + Filter */}
-      <div className="mt-10 mx-4 md:mx-10 flex flex-row justify-between items-center gap-4 flex-wrap">
-        {/* Heading */}
-        <div className="flex items-center gap-4">
-          <span className="text-4xl font-extrabold">Resources</span>
-          <span className="font-extrabold text-[#15A6DD] text-4xl">Year 1</span>
-
-          {/* Funnel icon (only on small screens) */}
-          <button
-            className="sm:hidden flex items-center px-3 py-2 border-2 border-[#15A6DD] bg-[#8FDAF5] rounded-md shadow-md"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <Filter className="w-5 h-5 text-[#434343]" />
-          </button>
+      <div className="mt-10 mx-4 md:mx-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div className="flex items-center gap-4 flex-wrap">
+          <span className="text-2xl sm:text-3xl lg:text-4xl font-extrabold">
+            Resources
+          </span>
+          <span className="font-extrabold text-[#15A6DD] text-2xl sm:text-3xl lg:text-4xl">
+            Year 1
+          </span>
         </div>
 
-        {/* Full Dropdown (on sm and up) */}
         <div className="relative hidden sm:block w-full sm:w-80 md:w-96">
           <button
-            className={`w-full px-4 py-2 text-left z-20 bg-[#8FDAF5] flex justify-between items-center ${
-              isOpen ? "border-2 border-[#15A6DD]" : ""
+            className={`w-full px-4 py-2 text-left bg-[#8FDAF5] flex justify-between items-center  ${
+              isOpen
+                ? "border-2 border-[#15A6DD]"
+                : "border-2 border-transparent"
             }`}
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -48,32 +43,68 @@ const ResourcePage = () => {
               }`}
             />
           </button>
+
+          {isOpen && (
+            <div className="absolute top-full left-0 right-0 bg-[#8FDAF5] border-2 border-[#15A6DD] border-t-0 shadow-lg z-20">
+              {options.map((option, index) => (
+                <div key={index}>
+                  <button
+                    onClick={() => {
+                      setSelectedOption(option);
+                      setIsOpen(false);
+                    }}
+                    className="w-full px-4 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors"
+                  >
+                    {option}
+                  </button>
+                  {index < options.length - 1 && (
+                    <hr className="mx-3 border border-[#15A6DD]" />
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
-        {/* Dropdown Options */}
-        {isOpen && (
-          <div className="absolute top-28 right-4 sm:static z-10 w-[calc(100%-2rem)] sm:w-full bg-[#8FDAF5]">
-            {options.map((option, index) => (
-              <div key={index}>
-                <button
-                  onClick={() => {
-                    setSelectedOption(option);
-                    setIsOpen(false);
-                  }}
-                  className="w-full px-4 py-2 text-left hover:bg-[#7DCAE5]"
-                >
-                  {option}
-                </button>
-                <hr className="mx-3 border border-[#15A6DD]" />
+        <div className="sm:hidden w-full flex justify-end relative">
+          <button
+            className="flex items-center px-3 py-2 border-2 border-[#15A6DD] bg-[#8FDAF5] shadow-md"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <Filter className="w-5 h-5 text-[#434343]" />
+            <span className="ml-2 text-[#434343]">Filter</span>
+          </button>
+
+          {isOpen && (
+            <div className="absolute top-full right-0 mt-1 w-64 bg-[#8FDAF5] border-2 border-[#15A6DD]  shadow-lg z-20">
+              <div className="p-2">
+                <div className="text-sm font-medium text-[#434343] mb-2 px-2">
+                  Select Branch:
+                </div>
+                {options.map((option, index) => (
+                  <div key={index}>
+                    <button
+                      onClick={() => {
+                        setSelectedOption(option);
+                        setIsOpen(false);
+                      }}
+                      className="w-full px-3 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors text-sm"
+                    >
+                      {option}
+                    </button>
+                    {index < options.length - 1 && (
+                      <hr className="mx-2 my-1 border border-[#15A6DD]" />
+                    )}
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        )}
+            </div>
+          )}
+        </div>
       </div>
 
       <hr className="my-3 mx-4 md:mx-10 border-t-2 border-[#9AAEBC]" />
 
-      {/* Cards */}
       <div className="mx-4 md:mx-10 flex flex-col gap-4">
         <Card name="Calculus for engineers" code="UMA023" />
         <Card name="Calculus for engineers 1" code="UMA023" />
