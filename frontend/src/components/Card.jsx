@@ -4,7 +4,7 @@ const Card = ({ name = "Subject Name", code = "Subject Code" }) => {
   return (
     <>
       <div className="border-2 border-[#15A6DD] flex items-center gap-96">
-        <div className="flex flex-col mx-5 my-2 text-2xl gap-2">
+        <div className="flex flex-col mx-5 my-2 text-2xl gap">
           <span>{name}</span>
           <span className="text-[#434343]">({code})</span>
         </div>

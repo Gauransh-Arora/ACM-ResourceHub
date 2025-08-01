@@ -13,11 +13,11 @@ const Navbar = () => {
     { id: 4, name: "CGPA Calculator", href: "/cgpa" },
     { id: 5, name: "Time Table", href: "https://timetable.acmthapar.in/" },
   ];
-
+// shadow-xl shadow-slate-300
   return (
-    <nav className="bg-[#D3F3FF] shadow-lg border-b border-gray-200 h-16 relative z-50">
-      <div className="flex justify-between">
-        <div className="hidden md:flex justify-center items-center h-16 gap-5 px-5">
+    <nav className="bg-[#D3F3FF] shadow-[0_0_30px_#808080] border-b border-gray-200 relative z-50">
+      <div className="flex justify-between items-center">
+        <div className="hidden xl:flex justify-center items-center h-16 gap-10 px-14 text-base lg:text-xl lg:gap-14">
           {navItems.map((item) => {
             return (
               <NavLink
@@ -33,29 +33,30 @@ const Navbar = () => {
           })}
         </div>
 
-        <div className="md:hidden flex items-center h-16 px-5">
+        <div className="xl:hidden flex items-center h-16 px-5">
           <button onClick={() => setIsOpen(!isOpen)} className="p-2">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
-        <div className="hidden md:flex justify-center items-center h-16 gap-5">
-          <a href="/about-us" className="px-3 py-3 text-[#434343]">
+        <div className="hidden xl:flex justify-center items-center h-16 gap-5">
+          <a href="/about-us" className="px-3 py-3 text-[#434343] text-base lg:text-xl">
             About Us
           </a>
           <div>
-            <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer" />
+            <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer h-auto w-auto" />
           </div>
         </div>
 
-        <div className="md:hidden flex justify-center items-center h-16 px-5">
+        <div className="xl:hidden flex justify-center items-center h-16 px-5">
           <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer" />
         </div>
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-[#D3F3FF] border-t border-gray-200 absolute top-16 left-0 w-full z-50 shadow-lg">
+        <div className="xl:hidden bg-[#D3F3FF] border-t border-gray-200 absolute top-16 left-0 w-full z-50 shadow-lg">
           <div className="px-5 py-3 space-y-2">
+            <hr className="border border-[#9b9b9b]" />
             {navItems.map((item) => (
               <NavLink
                 key={item.id}
@@ -70,6 +71,7 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
+            <hr className="border border-[#9b9b9b]" />
             <a
               href="/about-us"
               className="block px-3 py-2 text-[#434343] hover:bg-white/50 rounded"
