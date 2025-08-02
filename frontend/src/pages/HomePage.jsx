@@ -2,6 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Contributor from "../components/Contributor";
 import Snorlax from "../assets/143.png";
+import instagram from "../assets/instagram.png";
+import facebook from "../assets/facebook.png";
+import github from "../assets/github.png";
+import logo from "../assets/logo_ACM_Footer.png";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -29,7 +33,7 @@ const HomePage = () => {
       </div>
       <div className="flex flex-col justify-center mx-4 shadow-[0_0_20px_#4d4f4f] sm:shadow-none sm:mx-0  bg-[#D3F3FF]  h-auto py-6 md:py-8">
         <div className="flex items-center justify-center text-xl md:text-2xl py-2 md:py-4 px-4">
-          <span className="text-[#434343]">Browse by</span>{" "}
+          <span className="text-[#434343] mr-1">Browse by</span>{" "}
           <span className="font-bold">YEAR</span>
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 py-2 md:py-4 px-4">
@@ -77,9 +81,12 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-[1rem] mt-10 mb-20">
-        <div className="text-3xl font-extrabold flex justify-center"> Contributors </div>
-        <div className="flex flex-wrap justify-center gap-[7.7rem] mt-10 mb-20">
+      <div className="flex flex-col justify-center gap-[1rem] mt-10 ">
+        <div className="text-3xl font-extrabold flex justify-center">
+          {" "}
+          Contributors{" "}
+        </div>
+        <div className="flex flex-wrap justify-center gap-[7.7rem] mt-10 mb-10">
           <Contributor
             img_url={Snorlax}
             name="Snorlax"
@@ -140,6 +147,41 @@ const HomePage = () => {
             linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
             githubUrl="https://github.com/Snorlax-Arora"
           />
+        </div>
+      </div>
+
+      <div className="bg-[#D3f3ff] p-6 mb-4 m-5 shadow-[0_0_20px_#4d4f4f]  md:shadow-none md:w-full md:ml-0 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between w-full gap-6">
+          <div className="flex flex-col max-w-[32rem]">
+            <div className="text-3xl font-extrabold">
+              ACM Thapar Student Chapter
+            </div>
+            <div className="text-lg text-gray-400 mt-2">
+              A vibrant community of tech enthusiasts, dedicated to exploring,
+              tackling and connecting with all things tech.
+            </div>
+            <div className="flex flex-row gap-4 mt-4">
+             <a href="https://www.instagram.com/acmthapar/">
+               <img src={instagram} alt="instagram" className="w-6 h-6" />
+              </a>
+             <a href="https://www.instagram.com/acmthapar/"> <img src={facebook} alt="facebook" className="w-6 h-6" /></a>
+             <a href="https://github.com/ACM-Thapar"><img src={github} alt="github" className="w-6 h-6" /></a>
+            </div>
+          </div>
+
+          <div className="mt-8 md:mt-5 flex justify-center md:justify-end">
+           <a href="https://acmwebsite.vercel.app/">
+           <img
+              src={logo}
+              alt="ACM Thapar"
+              className="w-[150px] md:w-[350px] h-auto"
+              />
+              </a> 
+          </div>
+        </div>
+
+        <div className="text-center text-gray-400 mt-6">
+          Made with 💙 By ACM Thapar Team
         </div>
       </div>
     </div>
