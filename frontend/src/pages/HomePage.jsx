@@ -7,6 +7,8 @@ import facebook from "../assets/facebook.png";
 import github from "../assets/github.png";
 import logo from "../assets/logo_ACM_Footer.png";
 
+
+
 const HomePage = () => {
   const navigate = useNavigate();
   const yearItems = [
@@ -19,6 +21,10 @@ const HomePage = () => {
   const handleTimetableClick = () => {
     window.open("https://timetable.acmthapar.in/");
   };
+
+  const yearClick = (year) => {
+    navigate(`/resources/${year}`);
+  }
 
   return (
     <div className=" bg-cover bg-no-repeat  m-0">
@@ -42,6 +48,7 @@ const HomePage = () => {
               <button
                 key={item.id}
                 className="bg-[#15a6dd7a] w-full sm:w-64 md:w-80 lg:w-96 flex flex-col justify-center items-center p-3 cursor-pointer shadow-xl"
+                onClick={() => yearClick(item.id)}
               >
                 <p className="text-xl md:text-2xl">Year {item.id}</p>
                 <p className="text-lg md:text-xl text-[#434343]">

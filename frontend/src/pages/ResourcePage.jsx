@@ -1,19 +1,30 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
 import { ChevronDown, Filter } from "lucide-react";
+import { useParams } from "react-router-dom";
+
 
 const ResourcePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("Select filter");
+  const {year} = useParams();
 
-  const options = [
-    "Computer Science",
-    "Electrical and Electronics",
-    "Electronics and communication",
-    "Chemical",
-    "Mechanical",
-    "Biotechnology",
-  ];
+  let options;
+  
+  if (year === "1") {
+    options = ["Pool A" , "Pool B", "CSBS" , "BioTechnology", "Data Science and AI"];
+  } else  {
+    options = [
+      "Computer Science",
+      "Electrical and Electronics",
+      "Electronics and communication",
+      "Chemical",
+      "Mechanical",
+      "Biotechnology",
+    ];
+  }
+    
+
 
   return (
     <>
@@ -23,7 +34,7 @@ const ResourcePage = () => {
             Resources
           </span>
           <span className="font-extrabold text-[#15A6DD] text-2xl sm:text-3xl lg:text-4xl">
-            Year 1
+            Year {year}
           </span>
         </div>
 
