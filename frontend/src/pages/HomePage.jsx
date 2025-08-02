@@ -150,7 +150,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="bg-[#D3f3ff] p-6 mb-4 m-5 shadow-[0_0_20px_#4d4f4f]  md:shadow-none md:w-full md:ml-0 md:mb-0">
+      <div className="bg-[#D3f3ff] p-6 text-center md:shadow-none md:w-full md:ml-0 md:mb-0">
         <div className="flex flex-col md:flex-row justify-between w-full gap-6">
           <div className="flex flex-col max-w-[32rem]">
             <div className="text-3xl font-extrabold">
@@ -160,7 +160,7 @@ const HomePage = () => {
               A vibrant community of tech enthusiasts, dedicated to exploring,
               tackling and connecting with all things tech.
             </div>
-            <div className="flex flex-row gap-4 mt-4">
+            <div className="flex flex-row gap-4 mt-4 justify-center" >
              <a href="https://www.instagram.com/acmthapar/">
                <img src={instagram} alt="instagram" className="w-6 h-6" />
               </a>
@@ -169,7 +169,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="mt-8 md:mt-5 flex justify-center md:justify-end">
+          <div className=" md:mt-5 flex justify-center md:justify-end">
            <a href="https://acmwebsite.vercel.app/">
            <img
               src={logo}
