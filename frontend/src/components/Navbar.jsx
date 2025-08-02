@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo_ACM from "../assets/logo_ACM.png";
+import logo_ACM from "../assets/logo_ACM_Footer.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -44,12 +44,12 @@ const Navbar = () => {
             About Us
           </a>
           <div>
-            <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer h-auto w-auto" />
+            <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer h-11 w-auto" />
           </div>
         </div>
 
         <div className="xl:hidden flex justify-center items-center h-16 px-5">
-          <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer" />
+          <img src={logo_ACM} alt="ACM Logo" className="cursor-pointer h-11 w-auto" />
         </div>
       </div>
 

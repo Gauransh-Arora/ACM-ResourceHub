@@ -22,114 +22,293 @@
     { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
     { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" }
   ],
-  "Chemistry": 
+  "DSAI": [
+    { "subject_name": "Physics", "subject_code": "UPH013" },
+    { "subject_name": "Engineering Drawing", "subject_code": "UES101" },
+    { "subject_name": "Professional Communication", "subject_code": "UHU003" },
+    { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
+    { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" },
+    { "subject_name": "Chemistry", "subject_code": "UCB009" },
     {
-      "Slides": ["temp"],
-      "Tutorials": ["temp"],
-      "Lab": ["temp"],
-      "Books": ["temp"],
-      "Notes": ["temp"],
-      "Videos": ["temp"],
-      "PYQS": ["temp"]
-    }
-  ,
-  "Programming for Problem Solving": 
+      "subject_name": "Programming for Problem Solving",
+      "subject_code": "UES103"
+    },
     {
-      "Slides": ["temp"],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Electrical and Electronics Engineering": 
+      "subject_name": "Electrical and Electronics Engineering",
+      "subject_code": "UES013"
+    },
+    { "subject_name": "Energy and Environment", "subject_code": "UEN008" },
     {
-      "Slides": ["temp"],
-      "Tutorials": [],
-      "Lab": ["temp"],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Differential Equations and Linear Algebra": 
+      "subject_name": "Differential Equations and Linear Algebra",
+      "subject_code": "UMA023"
+    },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": ["temp"],
-      "Videos": ["temp"],
-      "PYQS": ["temp"]
-    }
-  ,
-  "Energy and Environment": 
+      "subject_name": "Programming Essentials for AI and ML",
+      "subject_code": "UAI201"
+    },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": ["temp"],
-      "PYQS": []
+      "subject_name": "Foundation of Machine Intelligence: Concepts, Techniques and Applications",
+      "subject_code": "UAI101"
     }
-  ,
-  "Physics": 
+  ],
+
+  "CSBS": [
+    { "subject_name": "Discrete Mathematics", "subject_code": "UCT101" },
+    { "subject_name": "Probability and Statistics", "subject_code": "UCT102" },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Engineering Drawing": 
+      "subject_name": "Fundamentals of Computer Science",
+      "subject_code": "UCT104"
+    },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Professional Communication": 
+      "subject_name": "Principles of Electrical Engineering",
+      "subject_code": "UEE002"
+    },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Manufacturing Processes": 
+      "subject_name": "Physics for Computing Science",
+      "subject_code": "UPH014"
+    },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ,
-  "Calculus for Engineers": 
+      "subject_name": "Business Communication & Value Science-I",
+      "subject_code": "UHU011"
+    },
+    { "subject_name": "Linear Algebra", "subject_code": "UCT201" },
+    { "subject_name": "Statistical Modeling", "subject_code": "UCT202" },
     {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  
+      "subject_name": "Data Structures and Algorithms",
+      "subject_code": "UCT203"
+    },
+    { "subject_name": "Principles of Electronics", "subject_code": "UEC002" },
+    { "subject_name": "Fundamentals of Economics", "subject_code": "UHU007" },
+    {
+      "subject_name": "Business Communication & Value Science-II",
+      "subject_code": "UHU012"
+    },
+    { "subject_name": "Enviornmental Studies", "subject_code": "UEN003" }
+  ],
+
+  "Programming Essentials for AI and ML": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Foundation of Machine Intelligence: Concepts, Techniques and Applications": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Statistical Modeling": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Data Structures and Algorithms": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Principles of Electronics": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Fundamentals of Economics": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Business Communication & Value Science-II": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Discrete Mathematics": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Probability and Statistics": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Fundamentals of Computer Science": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Principles of Electrical Engineering": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Physics for Computing Science": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Business Communication & Value Science-I": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Linear Algebra": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Enviornmental Studies": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Chemistry": {
+    "Slides": ["temp"],
+    "Tutorials": ["temp"],
+    "Lab": ["temp"],
+    "Books": ["temp"],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Programming for Problem Solving": {
+    "Slides": ["temp"],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Electrical and Electronics Engineering": {
+    "Slides": ["temp"],
+    "Tutorials": [],
+    "Lab": ["temp"],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Differential Equations and Linear Algebra": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": ["temp"],
+    "Videos": ["temp"],
+    "PYQS": ["temp"]
+  },
+  "Energy and Environment": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": ["temp"],
+    "PYQS": []
+  },
+  "Physics": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Engineering Drawing": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Professional Communication": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Manufacturing Processes": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  },
+  "Calculus for Engineers": {
+    "Slides": [],
+    "Tutorials": [],
+    "Lab": [],
+    "Books": [],
+    "Notes": [],
+    "Videos": [],
+    "PYQS": []
+  }
 }
