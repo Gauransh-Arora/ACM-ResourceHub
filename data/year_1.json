@@ -1,0 +1,135 @@
+{
+  "Pool_A": [
+    { "subject_name": "Chemistry", "subject_code": "UCB009" },
+    {
+      "subject_name": "Programming for Problem Solving",
+      "subject_code": "UES103"
+    },
+    {
+      "subject_name": "Electrical and Electronics Engineering",
+      "subject_code": "UES013"
+    },
+    { "subject_name": "Energy and Environment", "subject_code": "UEN008" },
+    {
+      "subject_name": "Differential Equations and Linear Algebra",
+      "subject_code": "UMA023"
+    }
+  ],
+  "Pool_B": [
+    { "subject_name": "Physics", "subject_code": "UPH013" },
+    { "subject_name": "Engineering Drawing", "subject_code": "UES101" },
+    { "subject_name": "Professional Communication", "subject_code": "UHU003" },
+    { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
+    { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" }
+  ],
+  "Chemistry": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Programming for Problem Solving": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Electrical and Electronics Engineering": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Differential Equations and Linear Algebra": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Energy and Environment": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Physics": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Engineering Drawing": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Professional Communication": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Manufacturing Processes": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ],
+  "Calculus for Engineers": [
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ]
+}
