@@ -44,7 +44,7 @@ const ResourcePage = () => {
     "Pool B": data1.Pool_B,
     "CSBS": data1.CSBS,
     "BioTechnology": data1.BioTechnology,
-    "Data Science and AI": data1.Data_Science_and_AI,
+    "Data Science and AI": data1.DSAI,
     "Computer Science": data1.Computer_Science,
     "Electrical and Electronics": data1.Electrical_and_Electronics,
     "Electronics and communication": data1.Electronics_and_communication,
@@ -144,7 +144,7 @@ const ResourcePage = () => {
 
       <hr className="my-3 mx-4 md:mx-10 border-t-2 border-[#9AAEBC]" />
 
-      <div className="mx-4 md:mx-10 flex flex-col gap-4">
+      <div className="mx-4 mb-5 md:mx-10 flex flex-col gap-4">
         {branch?.map((subject, index) => (
           <Card
             key={index}
