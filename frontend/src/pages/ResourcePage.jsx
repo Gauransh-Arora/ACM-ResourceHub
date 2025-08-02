@@ -2,29 +2,59 @@ import React, { useState } from "react";
 import Card from "../components/Card";
 import { ChevronDown, Filter } from "lucide-react";
 import { useParams } from "react-router-dom";
-
+import data1 from "../data/year_1.json";
 
 const ResourcePage = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("Select filter");
-  const {year} = useParams();
+  const [selectedOption, setSelectedOption] = useState("Pool A");
+  const { year } = useParams();
 
-  let options;
-  
-  if (year === "1") {
-    options = ["Pool A" , "Pool B", "CSBS" , "BioTechnology", "Data Science and AI"];
-  } else  {
-    options = [
+  const yearOptions = {
+    "1": ["Pool A", "Pool B", "CSBS", "BioTechnology", "Data Science and AI"],
+    "2": [
       "Computer Science",
       "Electrical and Electronics",
       "Electronics and communication",
       "Chemical",
       "Mechanical",
       "Biotechnology",
-    ];
-  }
-    
+    ],
+    "3": [
+      "Computer Science",
+      "Electrical and Electronics",
+      "Electronics and communication",
+      "Chemical",
+      "Mechanical",
+      "Biotechnology",
+    ],
+    "4": [
+      "Computer Science",
+      "Electrical and Electronics",
+      "Electronics and communication",
+      "Chemical",
+      "Mechanical",
+      "Biotechnology",
+    ],
+  };
 
+  const options = yearOptions[year] || [];
+
+  const branchMap = {
+    "Pool A": data1.Pool_A,
+    "Pool B": data1.Pool_B,
+    "CSBS": data1.CSBS,
+    "BioTechnology": data1.BioTechnology,
+    "Data Science and AI": data1.Data_Science_and_AI,
+    "Computer Science": data1.Computer_Science,
+    "Electrical and Electronics": data1.Electrical_and_Electronics,
+    "Electronics and communication": data1.Electronics_and_communication,
+    "Chemical": data1.Chemical,
+    "Mechanical": data1.Mechanical,
+    "Biotechnology": data1.Biotechnology,
+  };
+
+  const branch =
+    branchMap[selectedOption] || data1.Pool_A;
 
   return (
     <>
@@ -40,10 +70,8 @@ const ResourcePage = () => {
 
         <div className="relative hidden sm:block w-full sm:w-80 md:w-96">
           <button
-            className={`w-full px-4 py-2 text-left bg-[#8FDAF5] flex justify-between items-center  ${
-              isOpen
-                ? "border-2 border-[#15A6DD]"
-                : "border-2 border-transparent"
+            className={`w-full px-4 py-2 text-left bg-[#8FDAF5] flex justify-between items-center ${
+              isOpen ? "border-2 border-[#15A6DD]" : "border-2 border-transparent"
             }`}
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -87,7 +115,7 @@ const ResourcePage = () => {
           </button>
 
           {isOpen && (
-            <div className="absolute top-full right-0 mt-1 w-64 bg-[#8FDAF5] border-2 border-[#15A6DD]  shadow-lg z-20">
+            <div className="absolute top-full right-0 mt-1 w-64 bg-[#8FDAF5] border-2 border-[#15A6DD] shadow-lg z-20">
               <div className="p-2">
                 <div className="text-sm font-medium text-[#434343] mb-2 px-2">
                   Select Branch:
@@ -117,10 +145,14 @@ const ResourcePage = () => {
       <hr className="my-3 mx-4 md:mx-10 border-t-2 border-[#9AAEBC]" />
 
       <div className="mx-4 md:mx-10 flex flex-col gap-4">
-        <Card name="Calculus for engineers" code="UMA023" />
-        <Card name="Calculus for engineers 1" code="UMA023" />
-        <Card name="Calculus for engineers 2" code="UMA023" />
-        <Card name="Calculus for engineers 4" code="UMA023" />
+        {branch?.map((subject, index) => (
+          <Card
+            key={index}
+            name={subject.subject_name}
+            code={subject.subject_code}
+            resources={data1[subject.subject_name]}
+          />
+        ))}
       </div>
     </>
   );

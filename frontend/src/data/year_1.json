@@ -22,7 +22,62 @@
     { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
     { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" }
   ],
-  "Chemistry": [
+  "Chemistry": 
+    {
+      "Slides": ["temp"],
+      "Tutorials": ["temp"],
+      "Lab": ["temp"],
+      "Books": ["temp"],
+      "Notes": ["temp"],
+      "Videos": ["temp"],
+      "PYQS": ["temp"]
+    }
+  ,
+  "Programming for Problem Solving": 
+    {
+      "Slides": ["temp"],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ,
+  "Electrical and Electronics Engineering": 
+    {
+      "Slides": ["temp"],
+      "Tutorials": [],
+      "Lab": ["temp"],
+      "Books": [],
+      "Notes": [],
+      "Videos": [],
+      "PYQS": []
+    }
+  ,
+  "Differential Equations and Linear Algebra": 
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": ["temp"],
+      "Videos": ["temp"],
+      "PYQS": ["temp"]
+    }
+  ,
+  "Energy and Environment": 
+    {
+      "Slides": [],
+      "Tutorials": [],
+      "Lab": [],
+      "Books": [],
+      "Notes": [],
+      "Videos": ["temp"],
+      "PYQS": []
+    }
+  ,
+  "Physics": 
     {
       "Slides": [],
       "Tutorials": [],
@@ -32,8 +87,8 @@
       "Videos": [],
       "PYQS": []
     }
-  ],
-  "Programming for Problem Solving": [
+  ,
+  "Engineering Drawing": 
     {
       "Slides": [],
       "Tutorials": [],
@@ -43,8 +98,8 @@
       "Videos": [],
       "PYQS": []
     }
-  ],
-  "Electrical and Electronics Engineering": [
+  ,
+  "Professional Communication": 
     {
       "Slides": [],
       "Tutorials": [],
@@ -54,8 +109,8 @@
       "Videos": [],
       "PYQS": []
     }
-  ],
-  "Differential Equations and Linear Algebra": [
+  ,
+  "Manufacturing Processes": 
     {
       "Slides": [],
       "Tutorials": [],
@@ -65,8 +120,8 @@
       "Videos": [],
       "PYQS": []
     }
-  ],
-  "Energy and Environment": [
+  ,
+  "Calculus for Engineers": 
     {
       "Slides": [],
       "Tutorials": [],
@@ -76,60 +131,5 @@
       "Videos": [],
       "PYQS": []
     }
-  ],
-  "Physics": [
-    {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ],
-  "Engineering Drawing": [
-    {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ],
-  "Professional Communication": [
-    {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ],
-  "Manufacturing Processes": [
-    {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ],
-  "Calculus for Engineers": [
-    {
-      "Slides": [],
-      "Tutorials": [],
-      "Lab": [],
-      "Books": [],
-      "Notes": [],
-      "Videos": [],
-      "PYQS": []
-    }
-  ]
+  
 }
