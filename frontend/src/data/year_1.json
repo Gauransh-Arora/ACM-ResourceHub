@@ -1,6 +1,9 @@
 {
   "Pool_A": [
-    { "subject_name": "Chemistry", "subject_code": "UCB009" },
+    {
+      "subject_name": "Chemistry",
+      "subject_code": "UCB009"
+    },
     {
       "subject_name": "Programming for Problem Solving",
       "subject_code": "UES103"
@@ -9,26 +12,62 @@
       "subject_name": "Electrical and Electronics Engineering",
       "subject_code": "UES013"
     },
-    { "subject_name": "Energy and Environment", "subject_code": "UEN008" },
+    {
+      "subject_name": "Energy and Environment",
+      "subject_code": "UEN008"
+    },
     {
       "subject_name": "Differential Equations and Linear Algebra",
       "subject_code": "UMA023"
     }
   ],
   "Pool_B": [
-    { "subject_name": "Physics", "subject_code": "UPH013" },
-    { "subject_name": "Engineering Drawing", "subject_code": "UES101" },
-    { "subject_name": "Professional Communication", "subject_code": "UHU003" },
-    { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
-    { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" }
+    {
+      "subject_name": "Physics",
+      "subject_code": "UPH013"
+    },
+    {
+      "subject_name": "Engineering Drawing",
+      "subject_code": "UES101"
+    },
+    {
+      "subject_name": "Professional Communication",
+      "subject_code": "UHU003"
+    },
+    {
+      "subject_name": "Manufacturing Processes",
+      "subject_code": "UES102"
+    },
+    {
+      "subject_name": "Calculus for Engineers",
+      "subject_code": "UMA022"
+    }
   ],
   "DSAI": [
-    { "subject_name": "Physics", "subject_code": "UPH013" },
-    { "subject_name": "Engineering Drawing", "subject_code": "UES101" },
-    { "subject_name": "Professional Communication", "subject_code": "UHU003" },
-    { "subject_name": "Manufacturing Processes", "subject_code": "UES102" },
-    { "subject_name": "Calculus for Engineers", "subject_code": "UMA022" },
-    { "subject_name": "Chemistry", "subject_code": "UCB009" },
+    {
+      "subject_name": "Physics",
+      "subject_code": "UPH013"
+    },
+    {
+      "subject_name": "Engineering Drawing",
+      "subject_code": "UES101"
+    },
+    {
+      "subject_name": "Professional Communication",
+      "subject_code": "UHU003"
+    },
+    {
+      "subject_name": "Manufacturing Processes",
+      "subject_code": "UES102"
+    },
+    {
+      "subject_name": "Calculus for Engineers",
+      "subject_code": "UMA022"
+    },
+    {
+      "subject_name": "Chemistry",
+      "subject_code": "UCB009"
+    },
     {
       "subject_name": "Programming for Problem Solving",
       "subject_code": "UES103"
@@ -37,7 +76,10 @@
       "subject_name": "Electrical and Electronics Engineering",
       "subject_code": "UES013"
     },
-    { "subject_name": "Energy and Environment", "subject_code": "UEN008" },
+    {
+      "subject_name": "Energy and Environment",
+      "subject_code": "UEN008"
+    },
     {
       "subject_name": "Differential Equations and Linear Algebra",
       "subject_code": "UMA023"
@@ -51,10 +93,15 @@
       "subject_code": "UAI101"
     }
   ],
-
   "CSBS": [
-    { "subject_name": "Discrete Mathematics", "subject_code": "UCT101" },
-    { "subject_name": "Probability and Statistics", "subject_code": "UCT102" },
+    {
+      "subject_name": "Discrete Mathematics",
+      "subject_code": "UCT101"
+    },
+    {
+      "subject_name": "Probability and Statistics",
+      "subject_code": "UCT102"
+    },
     {
       "subject_name": "Fundamentals of Computer Science",
       "subject_code": "UCT104"
@@ -71,21 +118,35 @@
       "subject_name": "Business Communication & Value Science-I",
       "subject_code": "UHU011"
     },
-    { "subject_name": "Linear Algebra", "subject_code": "UCT201" },
-    { "subject_name": "Statistical Modeling", "subject_code": "UCT202" },
+    {
+      "subject_name": "Linear Algebra",
+      "subject_code": "UCT201"
+    },
+    {
+      "subject_name": "Statistical Modeling",
+      "subject_code": "UCT202"
+    },
     {
       "subject_name": "Data Structures and Algorithms",
       "subject_code": "UCT203"
     },
-    { "subject_name": "Principles of Electronics", "subject_code": "UEC002" },
-    { "subject_name": "Fundamentals of Economics", "subject_code": "UHU007" },
+    {
+      "subject_name": "Principles of Electronics",
+      "subject_code": "UEC002"
+    },
+    {
+      "subject_name": "Fundamentals of Economics",
+      "subject_code": "UHU007"
+    },
     {
       "subject_name": "Business Communication & Value Science-II",
       "subject_code": "UHU012"
     },
-    { "subject_name": "Enviornmental Studies", "subject_code": "UEN003" }
+    {
+      "subject_name": "Enviornmental Studies",
+      "subject_code": "UEN003"
+    }
   ],
-
   "Programming Essentials for AI and ML": {
     "Slides": ["temp"],
     "Tutorials": ["temp"],
