@@ -37,7 +37,7 @@ const RoadmapPage = () => {
 
         <div className="mb-10">
           <div className="text-3xl font-extrabold">Important Resources</div>
-          <div className="text-[#15A6DD] font-extrabold my-1">
+          <div className="text-[#15A6DD] font-bold my-1">
             Master the web
           </div>
           <div className="text-[#9aaebc] flex flex-wrap gap-6 text-[#9aaebc} text-2xl">
@@ -49,13 +49,13 @@ const RoadmapPage = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-10">
           <div className="text-3xl font-extrabold mb-15">Roadmap</div>
           <div>
             {" "}
             <RoadmapTimeline weeks={weeks} />
           </div>
-        </div>
+        </div >
       </div>
     </>
   );

@@ -10,8 +10,8 @@ const ResourcePage = () => {
   const { year } = useParams();
 
   const yearOptions = {
-    "1": ["Pool A", "Pool B", "CSBS", "BioTechnology", "Data Science and AI"],
-    "2": [
+    1: ["Pool A", "Pool B", "CSBS", "BioTechnology", "Data Science and AI"],
+    2: [
       "Computer Science",
       "Electrical and Electronics",
       "Electronics and communication",
@@ -19,7 +19,7 @@ const ResourcePage = () => {
       "Mechanical",
       "Biotechnology",
     ],
-    "3": [
+    3: [
       "Computer Science",
       "Electrical and Electronics",
       "Electronics and communication",
@@ -27,7 +27,7 @@ const ResourcePage = () => {
       "Mechanical",
       "Biotechnology",
     ],
-    "4": [
+    4: [
       "Computer Science",
       "Electrical and Electronics",
       "Electronics and communication",
@@ -42,24 +42,23 @@ const ResourcePage = () => {
   const branchMap = {
     "Pool A": data1.Pool_A,
     "Pool B": data1.Pool_B,
-    "CSBS": data1.CSBS,
-    "BioTechnology": data1.BioTechnology,
+    CSBS: data1.CSBS,
+    BioTechnology: data1.BioTechnology,
     "Data Science and AI": data1.DSAI,
     "Computer Science": data1.Computer_Science,
     "Electrical and Electronics": data1.Electrical_and_Electronics,
     "Electronics and communication": data1.Electronics_and_communication,
-    "Chemical": data1.Chemical,
-    "Mechanical": data1.Mechanical,
-    "Biotechnology": data1.Biotechnology,
+    Chemical: data1.Chemical,
+    Mechanical: data1.Mechanical,
+    Biotechnology: data1.Biotechnology,
   };
 
-  const branch =
-    branchMap[selectedOption] || data1.Pool_A;
+  const branch = branchMap[selectedOption] || data1.Pool_A;
 
   return (
     <>
       <div className="mt-10 mx-4 md:mx-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <div className="flex items-center gap-4 flex-wrap">
+        <div className="flex items-center gap-2 flex-wrap">
           <span className="text-2xl sm:text-3xl lg:text-4xl font-extrabold">
             Resources
           </span>
@@ -71,7 +70,9 @@ const ResourcePage = () => {
         <div className="relative hidden sm:block w-full sm:w-80 md:w-96">
           <button
             className={`w-full px-4 py-2 text-left bg-[#8FDAF5] flex justify-between items-center ${
-              isOpen ? "border-2 border-[#15A6DD]" : "border-2 border-transparent"
+              isOpen
+                ? "border-2 border-[#15A6DD]"
+                : "border-2 border-transparent"
             }`}
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -85,6 +86,7 @@ const ResourcePage = () => {
 
           {isOpen && (
             <div className="absolute top-full left-0 right-0 bg-[#8FDAF5] border-2 border-[#15A6DD] border-t-0 shadow-lg z-20">
+              
               {options.map((option, index) => (
                 <div key={index}>
                   <button
@@ -107,11 +109,15 @@ const ResourcePage = () => {
 
         <div className="sm:hidden w-full flex justify-end relative">
           <button
-            className="flex items-center px-3 py-2 border-2 border-[#15A6DD] bg-[#8FDAF5] shadow-md"
+            className="flex gap-4 items-center px-5 py-2 border-2 border-[#15A6DD] bg-[#8FDAF5] shadow-md"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <Filter className="w-5 h-5 text-[#434343]" />
-            <span className="ml-2 text-[#434343]">Filter</span>
+            <span className="ml-2 text-[#434343]">{selectedOption}</span>
+            <ChevronDown
+              className={`w-5 h-5 transition-transform ${
+                isOpen ? "rotate-180" : ""
+              }`}
+            />{" "}
           </button>
 
           {isOpen && (
