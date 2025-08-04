@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Select from "react-select/creatable"; 
+import Select from "react-select/creatable";
 import year1Data from "../data/year_1.json";
 import year2Data from "../data/year_2.json";
 
-const gradeOptions = ["A+", "A","A-", "B", "B-", "C", "C-", "E", "F"];
+const gradeOptions = ["A+", "A", "A-", "B", "B-", "C", "C-", "E", "F"];
 
 const calculateSGPA = (subjects) => {
   let totalCredits = 0;
@@ -11,14 +11,14 @@ const calculateSGPA = (subjects) => {
 
   const gradeToPoint = {
     "A+": 10,
-    "A": 10,
-    "A-":9,
-    "B": 8,
+    A: 10,
+    "A-": 9,
+    B: 8,
     "B-": 7,
-    "C": 6,
+    C: 6,
     "C-": 5,
-    "E": 2,
-    "F": 0
+    E: 2,
+    F: 0,
   };
 
   subjects.forEach(({ grade, credits }) => {
@@ -36,7 +36,13 @@ const calculateSGPA = (subjects) => {
   return (totalPoints / totalCredits).toFixed(2);
 };
 
-const Dropdown = ({ options = [], placeholder, value, onChange, className = "" }) => {
+const Dropdown = ({
+  options = [],
+  placeholder,
+  value,
+  onChange,
+  className = "",
+}) => {
   const formattedOptions = options.map((opt) => ({
     value: opt,
     label: opt,
@@ -77,7 +83,15 @@ const Dropdown = ({ options = [], placeholder, value, onChange, className = "" }
   );
 };
 
-const SubjectRow = ({ subjects, onSubjectChange, onCreditsChange, onGradeChange, subjectValue, creditsValue, gradeValue }) => {
+const SubjectRow = ({
+  subjects,
+  onSubjectChange,
+  onCreditsChange,
+  onGradeChange,
+  subjectValue,
+  creditsValue,
+  gradeValue,
+}) => {
   const subjectOptions = subjects.map((sub) => ({
     value: sub.subject_name,
     label: sub.subject_name,
@@ -90,8 +104,12 @@ const SubjectRow = ({ subjects, onSubjectChange, onCreditsChange, onGradeChange,
           isClearable
           placeholder="Select or Type Subject"
           options={subjectOptions}
-          value={subjectValue ? { value: subjectValue, label: subjectValue } : null}
-          onChange={(selectedOption) => onSubjectChange(selectedOption ? selectedOption.value : "")}
+          value={
+            subjectValue ? { value: subjectValue, label: subjectValue } : null
+          }
+          onChange={(selectedOption) =>
+            onSubjectChange(selectedOption ? selectedOption.value : "")
+          }
           styles={{
             control: (base) => ({
               ...base,
@@ -133,7 +151,7 @@ const SubjectRow = ({ subjects, onSubjectChange, onCreditsChange, onGradeChange,
   );
 };
 
-// 🧠 year is expected as a prop (e.g., 1 for year 1, 2+ for others)
+
 const CGPA_Input = ({ year }) => {
   const [selectedPool, setSelectedPool] = useState("");
   const [subjects, setSubjects] = useState([]);
@@ -141,7 +159,9 @@ const CGPA_Input = ({ year }) => {
 
   const subjectData = year === 1 ? year1Data : year2Data;
 
-  const poolOptions = Object.keys(subjectData).filter((key) => Array.isArray(subjectData[key]));
+  const poolOptions = Object.keys(subjectData).filter((key) =>
+    Array.isArray(subjectData[key])
+  );
 
   const updateSubject = (id, field, value) => {
     setSubjects((prev) => {
@@ -162,7 +182,10 @@ const CGPA_Input = ({ year }) => {
 
   const addSubject = () => {
     const newId = Math.max(0, ...subjects.map((s) => s.id)) + 1;
-    setSubjects((prev) => [...prev, { id: newId, subject: "", credits: "", grade: "" }]);
+    setSubjects((prev) => [
+      ...prev,
+      { id: newId, subject: "", credits: "", grade: "" },
+    ]);
   };
 
   useEffect(() => {
@@ -195,8 +218,12 @@ const CGPA_Input = ({ year }) => {
           subjectValue={subject.subject}
           creditsValue={subject.credits}
           gradeValue={subject.grade}
-          onSubjectChange={(value) => updateSubject(subject.id, "subject", value)}
-          onCreditsChange={(value) => updateSubject(subject.id, "credits", value)}
+          onSubjectChange={(value) =>
+            updateSubject(subject.id, "subject", value)
+          }
+          onCreditsChange={(value) =>
+            updateSubject(subject.id, "credits", value)
+          }
           onGradeChange={(value) => updateSubject(subject.id, "grade", value)}
         />
       ))}
@@ -217,9 +244,7 @@ const CGPA_Input = ({ year }) => {
         </button>
 
         {sgpa !== null && (
-          <div className="text-xl font-bold text-[#15A6DD]">
-            SGPA: {sgpa}
-          </div>
+          <div className="text-xl font-bold text-[#15A6DD]">SGPA: {sgpa}</div>
         )}
       </div>
     </div>
