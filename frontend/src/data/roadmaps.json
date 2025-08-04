@@ -58,5 +58,16 @@
     "subheading2": "Build for Mobile",
     "description2": ["Flutter Docs", "Firebase Codelabs", "The Net Ninja Flutter Series", "Official Dart Tutorials"],
     "heading3": "Roadmap"
-  }
+  },
+  "blockchain": {
+  "title": "Blockchain",
+  "heading1": "What you’ll learn?",
+  "subheading1": "Solidity | Smart Contracts | Ethereum | Web3.js | Metamask | Hardhat",
+  "description1": "Dive into the world of decentralization. Learn to build smart contracts, deploy dApps, and interact with blockchains using industry tools and frameworks.",
+  "heading2": "Important Resources",
+  "subheading2": "Build for Web3",
+  "description2": ["Solidity by CryptoZombies", "Ethernaut CTF by OpenZeppelin", "FreeCodeCamp Web3 Playlist", "Hardhat Docs", "Web3.js Official Docs"],
+  "heading3": "Roadmap"
+}
+
 }
