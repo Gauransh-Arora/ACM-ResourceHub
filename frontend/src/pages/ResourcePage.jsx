@@ -42,15 +42,15 @@ const ResourcePage = () => {
   const branchMap = {
     "Pool A": data1.Pool_A,
     "Pool B": data1.Pool_B,
-    CSBS: data1.CSBS,
-    BioTechnology: data1.BioTechnology,
+    "CSBS": data1.CSBS,
+    "BioTechnology": data1.BioTechnology,
     "Data Science and AI": data1.DSAI,
     "Computer Science": data1.Computer_Science,
     "Electrical and Electronics": data1.Electrical_and_Electronics,
     "Electronics and communication": data1.Electronics_and_communication,
-    Chemical: data1.Chemical,
-    Mechanical: data1.Mechanical,
-    Biotechnology: data1.Biotechnology,
+    "Chemical": data1.Chemical,
+    "Mechanical": data1.Mechanical,
+    "Biotechnology": data1.Biotechnology,
   };
 
   const branch = branchMap[selectedOption] || data1.Pool_A;
@@ -94,7 +94,7 @@ const ResourcePage = () => {
                       setSelectedOption(option);
                       setIsOpen(false);
                     }}
-                    className="w-full px-4 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors"
+                    className="w-full px-4 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors cursor-pointer"
                   >
                     {option}
                   </button>
@@ -133,7 +133,7 @@ const ResourcePage = () => {
                         setSelectedOption(option);
                         setIsOpen(false);
                       }}
-                      className="w-full px-3 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors text-sm"
+                      className="w-full px-3 py-2 text-left text-[#434343] hover:bg-[#7DCAE5] transition-colors text-sm cursor-pointer"
                     >
                       {option}
                     </button>

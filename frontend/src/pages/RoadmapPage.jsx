@@ -9,16 +9,18 @@ const weeks = [
   { week: "Week 05", title: "Node & Express", link: "#" },
   { week: "Week 06", title: "MongoDB & APIs", link: "#" },
 ];
-const RoadmapPage = () => {
+const RoadmapPage = ({name="" , technologies = [] }) => {
+  
+
   return (
     <>
       <div className="mt-10 mx-4 md:mx-10 sm:flex-row  sm:items-center gap-4">
         <div className="flex items-center flex-wrap">
           <span className="text-2xl sm:text-3xl lg:text-4xl font-extrabold">
-            Road
+            Web
           </span>
           <span className="font-extrabold text-[#15A6DD] text-2xl sm:text-3xl lg:text-4xl">
-            Maps
+            Development
           </span>
         </div>
         <hr className="mt-3 mb-4 border-t-2 border-[#9AAEBC] " />

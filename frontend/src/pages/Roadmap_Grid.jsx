@@ -1,7 +1,13 @@
 import React from "react";
 import RoadMap_Card from "../components/RoadMap_Card";
+import { useNavigate } from "react-router-dom";
 
 const Roadmap_Grid = () => {
+  const navigate = useNavigate();
+  const cardClick=(title) => {
+    navigate(`/roadmaps/${title}`);
+  }
+
   return (
     <div className="mt-10 mx-4 md:mx-10">
       <div className="flex items-center flex-wrap">
@@ -26,6 +32,7 @@ const Roadmap_Grid = () => {
               "Node.js",
               "Express.js",
             ]}
+            param="web-development"
           />
           <RoadMap_Card
             name="DSA"
@@ -37,26 +44,31 @@ const Roadmap_Grid = () => {
               "Data Structures",
               "Algorithms",
             ]}
+            param="dsa"
           />
           <RoadMap_Card
             name="App Development"
             weeks="14"
             technologies={["Flutter", "Dart", "Firebase"]}
+            param="app-development"
           />
           <RoadMap_Card
             name="UI/UX Design Classes"
             weeks="08"
             technologies={["Figma", "Adobe XD", "Sketch", "InVision"]}
+            param="ui-ux"
           />
           <RoadMap_Card
             name="AI and Machine Learning"
             weeks="20"
             technologies={["Python", "TensorFlow", "PyTorch", "Scikit-learn"]}
+            param="ai-ml"
           />
           <RoadMap_Card
             name="Game Development"
             weeks="16"
             technologies={["Unity", "C#", "Unreal Engine", "Blender"]}
+            param="game-development"
           />
         </div>
       </div>

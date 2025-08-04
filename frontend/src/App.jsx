@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/resources/:year" element={<ResourcePage />} />
         <Route path="/roadmaps" element={<Roadmap_Grid/>} />
         <Route path="/resources/materials" element={<MaterialPage />} />
-        <Route path="/roadmap" element={<RoadmapPage />} />
+        <Route path="/roadmaps/:param" element={<RoadmapPage />} />
       </Routes>
     </div>
   );

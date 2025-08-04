@@ -1,6 +1,6 @@
 import React from "react";
 
-const RoadmapTimeline = ({ weeks = "08" }) => {
+const RoadmapTimeline = ({ weeks = [] }) => {
   return (
     <div className="overflow-x-auto scrollbar-hide">
       <div className="relative flex gap-16 px-8 py-30 w-max scroll-snap-x scroll-smooth">
