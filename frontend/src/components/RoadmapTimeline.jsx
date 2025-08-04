@@ -2,7 +2,7 @@ import React from "react";
 
 const RoadmapTimeline = ({ weeks = [] }) => {
   return (
-    <div className="overflow-x-auto scrollbar-hide">
+    <div className="overflow-x-auto scrollbar-hidden">
       <div className="relative flex gap-16 px-8 py-30 w-max scroll-snap-x scroll-smooth">
         <div className="absolute top-1/2 left-0 w-full  bg-black z-0 h-1" />
 
