@@ -41,7 +41,7 @@ const Dropdown = ({
   placeholder,
   value,
   onChange,
-  className = "",
+  design = "",
 }) => {
   const formattedOptions = options.map((opt) => ({
     value: opt,
@@ -49,7 +49,7 @@ const Dropdown = ({
   }));
 
   return (
-    <div className="relative flex-1">
+    <div className={`relative flex-1 ${design}`}>
       <Select
         options={formattedOptions}
         placeholder={placeholder}
@@ -57,7 +57,8 @@ const Dropdown = ({
         onChange={(selected) => onChange(selected ? selected.value : "")}
         isClearable
         classNames={{
-          control: () => "border border-[#15A6DD] px-2 py-1 shadow-none",
+          control: () =>
+            "border border-[#15A6DD] px-2 py-1 shadow-none placeholder:text-black",
           menu: () => "z-10",
         }}
         styles={{
@@ -65,8 +66,15 @@ const Dropdown = ({
             ...base,
             borderColor: "#15A6DD",
             boxShadow: "none",
+            borderRadius: "none",
             "&:hover": { borderColor: "#1296c7" },
+            color: "#000000",
           }),
+          placeholder: (base) => ({
+            ...base,
+            color: "#000000",
+          }),
+
           option: (base, state) => ({
             ...base,
             backgroundColor: state.isSelected
@@ -98,8 +106,8 @@ const SubjectRow = ({
   }));
 
   return (
-    <div className="flex gap-4 items-center">
-      <div className="relative flex-1">
+    <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
+      <div className="relative w-full sm:flex-1">
         <Select
           isClearable
           placeholder="Select or Type Subject"
@@ -115,6 +123,7 @@ const SubjectRow = ({
               ...base,
               borderColor: "#15A6DD",
               boxShadow: "none",
+              borderRadius: "none",
               "&:hover": { borderColor: "#1296c7" },
             }),
             option: (base, state) => ({
@@ -136,21 +145,22 @@ const SubjectRow = ({
         placeholder="Enter Credits"
         value={creditsValue}
         onChange={(e) => onCreditsChange(e.target.value)}
-        className="flex-1 px-4 py-2 border border-[#15A6DD] focus:outline-none focus:ring-2 focus:ring-[#15A6DD]"
+        className="w-full sm:flex-1 px-4 py-2 border border-[#15A6DD] focus:outline-none focus:ring-2 focus:ring-[#15A6DD] text-black"
         min="0"
         max="6"
       />
 
-      <Dropdown
-        options={gradeOptions}
-        placeholder="Select Grade"
-        value={gradeValue}
-        onChange={onGradeChange}
-      />
+      <div className="w-full sm:flex-1">
+        <Dropdown
+          options={gradeOptions}
+          placeholder="Select Grade"
+          value={gradeValue}
+          onChange={onGradeChange}
+        />
+      </div>
     </div>
   );
 };
-
 
 const CGPA_Input = ({ year }) => {
   const [selectedPool, setSelectedPool] = useState("");
@@ -203,48 +213,51 @@ const CGPA_Input = ({ year }) => {
   const subjectList = selectedPool ? subjectData[selectedPool] || [] : [];
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 max-w-3xl mx-auto px-4">
       <Dropdown
         options={poolOptions}
         placeholder="Select Your Branch / Pool"
         value={selectedPool}
         onChange={(val) => setSelectedPool(val)}
+        design="bg-[#15a6DD]"
       />
 
-      {subjects.map((subject) => (
-        <SubjectRow
-          key={subject.id}
-          subjects={subjectList}
-          subjectValue={subject.subject}
-          creditsValue={subject.credits}
-          gradeValue={subject.grade}
-          onSubjectChange={(value) =>
-            updateSubject(subject.id, "subject", value)
-          }
-          onCreditsChange={(value) =>
-            updateSubject(subject.id, "credits", value)
-          }
-          onGradeChange={(value) => updateSubject(subject.id, "grade", value)}
-        />
+      {subjects.map((subject, index) => (
+        <>
+          <SubjectRow
+            key={subject.id}
+            subjects={subjectList}
+            subjectValue={subject.subject}
+            creditsValue={subject.credits}
+            gradeValue={subject.grade}
+            onSubjectChange={(value) =>
+              updateSubject(subject.id, "subject", value)
+            }
+            onCreditsChange={(value) =>
+              updateSubject(subject.id, "credits", value)
+            }
+            onGradeChange={(value) => updateSubject(subject.id, "grade", value)}
+          />
+        </>
       ))}
 
       <button
         onClick={addSubject}
-        className="w-full py-3 bg-[#8FDAF5] border border-[#15A6DD] text-[#15A6DD] font-semibold  hover:bg-[#7DD3F0] transition-colors duration-300"
+        className="w-full py-3 bg-[#D3F3FF] border border-[#15A6DD] text-[#434343] font-semibold  hover:bg-[#7DD3F0] transition-colors duration-300"
       >
         + Add Subject
       </button>
 
       <div className="flex justify-center mt-8 flex-col items-center gap-4">
         <button
-          className="px-12 py-3 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300"
+          className="px-12 py-3 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
           onClick={() => setSGPA(calculateSGPA(subjects))}
         >
           Calculate
         </button>
 
         {sgpa !== null && (
-          <div className="text-xl font-bold text-[#15A6DD]">SGPA: {sgpa}</div>
+          <div className="text-xl font-bold text-[#fffff]">SGPA: {sgpa}</div>
         )}
       </div>
     </div>

@@ -37,8 +37,32 @@
   ],
   "Electronics and Computer Engineering": [
     {
-      "subject_name": "Chemistry",
-      "subject_code": "UCB009"
+      "subject_name": "Optimization Techniques",
+      "subject_code": "UMA035"
+    },
+    {
+      "subject_name": "Computer and Communication Networks",
+      "subject_code": "UNC303"
+    },
+    {
+      "subject_name": "Engineering Materials",
+      "subject_code": "UCS321"
+    },
+    {
+      "subject_name": "Discrete Mathematics",
+      "subject_code": "UNC304"
+    },
+    {
+      "subject_name": "Analog Electronic Circuits",
+      "subject_code": "UEC301"
+    },
+    {
+      "subject_name": "Engineering Design Project - I",
+      "subject_code": "UTA016"
+    },
+    {
+      "subject_name": "Aptitude Skills Building",
+      "subject_code": "UTD003"
     }
   ],
   "Robotics and Artificial Intelligence*": [

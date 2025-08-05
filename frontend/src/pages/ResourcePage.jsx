@@ -197,6 +197,9 @@ const ResourcePage = () => {
             name={subject.subject_name}
             code={subject.subject_code}
             resources={data1[subject.subject_name]}
+            onClick={() => {
+              
+            }}
           />
         ))}
       </div>

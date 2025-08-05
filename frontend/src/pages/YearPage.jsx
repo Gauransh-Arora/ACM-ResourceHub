@@ -98,13 +98,13 @@ function YearPage() {
             <div
               key={item.id}
               onClick={() => handleYearClick(item.id)}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer border border-gray-200 hover:border-[#15A6DD]"
+              className="bg-white p-6 shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer border border-gray-200 hover:border-[#15A6DD]"
             >
               <div className="mb-4">
-                <h3 className="text-2xl font-bold mb-2 text-[#15A6DD]">
+                <h3 className="text-2xl font-extrabold mb-2 text-[#434343]">
                   Year {item.id}
                 </h3>
-                <p className="text-gray-600 font-semibold">
+                <p className="text-[#15A6DD] font-semibold">
                   Branches: {item.branches}
                 </p>
               </div>
