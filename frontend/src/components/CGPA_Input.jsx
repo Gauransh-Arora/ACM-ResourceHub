@@ -11,14 +11,14 @@ const calculateSGPA = (subjects) => {
 
   const gradeToPoint = {
     "A+": 10,
-    A: 10,
+    "A": 10,
     "A-": 9,
-    B: 8,
+    "B": 8,
     "B-": 7,
-    C: 6,
+    "C": 6,
     "C-": 5,
-    E: 2,
-    F: 0,
+    "E": 2,
+    "F": 0,
   };
 
   subjects.forEach(({ grade, credits }) => {
@@ -62,6 +62,13 @@ const Dropdown = ({
           menu: () => "z-10",
         }}
         styles={{
+          input: (base) => ({
+            ...base,
+            width: "10%", 
+            minWidth: "90%",
+            maxWidth: "90%",
+          }),
+
           control: (base) => ({
             ...base,
             borderColor: "#15A6DD",
