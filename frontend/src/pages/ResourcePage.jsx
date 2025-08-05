@@ -1,39 +1,79 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
 import { ChevronDown, Filter } from "lucide-react";
-import { useParams } from "react-router-dom";
+import { useSearchParams, useParams } from "react-router-dom";
 import data1 from "../data/year_1.json";
 
 const ResourcePage = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("Pool A");
   const { year } = useParams();
+  const [searchParams] = useSearchParams();
+
+  const defaultBranch = searchParams.get("branch") || (year === "1" ? "Pool A" : "Computer Engineering");
+
+  const [selectedOption, setSelectedOption] = useState(defaultBranch);
+  const [isOpen, setIsOpen] = useState(false);
 
   const yearOptions = {
     1: ["Pool A", "Pool B", "CSBS", "BioTechnology", "Data Science and AI"],
     2: [
-      "Computer Science",
-      "Electrical and Electronics",
-      "Electronics and communication",
-      "Chemical",
-      "Mechanical",
-      "Biotechnology",
+      "Computer Engineering",
+    "Computer Science & Engineering (Patiala Campus)",
+    "Computer Science and Business systems",
+    "Artificial Intelligence and Machine Learning",
+    "Electrical and Computer Engineering",
+    "Electronics & Communication Engineering",
+    "Electronics and Computer Engineering",
+    "Robotics and Artificial Intelligence",
+    "Electronics Engineering (VLSI Design and Technology)",
+    "Electronics (Instrumentation & Control) Engineering",
+    "Mechanical Engineering",
+    "Mechatronics Engineering",
+    "Chemical Engineering",
+    "Civil Engineering",
+    "Civil Engineering with Computer Applications",
+    "Electrical Engineering",
+    "Biomedical Engineering",
+    "Biotechnology",
     ],
     3: [
-      "Computer Science",
-      "Electrical and Electronics",
-      "Electronics and communication",
-      "Chemical",
-      "Mechanical",
-      "Biotechnology",
+      "Computer Engineering",
+    "Computer Science & Engineering (Patiala Campus)",
+    "Computer Science and Business systems",
+    "Artificial Intelligence and Machine Learning",
+    "Electrical and Computer Engineering",
+    "Electronics & Communication Engineering",
+    "Electronics and Computer Engineering",
+    "Robotics and Artificial Intelligence",
+    "Electronics Engineering (VLSI Design and Technology)",
+    "Electronics (Instrumentation & Control) Engineering",
+    "Mechanical Engineering",
+    "Mechatronics Engineering",
+    "Chemical Engineering",
+    "Civil Engineering",
+    "Civil Engineering with Computer Applications",
+    "Electrical Engineering",
+    "Biomedical Engineering",
+    "Biotechnology",
     ],
     4: [
-      "Computer Science",
-      "Electrical and Electronics",
-      "Electronics and communication",
-      "Chemical",
-      "Mechanical",
-      "Biotechnology",
+      "Computer Engineering",
+    "Computer Science & Engineering (Patiala Campus)",
+    "Computer Science and Business systems",
+    "Artificial Intelligence and Machine Learning",
+    "Electrical and Computer Engineering",
+    "Electronics & Communication Engineering",
+    "Electronics and Computer Engineering",
+    "Robotics and Artificial Intelligence",
+    "Electronics Engineering (VLSI Design and Technology)",
+    "Electronics (Instrumentation & Control) Engineering",
+    "Mechanical Engineering",
+    "Mechatronics Engineering",
+    "Chemical Engineering",
+    "Civil Engineering",
+    "Civil Engineering with Computer Applications",
+    "Electrical Engineering",
+    "Biomedical Engineering",
+    "Biotechnology",
     ],
   };
 

@@ -7,8 +7,6 @@ import facebook from "../assets/facebook.png";
 import github from "../assets/github.png";
 import logo from "../assets/logo_ACM_Footer.png";
 
-
-
 const HomePage = () => {
   const navigate = useNavigate();
   const yearItems = [
@@ -22,9 +20,15 @@ const HomePage = () => {
     window.open("https://timetable.acmthapar.in/");
   };
 
-  const yearClick = (year) => {
-    navigate(`/resources/${year}`);
-  }
+  const handleCGPAClick = () => {
+    navigate("/cgpa");
+  };
+
+  const handleYearClick = (year) => {
+  const defaultBranch = year === 1 ? "Pool A" : "Computer Engineering";
+  navigate(`/resources/${year}?branch=${encodeURIComponent(defaultBranch)}`);
+};
+
 
   return (
     <div className=" bg-cover bg-no-repeat  m-0">
@@ -47,8 +51,8 @@ const HomePage = () => {
             return (
               <button
                 key={item.id}
-                className="bg-[#15a6dd7a] w-full sm:w-64 md:w-80 lg:w-96 flex flex-col justify-center items-center p-3 cursor-pointer shadow-xl"
-                onClick={() => yearClick(item.id)}
+                className="bg-[#15a6dd7a] w-full sm:w-64 md:w-80 lg:w-96 flex flex-col justify-center items-center p-3 cursor-pointer shadow-xl hover:bg-[#15a6dd90] transition-colors duration-300"
+                onClick={() => handleYearClick(item.id)}
               >
                 <p className="text-xl md:text-2xl">Year {item.id}</p>
                 <p className="text-lg md:text-xl text-[#434343]">
@@ -63,11 +67,13 @@ const HomePage = () => {
         <div className="border-3 bg-white border-[#15A6DD] w-full sm:w-96 md:w-3xl p-4 md:p-5 h-auto min-h-40 md:min-h-45 flex flex-col">
           <p className="text-xl md:text-2xl font-bold">CGPA Calculator</p>
           <p className="text-lg md:text-xl text-[#9aaebc] mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit
-            sed ex, est rerum alias!
+            Calculate your SGPA and CGPA easily with our intuitive calculator. Track your academic progress semester by semester.
           </p>
           <div className="flex justify-end mt-auto">
-            <button className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer">
+            <button 
+              className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer hover:bg-[#7DD3F0] transition-colors duration-300"
+              onClick={handleCGPAClick}
+            >
               Calculate CGPA
             </button>
           </div>
@@ -75,12 +81,11 @@ const HomePage = () => {
         <div className="border-3 bg-white border-[#15A6DD] w-full sm:w-96 md:w-3xl p-4 md:p-5 h-auto min-h-40 md:min-h-45 flex flex-col">
           <p className="text-xl md:text-2xl font-bold">Time Table</p>
           <p className="text-lg md:text-xl text-[#9aaebc] mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            maiores veritatis nesciunt, aut iure maxime!
+            Access your complete class schedule and stay organized with our comprehensive timetable system.
           </p>
           <div className="flex justify-end mt-auto">
             <button
-              className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer"
+              className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer hover:bg-[#7DD3F0] transition-colors duration-300"
               onClick={handleTimetableClick}
             >
               Get Time Table
