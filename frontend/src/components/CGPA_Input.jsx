@@ -255,17 +255,17 @@ const CGPA_Input = ({ year }) => {
         + Add Subject
       </button>
 
-      <div className="flex justify-center mt-8 flex-col items-center gap-4">
+      <div className="flex justify-center  flex-col items-center gap-4">
+        {sgpa !== null && (
+          <div className="text-xl font-bold text-[#fffff] ">SGPA: {sgpa}</div>
+        )}
         <button
-          className="px-12 py-3 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
+          className="px-12 py-3 mb-20 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
           onClick={() => setSGPA(calculateSGPA(subjects))}
         >
           Calculate
         </button>
 
-        {sgpa !== null && (
-          <div className="text-xl font-bold text-[#fffff]">SGPA: {sgpa}</div>
-        )}
       </div>
     </div>
   );

@@ -1,0 +1,863 @@
+{
+    "year1":{
+        "Pool_A": [
+    {
+      "subject_name": "Chemistry",
+      "subject_code": "UCB009"
+    },
+    {
+      "subject_name": "Programming for Problem Solving",
+      "subject_code": "UES103"
+    },
+    {
+      "subject_name": "Electrical and Electronics Engineering",
+      "subject_code": "UES013"
+    },
+    {
+      "subject_name": "Energy and Environment",
+      "subject_code": "UEN008"
+    },
+    {
+      "subject_name": "Differential Equations and Linear Algebra",
+      "subject_code": "UMA023"
+    }
+  ],
+  "Pool_B": [
+    {
+      "subject_name": "Physics",
+      "subject_code": "UPH013"
+    },
+    {
+      "subject_name": "Engineering Drawing",
+      "subject_code": "UES101"
+    },
+    {
+      "subject_name": "Professional Communication",
+      "subject_code": "UHU003"
+    },
+    {
+      "subject_name": "Manufacturing Processes",
+      "subject_code": "UES102"
+    },
+    {
+      "subject_name": "Calculus for Engineers",
+      "subject_code": "UMA022"
+    }
+  ],
+  "DSAI": [
+    {
+      "subject_name": "Physics",
+      "subject_code": "UPH013"
+    },
+    {
+      "subject_name": "Engineering Drawing",
+      "subject_code": "UES101"
+    },
+    {
+      "subject_name": "Professional Communication",
+      "subject_code": "UHU003"
+    },
+    {
+      "subject_name": "Manufacturing Processes",
+      "subject_code": "UES102"
+    },
+    {
+      "subject_name": "Calculus for Engineers",
+      "subject_code": "UMA022"
+    },
+    {
+      "subject_name": "Chemistry",
+      "subject_code": "UCB009"
+    },
+    {
+      "subject_name": "Programming for Problem Solving",
+      "subject_code": "UES103"
+    },
+    {
+      "subject_name": "Electrical and Electronics Engineering",
+      "subject_code": "UES013"
+    },
+    {
+      "subject_name": "Energy and Environment",
+      "subject_code": "UEN008"
+    },
+    {
+      "subject_name": "Differential Equations and Linear Algebra",
+      "subject_code": "UMA023"
+    },
+    {
+      "subject_name": "Programming Essentials for AI and ML",
+      "subject_code": "UAI201"
+    },
+    {
+      "subject_name": "Foundation of Machine Intelligence: Concepts, Techniques and Applications",
+      "subject_code": "UAI101"
+    }
+  ],
+  "CSBS": [
+    {
+      "subject_name": "Discrete Mathematics",
+      "subject_code": "UCT101"
+    },
+    {
+      "subject_name": "Probability and Statistics",
+      "subject_code": "UCT102"
+    },
+    {
+      "subject_name": "Fundamentals of Computer Science",
+      "subject_code": "UCT104"
+    },
+    {
+      "subject_name": "Principles of Electrical Engineering",
+      "subject_code": "UEE002"
+    },
+    {
+      "subject_name": "Physics for Computing Science",
+      "subject_code": "UPH014"
+    },
+    {
+      "subject_name": "Business Communication & Value Science-I",
+      "subject_code": "UHU011"
+    },
+    {
+      "subject_name": "Linear Algebra",
+      "subject_code": "UCT201"
+    },
+    {
+      "subject_name": "Statistical Modeling",
+      "subject_code": "UCT202"
+    },
+    {
+      "subject_name": "Data Structures and Algorithms",
+      "subject_code": "UCT203"
+    },
+    {
+      "subject_name": "Principles of Electronics",
+      "subject_code": "UEC002"
+    },
+    {
+      "subject_name": "Fundamentals of Economics",
+      "subject_code": "UHU007"
+    },
+    {
+      "subject_name": "Business Communication & Value Science-II",
+      "subject_code": "UHU012"
+    },
+    {
+      "subject_name": "Enviornmental Studies",
+      "subject_code": "UEN003"
+    }
+  ]
+    },
+   
+  "year2": {
+    "COE": [
+      {
+        "subject_name": "Operating System",
+        "subject_code": "UCS303"
+      },
+      {
+        "subject_name": "Object Oriented Programming",
+        "subject_code": "UTA018"
+      },
+      {
+        "subject_name": "Data Structures",
+        "subject_code": "UCS301"
+      },
+      {
+        "subject_name": "Discrete Mathematical Structures",
+        "subject_code": "UCS405"
+      },
+      {
+        "subject_name": "Engineering Design Project I",
+        "subject_code": "UTA016"
+      },
+      {
+        "subject_name": "Numerical Linear Algebra",
+        "subject_code": "UMA021"
+      },
+      {
+        "subject_name": "Evolutionary Psychology",
+        "subject_code": "UHU050"
+      },
+      {
+        "subject_name": "Introduction to Sustainable Green Computing",
+        "subject_code": "UCS320"
+      },
+      {
+        "subject_name": "Design and Analysis of Algorithms",
+        "subject_code": "UCS415"
+      },
+      {
+        "subject_name": "Database Management Systems",
+        "subject_code": "UCS310"
+      },
+      {
+        "subject_name": "Quantum Materials",
+        "subject_code": "UES022"
+      },
+      {
+        "subject_name": "Artificial Intelligence",
+        "subject_code": "UCS411"
+      },
+      {
+        "subject_name": "Probability and Statistics",
+        "subject_code": "UMA401"
+      },
+      {
+        "subject_name": "Engineering Design Project II",
+        "subject_code": "UTA024"
+      },
+      {
+        "subject_name": "Aptitude Skills Building",
+        "subject_code": "UTD003"
+      }
+    ],
+    "CSE": [
+    {
+      "subject_name": "Operating System",
+      "subject_code": "UCS303"
+    },
+    {
+      "subject_name": "Object Oriented Programming",
+      "subject_code": "UTA018"
+    },
+    {
+      "subject_name": "Data Structures",
+      "subject_code": "UCS301"
+    },
+    {
+      "subject_name": "Discrete Mathematical Structures",
+      "subject_code": "UCS405"
+    },
+    {
+      "subject_name": "Engineering Design Project I (2 self-effort hours)",
+      "subject_code": "UTA016"
+    },
+    {
+      "subject_name": "Numerical Linear Algebra",
+      "subject_code": "UMA021"
+    },
+    {
+      "subject_name": "Evolutionary Psychology (1 Self Effort Hour)",
+      "subject_code": "UHU050"
+    },
+    {
+      "subject_name": "Design and Analysis of Algorithms",
+      "subject_code": "UCS415"
+    },
+    {
+      "subject_name": "Database Management Systems",
+      "subject_code": "UCS310"
+    },
+    {
+      "subject_name": "Engineering Materials",
+      "subject_code": "UES021"
+    },
+    {
+      "subject_name": "Artificial Intelligence",
+      "subject_code": "UCS411"
+    },
+    {
+      "subject_name": "Probability and Statistics",
+      "subject_code": "UMA401"
+    },
+    {
+      "subject_name": "Engineering Design Project II",
+      "subject_code": "UTA024"
+    },
+    {
+      "subject_name": "Aptitude Skills Building",
+      "subject_code": "UTD003"
+    }
+  ],
+    "ENC": [
+    {
+      "subject_name": "OPTIMIZATION TECHNIQUES",
+      "subject_code": "UMA035"
+    },
+    {
+      "subject_name": "COMPUTER AND COMMUNICATION NETWORKS",
+      "subject_code": "UNC303"
+    },
+    {
+      "subject_name": "ENGINEERING MATERIALS",
+      "subject_code": "UES012"
+    },
+    {
+      "subject_name": "AI FOR ENGINEERS",
+      "subject_code": "UCSXXX"
+    },
+    {
+      "subject_name": "DISCRETE MATHEMATICS",
+      "subject_code": "UNC304"
+    },
+    {
+      "subject_name": "ANALOG ELECTRONIC CIRCUITS",
+      "subject_code": "UEC301"
+    },
+    {
+      "subject_name": "ENGINEERING DESIGN PROJECT – I",
+      "subject_code": "UTA016"
+    },
+    {
+      "subject_name": "APTITUDE SKILLS BUILDING",
+      "subject_code": "UTD003"
+    },
+    {
+      "subject_name": "DATA STRUCTURES AND ALGORITHMS",
+      "subject_code": "UNC401"
+    },
+    {
+      "subject_name": "NUMERICAL AND STATISTICAL METHODS",
+      "subject_code": "UMA033"
+    },
+    {
+      "subject_name": "DIGITAL SYSTEM DESIGN",
+      "subject_code": "UEC612"
+    },
+    {
+      "subject_name": "SIGNALS AND SYSTEMS",
+      "subject_code": "UEC404"
+    },
+    {
+      "subject_name": "EMBEDDED SYSTEMS",
+      "subject_code": "UEC513"
+    },
+    {
+      "subject_name": "OBJECT ORIENTED PROGRAMMING PRACTICES",
+      "subject_code": "UNC302"
+    },
+    {
+      "subject_name": "ENGINEERING DESIGN PROJECT-II",
+      "subject_code": "UTA024"
+    },
+    {
+      "subject_name": "EVOLUTIONARY PSYCHOLOGY",
+      "subject_code": "UHU050"
+    },
+    {
+      "subject_name": "ETHICS AND RISK MITIGATION IN AI",
+      "subject_code": "UCSXXX"
+    }
+  ],
+  "CSBS": [
+    {
+      "subject_name": "Formal Language and Automata Theory",
+      "subject_code": "UCT301"
+    },
+    {
+      "subject_name": "Computer Organization & Architecture",
+      "subject_code": "UCT302"
+    },
+    {
+      "subject_name": "Object Oriented Programming",
+      "subject_code": "UCT303"
+    },
+    {
+      "subject_name": "Computational Statistics",
+      "subject_code": "UCT304"
+    },
+    {
+      "subject_name": "Software Engineering",
+      "subject_code": "UCT305"
+    },
+    {
+      "subject_name": "Indian Constitution (Non-Credit)",
+      "subject_code": "NC"
+    },
+    {
+      "subject_name": "Operating Systems",
+      "subject_code": "UCT401"
+    },
+    {
+      "subject_name": "Database Management Systems",
+      "subject_code": "UCT402"
+    },
+    {
+      "subject_name": "Software Design with UML",
+      "subject_code": "UCT403"
+    },
+    {
+      "subject_name": "Introduction to Innovation, IP Management and Entrepreneurship",
+      "subject_code": "UHU023"
+    },
+    {
+      "subject_name": "Design Thinking",
+      "subject_code": "UHU024"
+    },
+    {
+      "subject_name": "Operations Research",
+      "subject_code": "UMA019"
+    },
+    {
+      "subject_name": "Marketing Research and Marketing Managment",
+      "subject_code": "UHU025"
+    },
+    {
+        "subject_name":"Essence of Indian Traditional Knowledge",
+            "subject_code": "N/A"
+    }
+  ],
+    "DSAI": [
+    {
+      "subject_name": "Operating System",
+      "subject_code": "UCS303"
+    },
+    {
+      "subject_name": "Object Oriented Programming",
+      "subject_code": "UAI301"
+    },
+    {
+      "subject_name": "Data Structures",
+      "subject_code": "UCS301"
+    },
+    {
+      "subject_name": "Numerical Linear Algebra",
+      "subject_code": "UMA021"
+    },
+    {
+      "subject_name": "Engineering Design Project I (2 self-effort hours)",
+      "subject_code": "UTA016"
+    },
+    {
+      "subject_name": "Experiential Learning (DLI)*",
+      "subject_code": "UAI302"
+    },
+    {
+      "subject_name": "Evolutionary Psychology",
+      "subject_code": "UHU050"
+    },
+    {
+      "subject_name": "Design and Analysis of Algorithms",
+      "subject_code": "UCS415"
+    },
+    {
+      "subject_name": "Data Engineering",
+      "subject_code": "UAI402"
+    },
+    {
+      "subject_name": "Probability and Statistics",
+      "subject_code": "UMA401"
+    },
+    {
+      "subject_name": "Engineering Design Project II (Edge Computing Design Project)",
+      "subject_code": "UTA024"
+    },
+    {
+      "subject_name": "Employability Development Skills",
+      "subject_code": "UTD002"
+    },
+    {
+      "subject_name": "Discrete Mathematical Structures",
+      "subject_code": "UCS405"
+    },
+    {
+      "subject_name": "Experiential Learning (DLI)*",
+      "subject_code": "UAI401"
+    }
+  ],
+    "Electrical and Computer Engineering": [
+    {
+      "subject_name": "Discrete Mathematical Structures",
+      "subject_code": "UCS405"
+    },
+    {
+      "subject_name": "Computer Networks",
+      "subject_code": "UCS520"
+    },
+    {
+      "subject_name": "Data Structures",
+      "subject_code": "UCS301"
+    },
+    {
+      "subject_name": "Network Theory",
+      "subject_code": "UEE409"
+    },
+    {
+      "subject_name": "Analog and Digital Systems",
+      "subject_code": "UEE505"
+    },
+    {
+      "subject_name": "Humanities for Engineers",
+      "subject_code": "UHU005"
+    },
+    {
+      "subject_name": "Engineering Design Project-II",
+      "subject_code": "UTA024"
+    },
+    {
+      "subject_name": "Operating Systems",
+      "subject_code": "UCS303"
+    },
+    {
+      "subject_name": "Data Base Management Systems",
+      "subject_code": "UCS310"
+    },
+    {
+      "subject_name": "Computer System Design",
+      "subject_code": "ULC401"
+    },
+    {
+      "subject_name": "Fundamentals of Signal Processing",
+      "subject_code": "ULC402"
+    },
+    {
+      "subject_name": "Electric Machinery parappara",
+      "subject_code": "UEE413"
+    },
+    {
+      "subject_name": "Principles of Power System Engineering",
+      "subject_code": "UEE414"
+    }
+  ],
+    "Electrical Engineering": [
+    {
+      "subject_name": "Mathematics for Data Science",
+      "subject_code": "UMA028"
+    },
+    {
+      "subject_name": "Embedded System Design and IoT",
+      "subject_code": "UEE511"
+    },
+    {
+      "subject_name": "Foundations of Artificial Intelligence",
+      "subject_code": "UCS541"
+    },
+    {
+      "subject_name": "Power Converters and Drives",
+      "subject_code": "UEE512"
+    },
+    {
+      "subject_name": "Linear Control Systems",
+      "subject_code": "UEE508"
+    },
+    {
+      "subject_name": "Innovation and Entrepreneurship",
+      "subject_code": "UTA025"
+    },
+    {
+      "subject_name": "Machine Learning Techniques",
+      "subject_code": "ULC601"
+    },
+    {
+      "subject_name": "Design and Analysis of Algorithms",
+      "subject_code": "UCS415"
+    },
+    {
+      "subject_name": "Software Engineering",
+      "subject_code": "UCS503"
+    },
+    {
+      "subject_name": "Digital Measurement and Protection",
+      "subject_code": "ULC602"
+    },
+    {
+      "subject_name": "Electric Vehicle and Real Time Systems",
+      "subject_code": "ULC603"
+    },
+    {
+      "subject_name": "Elective - 1",
+      "subject_code": "PE"
+    }
+  ]
+  },
+  "year3": {
+    "COE": [
+      {
+        "subject_name": "Machine Learning",
+        "subject_code": "UML501"
+      },
+      {
+        "subject_name": "Computer Networks",
+        "subject_code": "UCS414"
+      },
+      {
+        "subject_name": "Image Processing",
+        "subject_code": "UCS615"
+      },
+      {
+        "subject_name": "Software Engineering",
+        "subject_code": "UCS503"
+      },
+      {
+        "subject_name": "Computer Architecture and Organization",
+        "subject_code": "UCS510"
+      },
+      {
+        "subject_name": "Elective-I",
+        "subject_code": "ELECTIVE-I"
+      },
+      {
+        "subject_name": "Theory of Computation",
+        "subject_code": "UCS701"
+      },
+      {
+        "subject_name": "Optimization Techniques",
+        "subject_code": "UMA035"
+      },
+      {
+        "subject_name": "Microprocessor-Based Systems Design",
+        "subject_code": "UCS617"
+      },
+      {
+        "subject_name": "Innovation and Entrepreneurship",
+        "subject_code": "UTA025"
+      },
+      {
+        "subject_name": "Elective-II",
+        "subject_code": "ELECTIVE-II"
+      },
+      {
+        "subject_name": "Elective-III",
+        "subject_code": "ELECTIVE-III"
+      },
+      {
+        "subject_name": "Capstone Project",
+        "subject_code": "UCS797"
+      },
+      {
+        "subject_name": "Generic Elective",
+        "subject_code": "GENERIC_ELECTIVE"
+      }
+    ],
+      "ENC": [
+    {
+      "subject_name": "OPERATING SYSTEMS",
+      "subject_code": "UNC501"
+    },
+    {
+      "subject_name": "DATABASE MANAGEMENT SYSTEMS",
+      "subject_code": "UEC716"
+    },
+    {
+      "subject_name": "DIGITAL SIGNAL PROCESSING",
+      "subject_code": "UEC502"
+    },
+    {
+      "subject_name": "INFORMATION AND COMMUNICATION THEORY",
+      "subject_code": "UEC310"
+    },
+    {
+      "subject_name": "ARTIFICIAL INTELLIGENCE & MACHINE LEARNING",
+      "subject_code": "UNC503"
+    },
+    {
+      "subject_name": "INNOVATION & ENTREPRENEURSHIP",
+      "subject_code": "UTA025"
+    },
+    {
+      "subject_name": "ELECTIVE-I",
+      "subject_code": "PEC"
+    },
+    {
+      "subject_name": "AI APPLICATIONS: NLP, CV and IoT",
+      "subject_code": "UCSXXX"
+    },
+    {
+      "subject_name": "ANALOG AND DIGITAL COMMUNICATION",
+      "subject_code": "UEC519"
+    },
+    {
+      "subject_name": "COMPUTER ARCHITECTURE",
+      "subject_code": "UEC610"
+    },
+    {
+      "subject_name": "MOS CIRCUIT DESIGN",
+      "subject_code": "UEC750"
+    },
+    {
+      "subject_name": "HUMANITIES FOR ENGINEERS",
+      "subject_code": "UHU005"
+    },
+    {
+      "subject_name": "CAPSTONE PROJECT (STARTS)",
+      "subject_code": "UEC797"
+    },
+    {
+      "subject_name": "ELECTIVE-II",
+      "subject_code": "PEC"
+    },
+    {
+      "subject_name": "ELECTIVE-III",
+      "subject_code": "PEC"
+    }
+  ],
+     "CSBS": [
+    {
+      "subject_name": "Design and Analysis of Algorithms",
+      "subject_code": "UCT501"
+    },
+    {
+      "subject_name": "Compiler Design",
+      "subject_code": "UCT502"
+    },
+    {
+      "subject_name": "Fundamentals of Management",
+      "subject_code": "UHU029"
+    },
+    {
+      "subject_name": "Business Strategy",
+      "subject_code": "UHU030"
+    },
+    {
+      "subject_name": "Business Communication & Value Science-III",
+      "subject_code": "UHU042"
+    },
+    {
+      "subject_name": "Elective II",
+      "subject_code": "PE-ELECTIVE-II"
+    },
+    {
+      "subject_name": "Elective I",
+      "subject_code": "PE-ELECTIVE-I"
+    },
+    {
+      "subject_name": "Mini Project",
+      "subject_code": "UCT591"
+    },
+    {
+      "subject_name": "Computer Networks",
+      "subject_code": "UCT601"
+    },
+    {
+      "subject_name": "Information Security",
+      "subject_code": "UCT602"
+    },
+    {
+      "subject_name": "Artificial Intelligence",
+      "subject_code": "UCT603"
+    },
+    {
+      "subject_name": "Financial & Cost Accounting",
+      "subject_code": "UHU043"
+    },
+    {
+      "subject_name": "Business Communication & Value Science-IV",
+      "subject_code": "UHU044"
+    },
+    {
+      "subject_name": "Elective III",
+      "subject_code": "PE-ELECTIVE-III"
+    },
+    {
+      "subject_name": "Elective IV",
+      "subject_code": "PE-ELECTIVE-IV"
+    }
+  ],
+  "Electrical and Computer Engineering": [
+    {
+      "subject_name": "Mathematics for Data Science",
+      "subject_code": "UMA028"
+    },
+    {
+      "subject_name": "Embedded System Design and IoT",
+      "subject_code": "UEE511"
+    },
+    {
+      "subject_name": "Foundations of Artificial Intelligence",
+      "subject_code": "UCS541"
+    },
+    {
+      "subject_name": "Power Converters and Drives",
+      "subject_code": "UEE512"
+    },
+    {
+      "subject_name": "Linear Control Systems",
+      "subject_code": "UEE508"
+    },
+    {
+      "subject_name": "Innovation and Entrepreneurship",
+      "subject_code": "UTA025"
+    },
+    {
+      "subject_name": "Machine Learning Techniques",
+      "subject_code": "ULC601"
+    },
+    {
+      "subject_name": "Design and Analysis of Algorithms",
+      "subject_code": "UCS415"
+    },
+    {
+      "subject_name": "Software Engineering",
+      "subject_code": "UCS503"
+    },
+    {
+      "subject_name": "Digital Measurement and Protection",
+      "subject_code": "ULC602"
+    },
+    {
+      "subject_name": "Electric Vehicle and Real Time Systems",
+      "subject_code": "ULC603"
+    },
+    {
+      "subject_name": "Elective - 1",
+      "subject_code": "PE"
+    }
+  ],
+  "Electrical Engineering": [
+    {
+      "subject_name": "POWER SYSTEM ANALYSIS",
+      "subject_code": "UEE509"
+    },
+    {
+      "subject_name": "EMBEDDED SYSTEM DESIGN AND IOT",
+      "subject_code": "UEE511"
+    },
+    {
+      "subject_name": "POWER ELECTRONICS",
+      "subject_code": "UEE504"
+    },
+    {
+      "subject_name": "ELECTRICAL AND ELECTRONIC ENGINEERING MATERIALS",
+      "subject_code": "UPH401"
+    },
+    {
+      "subject_name": "INNOVATION AND ENTREPRENEURSHIP",
+      "subject_code": "UTA025"
+    },
+    {
+      "subject_name": "DATA STRUCTURES AND ALGORITHMS",
+      "subject_code": "UEE410"
+    },
+    {
+      "subject_name": "ELECTIVE-I",
+      "subject_code": "PEC"
+    },
+    {
+      "subject_name": "INDUSTRIAL DRIVES AND AUTOMATION",
+      "subject_code": "UEE613"
+    },
+    {
+      "subject_name": "ELECTRICAL SYSTEM DESIGN",
+      "subject_code": "UEE513"
+    },
+    {
+      "subject_name": "POWER SYSTEM PROTECTION",
+      "subject_code": "UEE610"
+    },
+    {
+      "subject_name": "MACHINE LEARNING TECHNIQUES",
+      "subject_code": "ULC601"
+    },
+    {
+      "subject_name": "HIGH VOLTAGE ENGINEERING",
+      "subject_code": "UEE502"
+    },
+    {
+      "subject_name": "HUMANITIES FOR ENGINEERS",
+      "subject_code": "UHU005"
+    },
+    {
+      "subject_name": "ELECTIVE-II",
+      "subject_code": "PEC"
+    },
+    {
+      "subject_name": "CAPSTONE PROJECT (START)",
+      "subject_code": "UEE795"
+    }
+  ]
+  
+  }
+}
+
