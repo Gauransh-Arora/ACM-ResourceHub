@@ -11,14 +11,14 @@ const calculateSGPA = (subjects) => {
 
   const gradeToPoint = {
     "A+": 10,
-    A: 10,
+    "A": 10,
     "A-": 9,
-    B: 8,
+    "B": 8,
     "B-": 7,
-    C: 6,
+    "C": 6,
     "C-": 5,
-    E: 2,
-    F: 0,
+    "E": 2,
+    "F": 0,
   };
 
   subjects.forEach(({ grade, credits }) => {
@@ -62,6 +62,13 @@ const Dropdown = ({
           menu: () => "z-10",
         }}
         styles={{
+          input: (base) => ({
+            ...base,
+            width: "10%", 
+            minWidth: "90%",
+            maxWidth: "90%",
+          }),
+
           control: (base) => ({
             ...base,
             borderColor: "#15A6DD",
@@ -248,17 +255,17 @@ const CGPA_Input = ({ year }) => {
         + Add Subject
       </button>
 
-      <div className="flex justify-center mt-8 flex-col items-center gap-4">
+      <div className="flex justify-center  flex-col items-center gap-4">
+        {sgpa !== null && (
+          <div className="text-xl font-bold text-[#fffff] ">SGPA: {sgpa}</div>
+        )}
         <button
-          className="px-12 py-3 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
+          className="px-12 py-3 mb-20 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
           onClick={() => setSGPA(calculateSGPA(subjects))}
         >
           Calculate
         </button>
 
-        {sgpa !== null && (
-          <div className="text-xl font-bold text-[#fffff]">SGPA: {sgpa}</div>
-        )}
       </div>
     </div>
   );
