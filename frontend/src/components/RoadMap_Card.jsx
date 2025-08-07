@@ -12,6 +12,7 @@ const RoadMap_Card = ({
   const handleClick = () => {
     navigate(`/roadmaps/${param}`);
   };
+
   return (
     <div
       className="border-2 border-[#15A6DD] p-3 flex flex-col h-full cursor-pointer hover:shadow-lg transition-shadow duration-200"

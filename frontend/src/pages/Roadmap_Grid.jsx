@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const Roadmap_Grid = () => {
   const navigate = useNavigate();
-  const cardClick=(title) => {
+  const cardClick = (title) => {
     navigate(`/roadmaps/${title}`);
-  }
+  };
 
   return (
     <div className="mt-10 mx-4 md:mx-10">
@@ -32,7 +32,7 @@ const Roadmap_Grid = () => {
               "Node.js",
               "Express.js",
             ]}
-            param="web-development"
+            param="web-dev"
           />
           <RoadMap_Card
             name="DSA"
@@ -50,7 +50,7 @@ const Roadmap_Grid = () => {
             name="App Development"
             weeks="14"
             technologies={["Flutter", "Dart", "Firebase"]}
-            param="app-development"
+            param="app-dev"
           />
           <RoadMap_Card
             name="UI/UX Design Classes"
@@ -62,13 +62,26 @@ const Roadmap_Grid = () => {
             name="AI and Machine Learning"
             weeks="20"
             technologies={["Python", "TensorFlow", "PyTorch", "Scikit-learn"]}
-            param="ai-ml"
+            param="aiml"
           />
           <RoadMap_Card
             name="Game Development"
             weeks="16"
             technologies={["Unity", "C#", "Unreal Engine", "Blender"]}
-            param="game-development"
+            param="game-dev"
+          />
+          <RoadMap_Card
+            name="Blockchain"
+            weeks="12"
+            technologies={[
+              "Solidity",
+              "Smart Contracts",
+              "Ethereum",
+              "Web3.js",
+              "Metamask",
+              "Hardhat",
+            ]}
+            param="blockchain"
           />
         </div>
       </div>

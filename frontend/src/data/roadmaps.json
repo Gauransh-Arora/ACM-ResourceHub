@@ -7,7 +7,15 @@
     "heading2": "Important Resources",
     "subheading2": "100% Free",
     "description2": ["HTML course", "CSS course", "JavaScript course", "Node-Express course"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "HTML/CSS and Git", "link": "#" },
+      { "week": "Week 02", "title": "JavaScript Basics", "link": "#" },
+      { "week": "Week 03", "title": "Advanced JS", "link": "#" },
+      { "week": "Week 04", "title": "React Fundamentals", "link": "#" },
+      { "week": "Week 05", "title": "Node & Express", "link": "#" },
+      { "week": "Week 06", "title": "MongoDB & APIs", "link": "#" }
+    ]
   },
   "dsa": {
     "title": "Data Structures & Algorithms",
@@ -17,7 +25,15 @@
     "heading2": "Important Resources",
     "subheading2": "Ace Your Interviews",
     "description2": ["Striver’s SDE Sheet", "Leetcode 150", "GeeksforGeeks DSA Course"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Arrays & Strings", "link": "#" },
+      { "week": "Week 02", "title": "Linked Lists & Stacks", "link": "#" },
+      { "week": "Week 03", "title": "Trees & Binary Search Trees", "link": "#" },
+      { "week": "Week 04", "title": "Graphs & BFS/DFS", "link": "#" },
+      { "week": "Week 05", "title": "Dynamic Programming", "link": "#" },
+      { "week": "Week 06", "title": "Greedy & Sorting Algorithms", "link": "#" }
+    ]
   },
   "aiml": {
     "title": "AI & Machine Learning",
@@ -27,7 +43,15 @@
     "heading2": "Important Resources",
     "subheading2": "Tools of the Trade",
     "description2": ["Andrew Ng's ML Course", "Fast.ai", "Kaggle Learn", "HuggingFace Transformers"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Python & Jupyter Notebooks", "link": "#" },
+      { "week": "Week 02", "title": "NumPy, Pandas & Data Cleaning", "link": "#" },
+      { "week": "Week 03", "title": "Data Visualization & EDA", "link": "#" },
+      { "week": "Week 04", "title": "Machine Learning with scikit-learn", "link": "#" },
+      { "week": "Week 05", "title": "Neural Networks & Deep Learning", "link": "#" },
+      { "week": "Week 06", "title": "Projects & Real-world Datasets", "link": "#" }
+    ]
   },
   "game-dev": {
     "title": "Game Development",
@@ -37,7 +61,15 @@
     "heading2": "Important Resources",
     "subheading2": "Build & Play",
     "description2": ["Unity Learn", "Unreal Engine Docs", "Brackeys YouTube", "GameDev.tv"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Unity Basics & C# Scripting", "link": "#" },
+      { "week": "Week 02", "title": "Game Physics & Mechanics", "link": "#" },
+      { "week": "Week 03", "title": "2D/3D Game Environments", "link": "#" },
+      { "week": "Week 04", "title": "UI/UX & Animations", "link": "#" },
+      { "week": "Week 05", "title": "Unreal Engine Essentials", "link": "#" },
+      { "week": "Week 06", "title": "Build a Full Game Project", "link": "#" }
+    ]
   },
   "ui-ux": {
     "title": "UI/UX Design",
@@ -47,7 +79,15 @@
     "heading2": "Important Resources",
     "subheading2": "Design Better",
     "description2": ["Figma Crash Course", "Google UX Design", "Refactoring UI", "UX Collective Blog"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Design Thinking & Principles", "link": "#" },
+      { "week": "Week 02", "title": "Figma Basics & Wireframing", "link": "#" },
+      { "week": "Week 03", "title": "User Flow & Prototyping", "link": "#" },
+      { "week": "Week 04", "title": "Accessibility & Design Systems", "link": "#" },
+      { "week": "Week 05", "title": "Portfolio Projects", "link": "#" },
+      { "week": "Week 06", "title": "Usability Testing & Feedback", "link": "#" }
+    ]
   },
   "app-dev": {
     "title": "App Development",
@@ -57,17 +97,32 @@
     "heading2": "Important Resources",
     "subheading2": "Build for Mobile",
     "description2": ["Flutter Docs", "Firebase Codelabs", "The Net Ninja Flutter Series", "Official Dart Tutorials"],
-    "heading3": "Roadmap"
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Flutter Basics & Dart Syntax", "link": "#" },
+      { "week": "Week 02", "title": "Stateful Widgets & Layouts", "link": "#" },
+      { "week": "Week 03", "title": "Navigation & Routing", "link": "#" },
+      { "week": "Week 04", "title": "Firebase Integration", "link": "#" },
+      { "week": "Week 05", "title": "Native APIs & Notifications", "link": "#" },
+      { "week": "Week 06", "title": "Publish to Play Store", "link": "#" }
+    ]
   },
   "blockchain": {
-  "title": "Blockchain",
-  "heading1": "What you’ll learn?",
-  "subheading1": "Solidity | Smart Contracts | Ethereum | Web3.js | Metamask | Hardhat",
-  "description1": "Dive into the world of decentralization. Learn to build smart contracts, deploy dApps, and interact with blockchains using industry tools and frameworks.",
-  "heading2": "Important Resources",
-  "subheading2": "Build for Web3",
-  "description2": ["Solidity by CryptoZombies", "Ethernaut CTF by OpenZeppelin", "FreeCodeCamp Web3 Playlist", "Hardhat Docs", "Web3.js Official Docs"],
-  "heading3": "Roadmap"
-}
-
+    "title": "Blockchain",
+    "heading1": "What you’ll learn?",
+    "subheading1": "Solidity | Smart Contracts | Ethereum | Web3.js | Metamask | Hardhat",
+    "description1": "Dive into the world of decentralization. Learn to build smart contracts, deploy dApps, and interact with blockchains using industry tools and frameworks.",
+    "heading2": "Important Resources",
+    "subheading2": "Build for Web3",
+    "description2": ["Solidity by CryptoZombies", "Ethernaut CTF by OpenZeppelin", "FreeCodeCamp Web3 Playlist", "Hardhat Docs", "Web3.js Official Docs"],
+    "heading3": "Roadmap",
+    "weeks": [
+      { "week": "Week 01", "title": "Blockchain Basics & Ethereum", "link": "#" },
+      { "week": "Week 02", "title": "Solidity Language Fundamentals", "link": "#" },
+      { "week": "Week 03", "title": "Smart Contract Deployment", "link": "#" },
+      { "week": "Week 04", "title": "Using Hardhat & Testing", "link": "#" },
+      { "week": "Week 05", "title": "Interacting with Web3.js", "link": "#" },
+      { "week": "Week 06", "title": "Build & Deploy a dApp", "link": "#" }
+    ]
+  }
 }
