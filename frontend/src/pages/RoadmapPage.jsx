@@ -9,7 +9,6 @@ const RoadmapPage = ({ name = "", technologies = [] }) => {
   const data = roadmaps[param];
   const weeks = data.weeks;
 
-  console.log(weeks)
 
   return (
     <>
