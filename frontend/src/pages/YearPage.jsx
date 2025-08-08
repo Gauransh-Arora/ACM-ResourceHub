@@ -98,7 +98,7 @@ function YearPage() {
             <div
               key={item.id}
               onClick={() => handleYearClick(item.id)}
-              className="bg-white p-6 shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer border border-gray-200 hover:border-[#15A6DD]"
+              className="bg-white  p-6 shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer border border-gray-200 hover:border-[#15A6DD]"
             >
               <div className="mb-4">
                 <h3 className="text-2xl font-extrabold mb-2 text-[#434343]">
@@ -121,7 +121,7 @@ function YearPage() {
                         e.stopPropagation();
                         handleBranchClick(item.id, branch);
                       }}
-                      className="text-sm text-gray-700 bg-gray-50 px-3 py-2 rounded-md hover:bg-[#8FDAF5] hover:text-[#15A6DD] transition-colors duration-200"
+                      className="text-sm text-gray-700 bg-gray-50 px-3 py-2  hover:bg-[#8FDAF5] hover:text-[#15A6DD] transition-colors duration-200"
                     >
                       • {branch}
                     </li>

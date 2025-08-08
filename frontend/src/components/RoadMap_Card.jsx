@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const RoadMap_Card = ({
-  name = "Course Name",
-  weeks = "08",
-  technologies = [],
+  name,
+  weeks,
+  technologies ,
   param = "",
 }) => {
   const navigate = useNavigate();
@@ -22,12 +22,7 @@ const RoadMap_Card = ({
         <p className="text-3xl font-bold ">{name}</p>
         <p className="text-2xl text-[#9AAEBC]">({weeks} Weeks)</p>
         <div className="text-xl text-[#15a6dd]">
-          {technologies.map((tech, index) => (
-            <span key={index}>
-              <span>{tech}</span>
-              {index < technologies.length - 1 && <span> | </span>}
-            </span>
-          ))}
+          {technologies}
         </div>
       </div>
 

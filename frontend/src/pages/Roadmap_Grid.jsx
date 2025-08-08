@@ -1,6 +1,7 @@
 import React from "react";
 import RoadMap_Card from "../components/RoadMap_Card";
 import { useNavigate } from "react-router-dom";
+import roadmap from "../data/roadmaps.json";
 
 const Roadmap_Grid = () => {
   const navigate = useNavigate();
@@ -21,68 +22,15 @@ const Roadmap_Grid = () => {
       <hr className="my-3 border-t-2 border-[#9AAEBC] w-full" />
       <div className="mt-4 mb-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <RoadMap_Card
-            name="Web Development"
-            weeks="12"
-            technologies={[
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "React",
-              "Node.js",
-              "Express.js",
-            ]}
-            param="web-dev"
-          />
-          <RoadMap_Card
-            name="DSA"
-            weeks="10"
-            technologies={[
-              "C++",
-              "Java",
-              "Python",
-              "Data Structures",
-              "Algorithms",
-            ]}
-            param="dsa"
-          />
-          <RoadMap_Card
-            name="App Development"
-            weeks="14"
-            technologies={["Flutter", "Dart", "Firebase"]}
-            param="app-dev"
-          />
-          <RoadMap_Card
-            name="UI/UX Design Classes"
-            weeks="08"
-            technologies={["Figma", "Adobe XD", "Sketch", "InVision"]}
-            param="ui-ux"
-          />
-          <RoadMap_Card
-            name="AI and Machine Learning"
-            weeks="20"
-            technologies={["Python", "TensorFlow", "PyTorch", "Scikit-learn"]}
-            param="aiml"
-          />
-          <RoadMap_Card
-            name="Game Development"
-            weeks="16"
-            technologies={["Unity", "C#", "Unreal Engine", "Blender"]}
-            param="game-dev"
-          />
-          <RoadMap_Card
-            name="Blockchain"
-            weeks="12"
-            technologies={[
-              "Solidity",
-              "Smart Contracts",
-              "Ethereum",
-              "Web3.js",
-              "Metamask",
-              "Hardhat",
-            ]}
-            param="blockchain"
-          />
+          {Object.entries(roadmap).map(([key,data])=> (
+            <RoadMap_Card
+            key={key}
+            name = {data.title}
+            technologies={data.subheading1}
+            weeks={data.weeks.length}
+            param={key}
+            />
+          ))}
         </div>
       </div>
     </div>
