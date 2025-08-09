@@ -9,32 +9,50 @@
     "description2": ["HTML course", "CSS course", "JavaScript course", "Node-Express course"],
     "heading3": "Roadmap",
     "weeks": [
-      { "week": "Week 01", "title": "HTML/CSS and Git", "link": "#" },
-      { "week": "Week 02", "title": "JavaScript Basics", "link": "#" },
-      { "week": "Week 03", "title": "Advanced JS", "link": "#" },
-      { "week": "Week 04", "title": "React Fundamentals", "link": "#" },
-      { "week": "Week 05", "title": "Node & Express", "link": "#" },
-      { "week": "Week 06", "title": "MongoDB & APIs", "link": "#" }
+      { "week": "Week 01", "title": "HTML and CSS", "link": "https://www.youtube.com/playlist?list=PL4-IK0AVhVjOJs_UjdQeyEZ_cmEV3uJvx" },
+      { "week": "Week 02", "title": "Git and Github", "link": "https://www.youtube.com/watch?v=RGOj5yH7evk" },
+      { "week": "Week 03", "title": "JavaScript Basics", "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" },
+      { "week": "Week 04", "title": "Advanced JS", "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu" },
+      { "week": "Week 05", "title": "React Fundamentals", "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d" },
+      { "week": "Week 06", "title": "Node js", "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4" },
+      { "week": "Week 07", "title": "Express js", "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4" },
+      { "week": "Week 08", "title": "MongoDB", "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA" }
     ]
   },
   "dsa": {
-    "title": "Data Structures & Algorithms",
-    "heading1": "What you’ll learn?",
-    "subheading1": "Arrays | Strings | Trees | Graphs | DP | Greedy | Sorting",
-    "description1": "A deep dive into the foundations of programming logic and performance. You'll tackle the most asked interview questions while mastering problem-solving techniques.",
-    "heading2": "Important Resources",
-    "subheading2": "Ace Your Interviews",
-    "description2": ["Striver’s SDE Sheet", "Leetcode 150", "GeeksforGeeks DSA Course"],
-    "heading3": "Roadmap",
-    "weeks": [
-      { "week": "Week 01", "title": "Arrays & Strings", "link": "#" },
-      { "week": "Week 02", "title": "Linked Lists & Stacks", "link": "#" },
-      { "week": "Week 03", "title": "Trees & Binary Search Trees", "link": "#" },
-      { "week": "Week 04", "title": "Graphs & BFS/DFS", "link": "#" },
-      { "week": "Week 05", "title": "Dynamic Programming", "link": "#" },
-      { "week": "Week 06", "title": "Greedy & Sorting Algorithms", "link": "#" }
-    ]
-  },
+  "title": "Data Structures & Algorithms",
+  "heading1": "What you’ll learn?",
+  "subheading1": "Arrays | Strings | Trees | Graphs | DP | Greedy | Sorting",
+  "description1": "A deep dive into the foundations of programming logic and performance. You'll tackle the most asked interview questions while mastering problem-solving techniques.",
+  "heading2": "Important Resources",
+  "subheading2": "Ace Your Interviews",
+  "description2": [
+    "Striver’s SDE Sheet",
+    "Leetcode 150",
+    "GeeksforGeeks DSA Course"
+  ],
+  "heading3": "Roadmap",
+  "weeks": [
+    { "week": "Step 1", "title": "Learn Time Complexity", "link": "https://www.youtube.com/watch?v=FPu9Uld7W-E&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=4" },
+    { "week": "Step 2", "title": "STL Library", "link": "https://www.youtube.com/watch?v=RRVYpIET_RU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=9&t=2615s" },
+    { "week": "Step 3", "title": "Learn Important Sorting Techniques", "link": "https://www.youtube.com/playlist?list=PLyPvmU8zOvFl-XPak-nKr2HYMEo_fSEK_" },
+    { "week": "Step 4", "title": "Arrays", "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rENwdL0nEH0uGom9no0nyB" },
+    { "week": "Step 5", "title": "Binary Search", "link": "https://www.youtube.com/playlist?list=PLF6ChxadzFf8vjafLIxxbKUfarW4V4IOh" },
+    { "week": "Step 6", "title": "Strings", "link": "https://www.youtube.com/watch?v=MOSjYaVymcU" },
+    { "week": "Step 7", "title": "LinkedList", "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8tVcM0AymmhTRsfaLU" },
+    { "week": "Step 8", "title": "Recursion", "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY" },
+    { "week": "Step 9", "title": "Bit Manipulation", "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7" },
+    { "week": "Step 10", "title": "Stack and Queues", "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0pOd5zvVVSzgpo6BaCpHT9c" },
+    { "week": "Step 11", "title": "Sliding Window", "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj" },
+    { "week": "Step 12", "title": "Heaps", "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9" },
+    { "week": "Step 13", "title": "Greedy Algorithm", "link": "https://www.youtube.com/watch?v=bC7o8P_Ste4" },
+    { "week": "Step 14", "title": "Binary Trees", "link": "https://www.youtube.com/playlist?list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu" },
+    { "week": "Step 15", "title": "Graphs", "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn" },
+    { "week": "Step 16", "title": "Backtracking", "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWdbOTog8Jxk9XOjzUs3egMP" },
+    { "week": "Step 17", "title": "Dynamic Programming", "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go" }
+  ]
+},
+
   "aiml": {
     "title": "AI & Machine Learning",
     "heading1": "What you’ll learn?",
