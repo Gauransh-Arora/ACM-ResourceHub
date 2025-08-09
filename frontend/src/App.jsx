@@ -8,6 +8,7 @@ import MaterialPage from "./pages/MaterialPage";
 import Roadmap_Grid from "./pages/Roadmap_Grid";
 import CGPAPage from "./pages/CGPAPage";
 import YearPage from "./pages/YearPage";
+import Notfound from "./pages/Notfound";
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
         <Route path="/cgpa" element = {<CGPAPage/>}/>
         <Route path="/roadmaps" element={<Roadmap_Grid/>} />
         <Route path="/resources/materials" element={<MaterialPage />} />
+        <Route path="/notfound" element={<Notfound/>} />
         <Route path="/roadmaps/:param" element={<RoadmapPage />} />
+
       </Routes>
     </div>
   );
