@@ -3,9 +3,11 @@ import { useNavigate } from "react-router-dom";
 import Contributor from "../components/Contributor";
 import Snorlax from "../assets/143.png";
 import instagram from "../assets/instagram.png";
-import facebook from "../assets/facebook.png";
+import linkedinUrl from "../assets/linkedin2.svg"
 import github from "../assets/github.png";
 import logo from "../assets/logo_ACM_Footer.png";
+import diya from "../assets/diya.png"
+import vansh from "../assets/vansh.jpg"
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -101,55 +103,21 @@ const HomePage = () => {
         <div className="flex flex-wrap justify-center gap-[7.7rem] mt-10 mb-10">
           <Contributor
             img_url={Snorlax}
-            name="Snorlax"
+            name="Gaurnash Arora"
             linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
+            githubUrl="https://github.com/Gauransh-Arora"
           />
           <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
+            img_url={vansh}
+            name="Vansh Wadhwa"
+            instaUrl="https://www.instagram.com/vanshwadhwa_24/"
+            linkedinUrl="https://www.linkedin.com/in/vansh-wadhwa-/"
+            githubUrl="https://github.com/vanshwadhwa24"
           />
           <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
+            img_url={diya}
+            name="Diya"
+            instaUrl="www.instagram.com"
             linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
             githubUrl="https://github.com/Snorlax-Arora"
           />
@@ -176,7 +144,7 @@ const HomePage = () => {
              <a href="https://www.instagram.com/acmthapar/">
                <img src={instagram} alt="instagram" className="w-6 h-6" />
               </a>
-             <a href="https://www.instagram.com/acmthapar/"> <img src={facebook} alt="facebook" className="w-6 h-6" /></a>
+             <a href="https://www.linkedin.com/company/thapar-acm-student-chapter/"> <img src={linkedinUrl} alt="linkedin" className="w-6 h-6 " /></a>
              <a href="https://github.com/ACM-Thapar"><img src={github} alt="github" className="w-6 h-6" /></a>
             </div>
           </div>
