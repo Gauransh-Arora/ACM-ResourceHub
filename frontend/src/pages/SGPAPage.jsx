@@ -17,8 +17,27 @@ const SGPAPage = () => {
         </span>
       </div>
       <hr className="my-3 border-t-2 border-[#9AAEBC] w-full" />
+
+      <nav className="mt-4 mb-6 w-full">
+        <ul className="flex text-lg font-semibold">
+          {years.map((year) => (
+            <li
+              key={year}
+              className={`flex-1 text-center cursor-pointer border border-[#15A6DD] px-4 py-2 transition-colors duration-300 ${
+                selectedYear === year
+                  ? "bg-[#8FDAF5]"
+                  : "bg-white hover:bg-gray-50"
+              }`}
+              onClick={() => setSelectedYear(year)}
+            >
+              {year}
+            </li>
+          ))}
+        </ul>
+      </nav>
+
       <div className="mt-8">
-       <SGPA_Input/>
+       <SGPA_Input year={parseInt(selectedYear.split(" ")[1])} />
       </div>
       
     </div>

@@ -19,13 +19,15 @@ const Contributor = ({ img_url, name, linkedinUrl, githubUrl, instaUrl }) => {
         {name}
       </div>
       <div className="flex justify-center items-center">
-        <a href={instaUrl} target="_blank" rel="noopener noreferrer" >
+       
+       {instaUrl&& ( <a href={instaUrl} target="_blank" rel="noopener noreferrer" >
           <img
             src={instaLogo}
             alt="Instagram"
             className='w-6 h-6 m-1'
             />
         </a>
+            )}
         <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" >
           <img
             src={linkedInLogo}
