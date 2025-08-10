@@ -22,8 +22,8 @@ const HomePage = () => {
     window.open("https://timetable.acmthapar.in/");
   };
 
-  const handleCGPAClick = () => {
-    navigate("/cgpa");
+  const handleGPAClick = () => {
+    navigate("/gpa");
   };
 
   const handleYearClick = (year) => {
@@ -74,9 +74,9 @@ const HomePage = () => {
           <div className="flex justify-end mt-auto">
             <button 
               className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer hover:bg-[#7DD3F0] transition-colors duration-300"
-              onClick={handleCGPAClick}
+              onClick={handleGPAClick}
             >
-              Calculate CGPA
+              Calculate GPA
             </button>
           </div>
         </div>
@@ -104,6 +104,7 @@ const HomePage = () => {
           <Contributor
             img_url={Snorlax}
             name="Gaurnash Arora"
+            instaUrl="https://www.instagram.com/_gauranshhh_/"
             linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
             githubUrl="https://github.com/Gauransh-Arora"
           />
@@ -113,19 +114,12 @@ const HomePage = () => {
             instaUrl="https://www.instagram.com/vanshwadhwa_24/"
             linkedinUrl="https://www.linkedin.com/in/vansh-wadhwa-/"
             githubUrl="https://github.com/vanshwadhwa24"
-          />
+            />
           <Contributor
             img_url={diya}
             name="Diya"
-            instaUrl="www.instagram.com"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
-          />
-          <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/Snorlax-Arora"
+            linkedinUrl="https://www.linkedin.com/in/diyagarg16/"
+            githubUrl="https://github.com/diya0116"
           />
         </div>
       </div>

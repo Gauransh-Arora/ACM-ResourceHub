@@ -10,7 +10,7 @@ const Navbar = () => {
     { id: 1, name: "Home", href: "/" },
     { id: 2, name: "Roadmaps", href: "/roadmaps" },
     { id: 3, name: "Resources", href: "/resources" },
-    { id: 4, name: "CGPA Calculator", href: "/cgpa" },
+    { id: 4, name: "GPA Calculator", href: "/gpa" },
     { id: 5, name: "Time Table", href: "https://timetable.acmthapar.in/" },
   ];
 // shadow-xl shadow-slate-300
