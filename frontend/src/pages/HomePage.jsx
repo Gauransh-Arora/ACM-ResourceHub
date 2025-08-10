@@ -22,8 +22,8 @@ const HomePage = () => {
     window.open("https://timetable.acmthapar.in/");
   };
 
-  const handleCGPAClick = () => {
-    navigate("/cgpa");
+  const handleGPAClick = () => {
+    navigate("/gpa");
   };
 
   const handleYearClick = (year) => {
@@ -74,9 +74,9 @@ const HomePage = () => {
           <div className="flex justify-end mt-auto">
             <button 
               className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer hover:bg-[#7DD3F0] transition-colors duration-300"
-              onClick={handleCGPAClick}
+              onClick={handleGPAClick}
             >
-              Calculate CGPA
+              Calculate GPA
             </button>
           </div>
         </div>
