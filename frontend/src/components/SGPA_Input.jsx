@@ -11,14 +11,14 @@ const calculateSGPA = (subjects) => {
 
   const gradeToPoint = {
     "A+": 10,
-    "A": 10,
+    A: 10,
     "A-": 9,
-    "B": 8,
+    B: 8,
     "B-": 7,
-    "C": 6,
+    C: 6,
     "C-": 5,
-    "E": 2,
-    "F": 0,
+    E: 2,
+    F: 0,
   };
 
   subjects.forEach(({ grade, credits }) => {
@@ -64,7 +64,7 @@ const Dropdown = ({
         styles={{
           input: (base) => ({
             ...base,
-            width: "10%", 
+            width: "10%",
             minWidth: "90%",
             maxWidth: "90%",
           }),
@@ -169,12 +169,15 @@ const SubjectRow = ({
   );
 };
 
-const SGPA_Input = ({ year }) => {
+const SGPA_Input = () => {
   const [selectedPool, setSelectedPool] = useState("");
   const [subjects, setSubjects] = useState([]);
   const [sgpa, setSGPA] = useState(null);
 
-  const subjectData = year === 1 ? year1Data : year2Data;
+  const [selectedYear, setSelectedYear] = useState("Year 1");
+  const years = ["Year 1", "Year 2", "Year 3", "Year 4"];
+
+  const subjectData = selectedYear === "Year 1" ? year1Data : year2Data;
 
   const poolOptions = Object.keys(subjectData).filter((key) =>
     Array.isArray(subjectData[key])
@@ -221,6 +224,23 @@ const SGPA_Input = ({ year }) => {
 
   return (
     <div className="space-y-4 max-w-3xl mx-auto px-4">
+      <nav className="mt-4 mb-6 w-full">
+        <ul className="flex text-lg font-semibold">
+          {years.map((year) => (
+            <li
+              key={year}
+              className={`flex-1 text-center cursor-pointer border border-[#15A6DD] px-4 py-2 transition-colors duration-300 ${
+                selectedYear === year
+                  ? "bg-[#8FDAF5]"
+                  : "bg-white hover:bg-gray-50"
+              }`}
+              onClick={() => setSelectedYear(year)}
+            >
+              {year}
+            </li>
+          ))}
+        </ul>
+      </nav>
       <Dropdown
         options={poolOptions}
         placeholder="Select Your Branch / Pool"
@@ -265,7 +285,6 @@ const SGPA_Input = ({ year }) => {
         >
           Calculate
         </button>
-
       </div>
     </div>
   );

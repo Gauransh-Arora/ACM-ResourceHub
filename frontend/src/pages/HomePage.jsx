@@ -3,11 +3,12 @@ import { useNavigate } from "react-router-dom";
 import Contributor from "../components/Contributor";
 import Snorlax from "../assets/143.png";
 import instagram from "../assets/instagram.png";
-import linkedinUrl from "../assets/linkedin2.svg"
+import linkedinUrl from "../assets/linkedin2.svg";
 import github from "../assets/github.png";
 import logo from "../assets/logo_ACM_Footer.png";
-import diya from "../assets/diya.png"
-import vansh from "../assets/vansh.jpg"
+import diya from "../assets/diya.png";
+import vansh from "../assets/vansh.jpg";
+import gauransh from "../assets/gauransh.png";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -27,10 +28,9 @@ const HomePage = () => {
   };
 
   const handleYearClick = (year) => {
-  const defaultBranch = year === 1 ? "Pool A" : "Computer Engineering";
-  navigate(`/resources/${year}?branch=${encodeURIComponent(defaultBranch)}`);
-};
-
+    const defaultBranch = year === 1 ? "Pool A" : "Computer Engineering";
+    navigate(`/resources/${year}?branch=${encodeURIComponent(defaultBranch)}`);
+  };
 
   return (
     <div className=" bg-cover bg-no-repeat  m-0">
@@ -69,10 +69,11 @@ const HomePage = () => {
         <div className="border-3 bg-white border-[#15A6DD] w-full sm:w-96 md:w-3xl p-4 md:p-5 h-auto min-h-40 md:min-h-45 flex flex-col">
           <p className="text-xl md:text-2xl font-bold">CGPA Calculator</p>
           <p className="text-lg md:text-xl text-[#9aaebc] mb-4">
-            Calculate your SGPA and CGPA easily with our intuitive calculator. Track your academic progress semester by semester.
+            Calculate your SGPA and CGPA easily with our intuitive calculator.
+            Track your academic progress semester by semester.
           </p>
           <div className="flex justify-end mt-auto">
-            <button 
+            <button
               className="bg-[#85DAF5] w-40 sm:w-48 md:w-50 h-8 md:h-9 text-lg md:text-xl cursor-pointer hover:bg-[#7DD3F0] transition-colors duration-300"
               onClick={handleGPAClick}
             >
@@ -83,7 +84,8 @@ const HomePage = () => {
         <div className="border-3 bg-white border-[#15A6DD] w-full sm:w-96 md:w-3xl p-4 md:p-5 h-auto min-h-40 md:min-h-45 flex flex-col">
           <p className="text-xl md:text-2xl font-bold">Time Table</p>
           <p className="text-lg md:text-xl text-[#9aaebc] mb-4">
-            Access your complete class schedule and stay organized with our comprehensive timetable system.
+            Access your complete class schedule and stay organized with our
+            comprehensive timetable system.
           </p>
           <div className="flex justify-end mt-auto">
             <button
@@ -100,26 +102,30 @@ const HomePage = () => {
           {" "}
           Contributors{" "}
         </div>
-        <div className="flex flex-wrap justify-center gap-[7.7rem] mt-10 mb-10">
+        <div className="flex flex-wrap justify-center gap-10 sm:gap-[7.7rem] mt-10 mb-10">
           <Contributor
-            img_url={Snorlax}
-            name="Gaurnash Arora"
-            instaUrl="https://www.instagram.com/_gauranshhh_/"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            img_url={gauransh}
+            name="Gauransh Arora"
+            linkedinUrl="https://www.linkedin.com/in/diyagarg16/"
             githubUrl="https://github.com/Gauransh-Arora"
           />
           <Contributor
             img_url={vansh}
             name="Vansh Wadhwa"
-            instaUrl="https://www.instagram.com/vanshwadhwa_24/"
             linkedinUrl="https://www.linkedin.com/in/vansh-wadhwa-/"
             githubUrl="https://github.com/vanshwadhwa24"
-            />
+          />
           <Contributor
             img_url={diya}
             name="Diya"
             linkedinUrl="https://www.linkedin.com/in/diyagarg16/"
             githubUrl="https://github.com/diya0116"
+          />
+          <Contributor
+            img_url={Snorlax}
+            name="Snorlax"
+            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
+            githubUrl="https://github.com/"
           />
         </div>
       </div>
@@ -134,23 +140,28 @@ const HomePage = () => {
               A vibrant community of tech enthusiasts, dedicated to exploring,
               tackling and connecting with all things tech.
             </div>
-            <div className="flex flex-row gap-4 mt-4 justify-center sm:justify-start" >
-             <a href="https://www.instagram.com/acmthapar/">
-               <img src={instagram} alt="instagram" className="w-6 h-6" />
+            <div className="flex flex-row gap-4 mt-4 justify-center sm:justify-start">
+              <a href="https://www.instagram.com/acmthapar/">
+                <img src={instagram} alt="instagram" className="w-6 h-6" />
               </a>
-             <a href="https://www.linkedin.com/company/thapar-acm-student-chapter/"> <img src={linkedinUrl} alt="linkedin" className="w-6 h-6 " /></a>
-             <a href="https://github.com/ACM-Thapar"><img src={github} alt="github" className="w-6 h-6" /></a>
+              <a href="https://www.linkedin.com/company/thapar-acm-student-chapter/">
+                {" "}
+                <img src={linkedinUrl} alt="linkedin" className="w-6 h-6 " />
+              </a>
+              <a href="https://github.com/ACM-Thapar">
+                <img src={github} alt="github" className="w-6 h-6" />
+              </a>
             </div>
           </div>
 
           <div className=" md:mt-5 flex justify-center md:justify-end">
-           <a href="https://acmwebsite.vercel.app/">
-           <img
-              src={logo}
-              alt="ACM Thapar"
-              className="w-[150px] md:w-[350px] h-auto"
+            <a href="https://acmwebsite.vercel.app/">
+              <img
+                src={logo}
+                alt="ACM Thapar"
+                className="w-[150px] md:w-[350px] h-auto"
               />
-              </a> 
+            </a>
           </div>
         </div>
 
