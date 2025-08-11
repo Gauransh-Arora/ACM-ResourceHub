@@ -12,7 +12,7 @@ const GradePage = () => {
     
         <button
           onClick={() => setActiveCalc("sgpa")}
-          className={`flex items-center gap-1 text-2xl sm:text-3xl lg:text-4xl font-extrabold transition-colors ${
+          className={`flex items-center gap-1 text-xl sm:text-3xl lg:text-4xl font-extrabold transition-colors ${
             activeCalc === "sgpa"
               ? "text-[#15A6DD]"
               : "text-gray-600 hover:text-[#15A6DD]"
@@ -23,7 +23,7 @@ const GradePage = () => {
 
         <button
           onClick={() => setActiveCalc("cgpa")}
-          className={`flex items-center gap-1 text-2xl sm:text-3xl lg:text-4xl font-extrabold transition-colors ${
+          className={`flex items-center gap-1 text-xl sm:text-3xl lg:text-4xl font-extrabold transition-colors ${
             activeCalc === "cgpa"
               ? "text-[#15A6DD]"
               : "text-gray-600 hover:text-[#15A6DD]"
@@ -35,7 +35,7 @@ const GradePage = () => {
 
       <hr className="my-3 border-t-2 border-[#9AAEBC] w-full" />
 
-      <div className="mt-8">
+      <div className="mt-0">
         {activeCalc === "sgpa" ? <SGPA_Input /> : <CGPA_Input />}
       </div>
     </div>

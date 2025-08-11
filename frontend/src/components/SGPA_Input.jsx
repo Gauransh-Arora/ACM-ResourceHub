@@ -276,9 +276,22 @@ const SGPA_Input = () => {
       </button>
 
       <div className="flex justify-center  flex-col items-center gap-4">
-        {sgpa !== null && (
-          <div className="text-xl font-bold text-[#fffff] ">SGPA: {sgpa}</div>
-        )}
+         {sgpa !== null && (
+              <div
+                className="border p-6"
+                style={{ backgroundColor: "white", borderColor: "#15A6DD" }}
+              >
+                <p
+                  className="text-2xl sm:text-3xl font-bold"
+                  style={{ color: "#15A6DD" }}
+                >
+                  Your SGPA:{" "}
+                  <span style={{ color: "#15A6DD" }}>{sgpa}</span>
+                </p>
+                <p className="text-sm mt-2" style={{ color: "#15A6DD" }}>
+                </p>
+              </div>
+            )}
         <button
           className="px-12 py-3 mb-20 bg-[#15A6DD] text-white font-semibold  hover:bg-[#1296c7] transition-colors duration-300 "
           onClick={() => setSGPA(calculateSGPA(subjects))}

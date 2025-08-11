@@ -9,7 +9,7 @@ function CGPA_Input() {
     const inputValue = document.getElementById("numSemesters").value;
     const rows = Array.from({ length: parseInt(inputValue) || 0 }, () => ({
       totalCredits: "",
-      creditsSecured: "",
+      SGPAsecured: "",
     }));
     setNumRows(rows.length);
     setRowsData(rows);
@@ -22,34 +22,44 @@ function CGPA_Input() {
     setRowsData(updatedRows);
   };
 
-  const calculateCGPA = () => {
-    let totalCreditsSum = 0;
-    let creditsSecuredSum = 0;
-
-    rowsData.forEach((row) => {
-      const total = parseFloat(row.totalCredits) || 0;
-      const secured = parseFloat(row.creditsSecured) || 0;
-      totalCreditsSum += total;
-      creditsSecuredSum += secured;
-    });
-
-    if (totalCreditsSum === 0) {
-      setCgpa(0);
-    } else {
-      setCgpa((creditsSecuredSum / totalCreditsSum).toFixed(2));
-    }
+const calculateCGPA = () => {
+  const toNumber = (v) => {
+    if (v === null || v === undefined) return 0;
+    if (typeof v === 'number') return v;
+    const n = parseFloat(String(v).replace(',', '.').trim());
+    return Number.isNaN(n) ? 0 : n;
   };
+
+  let totalCredits = 0;
+  let weightedSum = 0; 
+
+  rowsData.forEach(row => {
+    const credits = toNumber(row.totalCredits); 
+    const sgpa = toNumber(row.SGPAsecured ?? row.sgpa ?? row.SGPA);
+
+    totalCredits += credits;
+    weightedSum += sgpa * credits;
+  });
+
+  if (totalCredits === 0) {
+    setCgpa(0);
+    return;
+  }
+
+  const cgpa = weightedSum /( totalCredits*10);
+  setCgpa(cgpa.toFixed(3)); 
+};
+
 
   return (
     <div className="w-full max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
-      <div className=" p-6">
-        {/* Input Section */}
+      <div className=" ">
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
           <input
             id="numSemesters"
             type="number"
             placeholder="Enter Number of Semesters"
-            className="w-full sm:w-56  border-2 px-4 py-2 text-center focus:outline-none transition-all duration-200"
+            className="w-full sm:w-56  border-1 px-4 py-2 text-center focus:outline-none transition-all duration-200"
             style={{ borderColor: "#15A6DD", backgroundColor: "white" }}
             max={8}
             min={1}
@@ -61,16 +71,13 @@ function CGPA_Input() {
           />
           <button
             onClick={addRows}
-            className="w-full sm:w-auto text-white font-medium  px-6 py-2 transition-colors duration-200 focus:outline-none"
-            style={{ backgroundColor: "#15a6dd" }}
-            onMouseEnter={(e) => (e.target.style.backgroundColor = "#1296c7")}
-            onMouseLeave={(e) => (e.target.style.backgroundColor = "#15A6DD")}
+            className="w-full sm:w-auto bg-[#D3F3FF] border border-[#15A6DD] text-[#434343] font-semibold hover:bg-[#7DD3F0] cursor-pointer transition-colors duration-300  px-6 py-2  focus:outline-none"
           >
             Generate Semesters
           </button>
         </div>
 
-        {/* Semester Inputs */}
+        
         {numRows > 0 && (
           <div className="space-y-4 mb-6">
             <h3
@@ -80,7 +87,7 @@ function CGPA_Input() {
               Enter Credits for Each Semester
             </h3>
 
-            {/* Desktop/Tablet Table View */}
+
             <div className="hidden sm:block overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -101,7 +108,7 @@ function CGPA_Input() {
                       className="border px-4 py-2 text-left font-semibold text-white"
                       style={{ borderColor: "#15A6DD" }}
                     >
-                      Credits Secured
+                      SGPA Secured
                     </th>
                   </tr>
                 </thead>
@@ -148,14 +155,14 @@ function CGPA_Input() {
                       >
                         <input
                           type="number"
-                          placeholder="Credits Secured"
+                          placeholder="SGPA Secured"
                           className="w-full border-0 p-2 focus:outline-none "
                           style={{ backgroundColor: "white" }}
-                          value={rowsData[rowIndex]?.creditsSecured || ""}
+                          value={rowsData[rowIndex]?.SGPAsecured || ""}
                           onChange={(e) =>
                             handleInputChange(
                               rowIndex,
-                              "creditsSecured",
+                              "SGPAsecured",
                               e.target.value
                             )
                           }
@@ -167,7 +174,6 @@ function CGPA_Input() {
               </table>
             </div>
 
-            {/* Mobile Card View */}
             <div className="sm:hidden space-y-3">
               {Array.from({ length: numRows }, (_, rowIndex) => (
                 <div
@@ -201,17 +207,17 @@ function CGPA_Input() {
                     />
                     <input
                       type="number"
-                      placeholder="Credits Secured"
+                      placeholder="SGPA Secured"
                       className="w-full border  px-3 py-2 focus:outline-none"
                       style={{
                         borderColor: "#15A6DD",
                         backgroundColor: "white",
                       }}
-                      value={rowsData[rowIndex]?.creditsSecured || ""}
+                      value={rowsData[rowIndex]?.SGPAsecured || ""}
                       onChange={(e) =>
                         handleInputChange(
                           rowIndex,
-                          "creditsSecured",
+                          "SGPAsecured",
                           e.target.value
                         )
                       }
@@ -223,7 +229,6 @@ function CGPA_Input() {
           </div>
         )}
 
-        {/* Calculate Button and Result */}
         {numRows > 0 && (
           <div className="text-center space-y-4">
             <button
