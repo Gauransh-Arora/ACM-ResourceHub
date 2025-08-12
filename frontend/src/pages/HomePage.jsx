@@ -9,6 +9,7 @@ import logo from "../assets/logo_ACM_Footer.png";
 import diya from "../assets/diya.png";
 import vansh from "../assets/vansh.jpg";
 import gauransh from "../assets/gauransh.png";
+import rudraksh from "../assets/r3.jpg"
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -122,10 +123,10 @@ const HomePage = () => {
             githubUrl="https://github.com/diya0116"
           />
           <Contributor
-            img_url={Snorlax}
-            name="Snorlax"
-            linkedinUrl="https://www.linkedin.com/in/Snorlax-arora-4ab83a330/"
-            githubUrl="https://github.com/"
+            img_url={rudraksh}
+            name="Rudraksh Chugh"
+            linkedinUrl="https://www.linkedin.com/in/rudraksh-chugh/"
+            githubUrl="https://github.com/RudrakshChugh"
           />
         </div>
       </div>
