@@ -1,19 +1,37 @@
 import React from "react";
-import arrow from "../assets/arrow.png";
+import PDF from "../assets/PDF.png";
+import Photo from "../assets/Photo.png";
+import PPT from "../assets/PPT.png";
+import Video from "../assets/Video.png";
+import Doc from "../assets/Doc.png";
 
-const Material_Box = ({ name = "Resource Name", items = "no of items" }) => {
+const Material_Box = ({ name = "Resource Name", type = "PDF", link = "" }) => {
+  const getIcon = (type) => {
+    switch (type) {
+      case "PDF":
+        return PDF;
+      case "Photo":
+        return Photo;
+      case "PPT":
+        return PPT;
+      case "Video":
+        return Video;
+      case "Doc":
+        return Doc;
+      default:
+        return PDF;
+    }
+  };
   return (
-    <div className="border-2 border-[#15A6DD] flex flex-col lg:flex-row lg:items-center  px-4 py-3 gap-4">
-      
-      
-    <div className="flex gap-2 text-xl sm:text-2xl items-baseline">
-        <img src= {arrow} alt="arrow" className="w-2 h-auto"/>
-  <span>{name}</span>
-  <span className="text-[#434343] text-xl">({items})</span>
-</div>
-
-      <div className="flex flex-wrap gap-4 text-lg sm:text-xl text-[#434343]">
-      </div>
+    <div className="border-2 border-[#15A6DD] flex flex-row items-center px-4 py-3 w-full">
+      <img
+        src={getIcon(type)}
+        alt={`${type} icon`}
+        className="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 flex-shrink-0"
+      />
+      <span className="text-base sm:text-lg md:text-xl ml-3 sm:ml-4 md:ml-6 break-words">
+        {name}
+      </span>
     </div>
   );
 };
