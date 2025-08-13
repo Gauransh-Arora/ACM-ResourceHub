@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/gpa" element = {<GradePage/>}/>
         <Route path="/roadmaps" element={<Roadmap_Grid/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
-        <Route path="/resources/materials" element={<MaterialPage />} />
+        <Route path="/material/:year" element={<MaterialPage />} />
         <Route path="/notfound" element={<Notfound/>} />
         <Route path="/roadmaps/:param" element={<RoadmapPage />} />
       </Routes>
