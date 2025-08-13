@@ -35,5 +35,4 @@ const Material_Box = ({ name = "Resource Name", type = "PDF", link = "" }) => {
     </div>
   );
 };
-
 export default Material_Box;

@@ -1,0 +1,1726 @@
+{
+  "Year 2 ": {
+    "oops": {
+      "Notes": {
+        "Unit 2": [
+          {
+            "filename": "constructor and destructor (1).pdf",
+            "url": "https://drive.google.com/file/d/1wjpPQtjnn9JJZashpRkiJK_2FUzIXJt2/view"
+          },
+          {
+            "filename": "Argument passing techniques (4).pptx",
+            "url": "https://drive.google.com/file/d/1ltNJDmo6xw2FVG5Wxwuim3L_q6B70RX1/view"
+          }
+        ],
+        "Unit 3": [
+          {
+            "filename": "inheritance.pdf",
+            "url": "https://drive.google.com/file/d/1UTGiBRHulsHow-w9ErdFDtUN9Ds41hPQ/view"
+          },
+          {
+            "filename": "SlideSet_3.pptx",
+            "url": "https://drive.google.com/file/d/1k3lg0hcg9V-FitjXPUFEdVRxnGP4DIaw/view"
+          }
+        ],
+        "Unit 1": [
+          {
+            "filename": "this pointer.pptx (1).pdf",
+            "url": "https://drive.google.com/file/d/1r6lYNWtpX0deb79P-thM7GBohDYPJiX9/view"
+          },
+          {
+            "filename": "Pointer to Object (1).pptx",
+            "url": "https://drive.google.com/file/d/1IT2GDcCuYCx3P0LxDue8QHta7LPzA9EO/view"
+          },
+          {
+            "filename": "friend function and friend class.pptx",
+            "url": "https://drive.google.com/file/d/1hBfrQn0tZNLx1b4mbA5jBejfpaJuUO4u/view"
+          },
+          {
+            "filename": "const keyword and static objects.pdf",
+            "url": "https://drive.google.com/file/d/1YISW4q2qJ3ljqSkjiD-CWA5PZM0xal5e/view"
+          },
+          {
+            "filename": "Array of objects, array in a class, passing and returning object, namespace.pdf",
+            "url": "https://drive.google.com/file/d/1bN0tF52aRnDbURXXWIredoevBn8XfZAz/view"
+          },
+          {
+            "filename": "Structure and Class.pptx",
+            "url": "https://drive.google.com/file/d/1w6x9KL0uWOm3nBIjl7IKJYgaItbFaAjX/view"
+          },
+          {
+            "filename": "Basics of Oops.pptx",
+            "url": "https://drive.google.com/file/d/13ISf2pBjaT7VYMJUZ1d7FpSnO_T-IlVB/view"
+          },
+          {
+            "filename": "SlideSet_1 (4).pptx",
+            "url": "https://drive.google.com/file/d/1FBGJs1TkKEJuk_8aUWPfC5sF854rODfZ/view"
+          }
+        ]
+      },
+      "Programs": {
+        "programs": [
+          {
+            "filename": "need of template.cpp",
+            "url": "https://drive.google.com/file/d/1JwRojF_12P1ZeAwkIVAgKVwyLTe95FpX/view"
+          },
+          {
+            "filename": "multiple catch.cpp",
+            "url": "https://drive.google.com/file/d/1O7aiBWWG4c_B57K8vf1Q_9yHIPYiOAda/view"
+          },
+          {
+            "filename": "ft with nt.cpp",
+            "url": "https://drive.google.com/file/d/1IYWnE1CScI5Jk6OBKzLjWRp-kNTOVfXv/view"
+          },
+          {
+            "filename": "class temp2.cpp",
+            "url": "https://drive.google.com/file/d/17bn7OS9qCEurLDCg_np7oyptKrUEtldX/view"
+          },
+          {
+            "filename": "class template.cpp",
+            "url": "https://drive.google.com/file/d/1A00Df84Wobkh4rgvWG7bnyIkgJ8aGKwd/view"
+          },
+          {
+            "filename": "template overloading.cpp",
+            "url": "https://drive.google.com/file/d/1b8nZzRbo20l07k-tOVQtRAFZkjIUR8XX/view"
+          },
+          {
+            "filename": "multiple place holder.cpp",
+            "url": "https://drive.google.com/file/d/1flUMRjMVdiFJ_5Uw_0LBq63UFd67cgHf/view"
+          },
+          {
+            "filename": "sum using template.cpp",
+            "url": "https://drive.google.com/file/d/1oRleu-qOOPQdhrT8PchLw2uQCQIH1-T8/view"
+          },
+          {
+            "filename": "function overriding.cpp",
+            "url": "https://drive.google.com/file/d/13nBp5tKmm_r5YpvjlgK6hNkAQHQ0ODh2/view"
+          },
+          {
+            "filename": "parameterized.exe",
+            "url": "https://drive.google.com/file/d/1yPtcDeN2_7OKSE_AoUZAzf8oFi4hiqn3/view"
+          },
+          {
+            "filename": "DMA for array.cpp",
+            "url": "https://drive.google.com/file/d/1-69zRmH4YwrbjlKD2-gzYsmvLRRE7uQQ/view"
+          },
+          {
+            "filename": "class template1.cpp",
+            "url": "https://drive.google.com/file/d/1-X9SJ8RjzNagG7uGe1Mv_f1j3ZPQw2Qa/view"
+          },
+          {
+            "filename": "default constructor.cpp",
+            "url": "https://drive.google.com/file/d/1-nG0_PTAmRtoDrK8NgVRBmlQlGrpNEbn/view"
+          },
+          {
+            "filename": "multilevel.cpp",
+            "url": "https://drive.google.com/file/d/11648Vz3_wu6xx6ULmTcAZ9_RrcAU8MBs/view"
+          },
+          {
+            "filename": "funvtion template with multiple parameters.cpp",
+            "url": "https://drive.google.com/file/d/12jtjKDPxIm0OarTZp-rB9EXzRbpZw8cD/view"
+          },
+          {
+            "filename": "friend class.cpp",
+            "url": "https://drive.google.com/file/d/1312ExlSIYIaf6jrAn0Vy3cP60UIAbnGj/view"
+          },
+          {
+            "filename": "const object and const member functions.cpp",
+            "url": "https://drive.google.com/file/d/13rO40mcMwKwH9A0xDzcDvvh36kzgQTIg/view"
+          },
+          {
+            "filename": "static data member.cpp",
+            "url": "https://drive.google.com/file/d/15Q2zpnCnSMGXdPbet35ksKhwKHtIoVER/view"
+          },
+          {
+            "filename": "ft overloading.cpp",
+            "url": "https://drive.google.com/file/d/15lrD56YAC1kMuLeEw12tgEsXYggnGDGh/view"
+          },
+          {
+            "filename": "string concat using binary op ov.cpp",
+            "url": "https://drive.google.com/file/d/16flz9FstcNQByCZV2M2ktZ0cM-4HumpN/view"
+          },
+          {
+            "filename": "class basic program and function defining outside.cpp",
+            "url": "https://drive.google.com/file/d/17smExos_Mm6CcJBJGcwxkGIkUFABIuBB/view"
+          },
+          {
+            "filename": "constatnt data member.cpp",
+            "url": "https://drive.google.com/file/d/18716SZ0UodelaCMUzkFUe5Wnfu6poH8f/view"
+          },
+          {
+            "filename": "dynamic initiliazation of objects.cpp",
+            "url": "https://drive.google.com/file/d/18cDjHFSWZJTq6tiJj8mo68xPjhqpCwm8/view"
+          },
+          {
+            "filename": "parameterized constructor.cpp",
+            "url": "https://drive.google.com/file/d/19rdiB54SBx2lVcwmV0mQtGgXJN0P_Ink/view"
+          },
+          {
+            "filename": "friend unary.cpp",
+            "url": "https://drive.google.com/file/d/1AaT0HefuiqrHN-x08CtHuIM6cBtXI1B6/view"
+          },
+          {
+            "filename": "exception handling1.cpp",
+            "url": "https://drive.google.com/file/d/1AcadslqALqtBkDugzMD4db4AXK89vmN_/view"
+          },
+          {
+            "filename": "hybrid inheritance.cpp",
+            "url": "https://drive.google.com/file/d/1CAAvc8-VhzGyZY8vdBLPLIVxAkDHd6J2/view"
+          },
+          {
+            "filename": "getline.cpp",
+            "url": "https://drive.google.com/file/d/1CqffYAHZl7G7oxK9OlykDtYWtsugYWZ2/view"
+          },
+          {
+            "filename": "parameterized.cpp",
+            "url": "https://drive.google.com/file/d/1MeGcgoANHBq46Uxw3xZ5kpoPsY7l1MTk/view"
+          },
+          {
+            "filename": "function with non-type.cpp",
+            "url": "https://drive.google.com/file/d/1OOZaqP-8Irut3VMdsoTifzvn4M4bq61K/view"
+          },
+          {
+            "filename": "copy constructor and constructor overloading.cpp",
+            "url": "https://drive.google.com/file/d/1OhDb4VKEPdv4dwU-dqawHO64FHxWVEqR/view"
+          },
+          {
+            "filename": "array of objects.cpp",
+            "url": "https://drive.google.com/file/d/1R3iRUbqVfsDOEe9uST03sR-eSdElDq_f/view"
+          },
+          {
+            "filename": "array within a class.cpp",
+            "url": "https://drive.google.com/file/d/1TVl2tE-mMkN58ViZpsC_uMZzf3QCHFjx/view"
+          },
+          {
+            "filename": "basic to udt.cpp",
+            "url": "https://drive.google.com/file/d/1VVKaVj6J_0nZ_b3xNdINjfU5bWUgcxTF/view"
+          },
+          {
+            "filename": "friendship and inheritance.cpp",
+            "url": "https://drive.google.com/file/d/1V_WHtBgl1I65xaJBZwdnppGiUHYvSnlV/view"
+          },
+          {
+            "filename": "function overloading.cpp",
+            "url": "https://drive.google.com/file/d/1X_bcm8mVj-IMFEwzWbQnh-smLt-5fUPv/view"
+          },
+          {
+            "filename": "static member functions.cpp",
+            "url": "https://drive.google.com/file/d/1cHOKy2hfFZ-JozUsX49hTSou9bn68p-i/view"
+          },
+          {
+            "filename": "multiple inheritance.cpp",
+            "url": "https://drive.google.com/file/d/1eSxbr12T-Ht2lbwbke_FzERJqsAueXnX/view"
+          },
+          {
+            "filename": "Single inheritance.cpp",
+            "url": "https://drive.google.com/file/d/1gpOrXuZiKG-d2Q4U3eHfmO7JFU0zFzAO/view"
+          },
+          {
+            "filename": "static object.cpp",
+            "url": "https://drive.google.com/file/d/1j4Ppzxtlby6ka-KiVetQjiNpDAM1WhbY/view"
+          },
+          {
+            "filename": "abstract class constructor.cpp",
+            "url": "https://drive.google.com/file/d/1kafnaZviRnvdhfuWHboy48KrEtEyRdtN/view"
+          },
+          {
+            "filename": "Friend of mor ethan one class.cpp",
+            "url": "https://drive.google.com/file/d/1l7NDHzLjKrmivD7ySZY3e9En0QHQaB7y/view"
+          },
+          {
+            "filename": "conversions.cpp",
+            "url": "https://drive.google.com/file/d/1mPdU1wIGRpqNWMmmHcOb1KUc1pUstHvX/view"
+          },
+          {
+            "filename": "constant variable.cpp",
+            "url": "https://drive.google.com/file/d/1mv5jhowDIEif8lOQiTYtqs3SexmjOOJm/view"
+          },
+          {
+            "filename": "catch all.cpp",
+            "url": "https://drive.google.com/file/d/1njBcjokupiw64_dz_GqL2HN0CbZNKxDt/view"
+          },
+          {
+            "filename": "unary.cpp",
+            "url": "https://drive.google.com/file/d/1nzKUQ9UBow_Wl-9n_bFv0oz1WipqpsBQ/view"
+          },
+          {
+            "filename": "parameterized constructor inheritance.cpp",
+            "url": "https://drive.google.com/file/d/1pyBDu8VJghBy6m0pAEdHr9cI03qkq4kY/view"
+          },
+          {
+            "filename": "binary +.cpp",
+            "url": "https://drive.google.com/file/d/1qVZto3Vo0Hbdd77k5wLugBNzef0sc2Uc/view"
+          },
+          {
+            "filename": "class with non type.cpp",
+            "url": "https://drive.google.com/file/d/1rcc7gcZ3C9PPL3100-N2R9VEzNLBMYRQ/view"
+          },
+          {
+            "filename": "passing object as arguments and returning objects.cpp",
+            "url": "https://drive.google.com/file/d/1sWSuANGf-yQ1RZjet0VdoJcJfgzvLvr1/view"
+          },
+          {
+            "filename": "template function outside class.cpp",
+            "url": "https://drive.google.com/file/d/1tJwEiR0qAYQKKnJj7bNqr3qrOBow_SIS/view"
+          },
+          {
+            "filename": "udt to basic.cpp",
+            "url": "https://drive.google.com/file/d/1uKnTBV5BSmMjrPipRC6ufONYRiiC5V8A/view"
+          },
+          {
+            "filename": "specifying exception.cpp",
+            "url": "https://drive.google.com/file/d/1uYL4BRQGMYRMzZqfGoevrByr8yO58luV/view"
+          },
+          {
+            "filename": "friend function.cpp",
+            "url": "https://drive.google.com/file/d/1w1kMJCW8tRCXZCRnLRsFnDPBxM9jKM04/view"
+          },
+          {
+            "filename": "without exh.cpp",
+            "url": "https://drive.google.com/file/d/1wS0EgcZNOnkeCMc7i2ttOcINpksJvVcb/view"
+          },
+          {
+            "filename": "logical or overloading.exe",
+            "url": "https://drive.google.com/file/d/1lL-h20yvfHYVQkiCEvJVUo8gMCKwauIZ/view"
+          },
+          {
+            "filename": "logical or overloading.cpp",
+            "url": "https://drive.google.com/file/d/1XlaMayT3fG5U4bac_d8TG-4Zu6iuZFvt/view"
+          },
+          {
+            "filename": "logical and overloading.cpp",
+            "url": "https://drive.google.com/file/d/1mGKKqQwtHqyhPcN3vHdn90h_UdTYE5kz/view"
+          },
+          {
+            "filename": "logical &&.cpp",
+            "url": "https://drive.google.com/file/d/15-E2n_OQfgxZpLGwIDp773K7B6cxbV09/view"
+          }
+        ]
+      }
+    },
+    "datastructures": {
+      "Lecture slides": {
+        "9. Graphs": [
+          {
+            "filename": "2. Graphs - Search Examples solved.pdf",
+            "url": "https://drive.google.com/file/d/1Z6_hQYsEnn4rBAoNQDIrGfeQchRivMnO/view"
+          },
+          {
+            "filename": "1. Graphs - Introduction, Representation, Search.pdf",
+            "url": "https://drive.google.com/file/d/1hSrARX2jVvDCYe3xuAmuCrs6wtihFaYk/view"
+          },
+          {
+            "filename": "3. Graphs - Minimum Spanning Tree Final.pdf",
+            "url": "https://drive.google.com/file/d/17DCOANhhmidSyjK2GISIm6ZgAx227uA5/view"
+          },
+          {
+            "filename": "4. Graphs - Shortest Path Algorithms.pdf",
+            "url": "https://drive.google.com/file/d/1QPQdW1sBd13x5gIQ5w6hnFhj9TyOaWwL/view"
+          }
+        ],
+        "7. Sorting": [
+          {
+            "filename": "Sorting (Selection and Insertion).pdf",
+            "url": "https://drive.google.com/file/d/1CQaS265QR8fnj0tS8fmlZWsQVkYJpMMY/view"
+          },
+          {
+            "filename": "Quick Sort and Merge Sort.pdf",
+            "url": "https://drive.google.com/file/d/1zhPTLA3TXXr0sWqrej_t_m0NBRO8KUmg/view"
+          }
+        ],
+        "8. Trees and Heap": [
+          {
+            "filename": "1. Binary Search Tree.pdf",
+            "url": "https://drive.google.com/file/d/1MEcO1_WRqxSQoPyOXTRytCRndUX-5FYX/view"
+          },
+          {
+            "filename": "2. Practice Problems on Binary Trees.pdf",
+            "url": "https://drive.google.com/file/d/1xDPD69YmwNkOh_p5KrXdzawYM0aR1nuK/view"
+          },
+          {
+            "filename": "3. Heap and Priority Queue.pdf",
+            "url": "https://drive.google.com/file/d/10TqYheiQACAUPv95a28eU2lcH1tjg5bR/view"
+          },
+          {
+            "filename": "Tree Terminology.pdf",
+            "url": "https://drive.google.com/file/d/13Xuv8YjSyXXII7hUX1nMs9z-R3HGT3N8/view"
+          },
+          {
+            "filename": "4. AVL final.pdf",
+            "url": "https://drive.google.com/file/d/1oaOqTOnB6D69gOW5sOcMP7511TXiIFTI/view"
+          }
+        ],
+        "6. Complexity": [
+          {
+            "filename": "6a. Analysis of algorithms.pdf",
+            "url": "https://drive.google.com/file/d/15Dq0_5JGn5qSjzX-g0Ya9-e1Qe7qhOWf/view"
+          },
+          {
+            "filename": "6b. Asymptotic Analysis Examples.pdf",
+            "url": "https://drive.google.com/file/d/1bFS1gtOllzzURBDHzxSiHtDL593Ns4i6/view"
+          }
+        ],
+        "5. Linked Lists": [
+          {
+            "filename": "Linked list Practice MCQ.pdf",
+            "url": "https://drive.google.com/file/d/17spiiMAmsMTrDEXonh7Z-olGJopauNE_/view"
+          },
+          {
+            "filename": "2. Circular Singly Linked List.pdf",
+            "url": "https://drive.google.com/file/d/1R95Az6iDsHTYo57uoYXr0Yr9ooi4HGTx/view"
+          },
+          {
+            "filename": "1. Singly Linked List.pdf",
+            "url": "https://drive.google.com/file/d/1fJrtm-oUsH0Wlcea_MUrD248MIubTb21/view"
+          },
+          {
+            "filename": "3. Doubly Linked List.pdf",
+            "url": "https://drive.google.com/file/d/1nAFDvdMlLzfIEal3i9m3WFW83-kWrV-r/view"
+          },
+          {
+            "filename": "4. Circular Doubly Linked List.pdf",
+            "url": "https://drive.google.com/file/d/1_hW-lLwse1nYr8wH1g64tZ0SG8CBHdAq/view"
+          },
+          {
+            "filename": "5. Linked List Implementation of Stack and Queues.pdf",
+            "url": "https://drive.google.com/file/d/18OR0rQZXkgFrfQq2NUNEBUDCf458QtPh/view"
+          }
+        ],
+        "4. Queues": [
+          {
+            "filename": "5b. Circular Queue Annotated Example.pdf",
+            "url": "https://drive.google.com/file/d/1ZOT5eSL9hPce-ax1mCr2MzVxIHeIIWjJ/view"
+          },
+          {
+            "filename": "5a. Queues.pdf",
+            "url": "https://drive.google.com/file/d/1KvMf0xxuDO2_1kzV58yQvgesOsleGvzS/view"
+          },
+          {
+            "filename": "Lab Assignment Queue Hints.pdf",
+            "url": "https://drive.google.com/file/d/1cyzdkMia5UXnrtSBb7SAcArc9jmaQXcg/view"
+          }
+        ],
+        "3. Stacks": [
+          {
+            "filename": "3b. Recursion (Stacks).pdf",
+            "url": "https://drive.google.com/file/d/12zseAqAKDjJ6Ft-NIhPH-gmWHSAq0f_8/view"
+          },
+          {
+            "filename": "3a. Stacks.pdf",
+            "url": "https://drive.google.com/file/d/1_CjBMMi8_F3zdeplCE622dm1idsvfy9v/view"
+          }
+        ],
+        "10. Hashing": [
+          {
+            "filename": "Hashing.pdf",
+            "url": "https://drive.google.com/file/d/1mpYWL92b8Mw5WK2yl8Nv-jsXcNf7Dc5H/view"
+          }
+        ],
+        "1. Introduction": [
+          {
+            "filename": "1. Introduction to course.pdf",
+            "url": "https://drive.google.com/file/d/1hVUae0EaIXim9jlLg1zrG2NKNvP3apma/view"
+          },
+          {
+            "filename": "2. Introduction to Data Structures.pdf",
+            "url": "https://drive.google.com/file/d/1n_6NZNbh4-Qw65rOfC7zrrlvJk9feQ7W/view"
+          },
+          {
+            "filename": "3. Introduction to Algorithms.pdf",
+            "url": "https://drive.google.com/file/d/1HAm6hr-MOtLG1pjYKlg03rOqhd8wtm4I/view"
+          }
+        ],
+        "2. Arrays": [
+          {
+            "filename": "2. Arrays.pdf",
+            "url": "https://drive.google.com/file/d/1U3Se1HgofKzmLKa8I2f0j5gBLxHsR8mf/view"
+          }
+        ]
+      },
+      "Lab assignments": {
+        "Sample codes": [
+          {
+            "filename": "bfs2.cpp",
+            "url": "https://drive.google.com/file/d/1hIpdv98RUUOz7sYAeTukNVYT3Nf88leg/view"
+          },
+          {
+            "filename": "bfs1.cpp",
+            "url": "https://drive.google.com/file/d/1n7SGquaFEKtHORFlCxKYQ0bIuyRZtr8y/view"
+          },
+          {
+            "filename": "countdistinct.c",
+            "url": "https://drive.google.com/file/d/1_12-2PSzl8Jd9Yh4C7CiYgNj4krIMLVt/view"
+          },
+          {
+            "filename": "removeduplicates.c",
+            "url": "https://drive.google.com/file/d/1h9oeAQXvGHWQTj_yudxfXF_Ly_KFHKoW/view"
+          },
+          {
+            "filename": "removeduplicate3.c",
+            "url": "https://drive.google.com/file/d/102BzlY8dGLUN_fy_db65Mo5lDWosIPkj/view"
+          },
+          {
+            "filename": "removeduplicate4.c",
+            "url": "https://drive.google.com/file/d/1XTtKbohKS5pmX4skaWXa-feGjmjWsE_K/view"
+          },
+          {
+            "filename": "sparse.c",
+            "url": "https://drive.google.com/file/d/1y1LYsi561WXUqX5nw0sazSGAlvH5jziu/view"
+          }
+        ],
+        "Reference Material": [
+          {
+            "filename": "Arrays (Handling Special Matrices).pdf",
+            "url": "https://drive.google.com/file/d/19vMvBOwWi1pzuUfHbCtwdz4W984aKqp0/view"
+          },
+          {
+            "filename": "Lab Assignment Queue Hints.pdf",
+            "url": "https://drive.google.com/file/d/1g5eawS1XTRDErf3cxHa9oxKrypTWld-y/view"
+          }
+        ]
+      }
+    },
+    "algorithm": {
+      "Lab Assignments": {
+        "Sample codes": [
+          {
+            "filename": "queuestl_pair.cpp",
+            "url": "https://drive.google.com/file/d/1-cvrQHoWvXqhn3kx9exqlbHhyMK72avz/view"
+          },
+          {
+            "filename": "rottenorange.cpp",
+            "url": "https://drive.google.com/file/d/1_LWrtcyIL8_AqP5E4rW5ZRZgEy8RT5_W/view"
+          }
+        ]
+      },
+      "Lecture slides": {
+        "8. Branch and Bound": [
+          {
+            "filename": "8. Branch and Bound (TSP).pdf",
+            "url": "https://drive.google.com/file/d/1doxLSh3fKw8J8rObgx3JVjkZ8rMeE34K/view"
+          },
+          {
+            "filename": "Branch_and_Bound_Example2 (Different Method).pdf",
+            "url": "https://drive.google.com/file/d/13nyDOjY2HZtse5z-g84MdJxIIpct0adI/view"
+          }
+        ],
+        "9. Problem Classes": [
+          {
+            "filename": "Approximation Algorithms.pdf",
+            "url": "https://drive.google.com/file/d/1TMwA5rNZLB2sDdXDWNbteBFYbHPVqUtW/view"
+          },
+          {
+            "filename": "P, NP, NPC, NP-Hard.pdf",
+            "url": "https://drive.google.com/file/d/1a4orZyyEWrBJMOpiXlZEW6zhfA8b91QM/view"
+          },
+          {
+            "filename": "Randomized Algorithms.pdf",
+            "url": "https://drive.google.com/file/d/1gXx7z5MnYPfPPqwMZZAepwF1ySA2Qv2T/view"
+          }
+        ],
+        "6. Graphs": [
+          {
+            "filename": "6. Graphs (Part 1).pdf",
+            "url": "https://drive.google.com/file/d/1UObypqR0OvVKDXhEXh-_d5fzZ9JOJ44v/view"
+          },
+          {
+            "filename": "6. Graphs (Part 2) Revisiting Graph coloring.pdf",
+            "url": "https://drive.google.com/file/d/1v478qGKK9-y2_8mnxvDGOO_FKlyM9jIZ/view"
+          },
+          {
+            "filename": "Strongly Connected Component Solved Examples.pdf",
+            "url": "https://drive.google.com/file/d/1xgjONU7_1GNg1Hjc_Dvdzv6w4HmQofbF/view"
+          },
+          {
+            "filename": "6. Graphs (Part 3) Topological sort and SCC.pdf",
+            "url": "https://drive.google.com/file/d/1rIuGh-RUJ4QBHV-UVfNfxjnP02cmn0yw/view"
+          },
+          {
+            "filename": "6. Graphs (Part 5) Ford Fulkerson.pdf",
+            "url": "https://drive.google.com/file/d/16bimh6xEpybVfTk9_WRyf2gxbrreOkAV/view"
+          },
+          {
+            "filename": "6. Graphs (Part 4) Min cut.pdf",
+            "url": "https://drive.google.com/file/d/1EonC8VZyPrVzYTg2Yp1YntzQfacq7Qah/view"
+          }
+        ],
+        "7. String Matching": [
+          {
+            "filename": "7. String Matching.pdf",
+            "url": "https://drive.google.com/file/d/15UOUyLNLCYMdYxQgoFGBNYno-v57W9HO/view"
+          }
+        ],
+        "5. Backtracking": [
+          {
+            "filename": "Backtracking Part-1 (Nqueen).pdf",
+            "url": "https://drive.google.com/file/d/16lCq84i-terI6dJYmNz--BoH4EXk3g-g/view"
+          },
+          {
+            "filename": "Fundamentals Of Computer Algorithms Imgs Ellis Horowitz (Backtracking) (2).pdf",
+            "url": "https://drive.google.com/file/d/10XlC-xGR3EimRrTaTLJ5_lB_bcef07Id/view"
+          },
+          {
+            "filename": "Backtracking Part-2 (Graph coloring).pdf",
+            "url": "https://drive.google.com/file/d/1n39FFT-QIfI4wFCczU-weJ3gZVb0t-mL/view"
+          },
+          {
+            "filename": "Backtracking Part-3 (Sudoko).pdf",
+            "url": "https://drive.google.com/file/d/1PVQCA_s81jW_P3IjMm96sSvJ5MI6aMEc/view"
+          },
+          {
+            "filename": "sudoko solver 2.cpp",
+            "url": "https://drive.google.com/file/d/1ZNR61uiFeQp2u6_K0Jeooutt3AHp9wH7/view"
+          },
+          {
+            "filename": "Backtracking (Part 4 knapsack).pdf",
+            "url": "https://drive.google.com/file/d/1rUe24mwK1LRqaSqqEwWrZuiUibfL-RxQ/view"
+          }
+        ],
+        "3. Dynamic Programming": [
+          {
+            "filename": "1. Dynamic Programming (Part 1).pdf",
+            "url": "https://drive.google.com/file/d/1bWw0Qt4-cFejGnIR0UjP208TUe1xzEi-/view"
+          },
+          {
+            "filename": "2. Dynamic Programming (Part 2).pdf",
+            "url": "https://drive.google.com/file/d/1OIo8rfPmJGZWdmMoD32luOuDgkpTbd8F/view"
+          },
+          {
+            "filename": "3. Dynamic Programming (Part 3).pdf",
+            "url": "https://drive.google.com/file/d/1zgx9J4SjuXJKAQib10sdQFsMJDoYeu_7/view"
+          },
+          {
+            "filename": "4. Dynamic Programming (Part 4).pdf",
+            "url": "https://drive.google.com/file/d/1AareAjwiNXtN7SzwIC7WPJ8p_NeK5zu1/view"
+          },
+          {
+            "filename": "5. Dynamic Programming (Maximal Square).pdf",
+            "url": "https://drive.google.com/file/d/12U5UBtTrdhmOMHDV_uy50jhSYBwa0_XF/view"
+          }
+        ],
+        "1. Divide and Conquer": [
+          {
+            "filename": "2a. Divide and Conquer.pdf",
+            "url": "https://drive.google.com/file/d/11g1Oidwii3QoqaTM9HDNHbOysNXR90Nb/view"
+          },
+          {
+            "filename": "2b. Peak Index in a Mountain Array.pdf",
+            "url": "https://drive.google.com/file/d/1ATXiLwGX4MmikzKr06PT-Vfw9g6QgIzB/view"
+          },
+          {
+            "filename": "2c. Divide and Conquer (Revisiting Merge Sort and Quick Sort).pdf",
+            "url": "https://drive.google.com/file/d/19yHwDQ1aaExaZYeBx2QZxh6eYYOgWL0P/view"
+          }
+        ],
+        "2. Greedy Algorithms": [
+          {
+            "filename": "Greedy Algorithms.pdf",
+            "url": "https://drive.google.com/file/d/1jbIl__9Cros6HLKWhnZbD4ENqCpQn9f-/view"
+          }
+        ],
+        "4. Recurrence": [
+          {
+            "filename": " Recurrances Part 2.pdf",
+            "url": "https://drive.google.com/file/d/1p6Ex9sKt47VYkokHJIUpzbRsbIPPDDB7/view"
+          },
+          {
+            "filename": "Recurrances Part 1.pdf",
+            "url": "https://drive.google.com/file/d/1w7mACEmaSI1w0HVeoS9Oq8QJFWid-iUf/view"
+          },
+          {
+            "filename": "Recurrances Part 3.pdf",
+            "url": "https://drive.google.com/file/d/1exzITlfK3louuMYfWUll4NCm2Z4LtOwn/view"
+          }
+        ]
+      }
+    }
+  },
+  "Year 1 ": {
+    "Pool B": {
+      "Engineering Drawing": {
+        "Slides": [
+          {
+            "filename": "4 Projection of Line.ppsx",
+            "url": "https://drive.google.com/file/d/1vwVNSzC5GgXasJSiYyOT0EwqrhvmhFTU/view"
+          },
+          {
+            "filename": "11 Sectional Views.pdf",
+            "url": "https://drive.google.com/file/d/1R295j-1xMl1GKamI_WxdTY-7T0VzYZlJ/view"
+          },
+          {
+            "filename": "07 Orthographic Projection.pdf",
+            "url": "https://drive.google.com/file/d/1ZdV7zN2hW_W-bZPtpWoAd-_NpipoTCKz/view"
+          },
+          {
+            "filename": "8 Auxiliary Views 1.pdf",
+            "url": "https://drive.google.com/file/d/1yv15Ce8leGsrckLa8-NiBoaIGMURLA9v/view"
+          },
+          {
+            "filename": "9 Auxiliary Views 2.pdf",
+            "url": "https://drive.google.com/file/d/1nrh0RTJfc1tjDnnd5tj5_aMmCv8crs6r/view"
+          }
+        ],
+        "Tutorial": [
+          {
+            "filename": "Tutorial 1a- Getting started with Auto CAD.pdf",
+            "url": "https://drive.google.com/file/d/1fpvBBnR1UPeS4qiQDI67OfqJCnhdTbQg/view"
+          },
+          {
+            "filename": "Tutorial 1b- Getting started with Auto CAD.pdf",
+            "url": "https://drive.google.com/file/d/1Wo0wN750CZCx4aELfoeCCfaXlF_J67sf/view"
+          },
+          {
+            "filename": "Tutorial 2- Projection of points.pdf",
+            "url": "https://drive.google.com/file/d/1cvP1Qu-Cb-nOjsqdTI9LrwI60CG3UUUF/view"
+          },
+          {
+            "filename": "Tutorial 3- Projection of lines.pdf",
+            "url": "https://drive.google.com/file/d/1nuHGxyw0kpbde7bJ8msqNoo_xrorXJjb/view"
+          },
+          {
+            "filename": "Tutorial 4-Orthographic projections (Autosaved).pdf",
+            "url": "https://drive.google.com/file/d/1jTVqIiyWMJ46R0eYaL9XlBueNJAEwrRA/view"
+          },
+          {
+            "filename": "Tutorial 5 - Section of Solids.pdf",
+            "url": "https://drive.google.com/file/d/1b-SXBGn6ymgGTvWjnNES_Fl0WlzBnSYo/view"
+          },
+          {
+            "filename": "Tutorial 6-Isometric Projections.pdf",
+            "url": "https://drive.google.com/file/d/18IGtFCSzc6H13Bdp2SgoOwCtDCH3_Xp6/view"
+          },
+          {
+            "filename": "Tutorial 8-Development of surfaces_updated.pdf",
+            "url": "https://drive.google.com/file/d/1fydcTgl_RC9I8xXRn3UFxFTDA4gHbfl8/view"
+          },
+          {
+            "filename": "Tutorial 9 Limits Fits  Tolerances.pdf",
+            "url": "https://drive.google.com/file/d/1SdjJ2L8Mx4ks7nsbU5XI9UX3gNqRkMli/view"
+          }
+        ],
+        "PYQ": [
+          {
+            "filename": "EST SOLUTIONS.pdf",
+            "url": "https://drive.google.com/file/d/1xZQDgZqOYmHzxDCUnOToECFwfW7n4mAY/view"
+          },
+          {
+            "filename": "EST3-Question Paper and Solution_ae5a88547a7b8bf4530b8e513f250ca6.pdf",
+            "url": "https://drive.google.com/file/d/1QNvHThB9MMmW15UfDwbU7lS3756twH4I/view"
+          },
+          {
+            "filename": "EST1_Question Paper and Solution_0baebc55c9baa6cb9302cb55cb93ac7e.pdf",
+            "url": "https://drive.google.com/file/d/1znzeMDMzqVJUay3SCoa4AUQunVgAIRtt/view"
+          },
+          {
+            "filename": "EST2_Question Paper and Solution_115bdda7b1ffad3c07561c36ed2dbf08.pdf",
+            "url": "https://drive.google.com/file/d/1t0b7h3ymOMxkg8iQCCMz-EDe0uHXo19R/view"
+          }
+        ]
+      },
+      "Professional Communication": {
+        "Lab Assignments": [
+          {
+            "filename": "From Dusk till Dawn A Comprehensive Sleep .pdf",
+            "url": "https://drive.google.com/file/d/1mwkx3YXz02VlnT6STB-ayLnOTFoFrxlk/view"
+          },
+          {
+            "filename": "PDF.pdf",
+            "url": "https://drive.google.com/file/d/1P46WqN-mt-CkQkVwdel7ulAWXnfEvPgJ/view"
+          },
+          {
+            "filename": "Copy of PPT.pptx",
+            "url": "https://drive.google.com/file/d/1_gYKRdsZIJdy8FaoKQT14euatJz7Xn6H/view"
+          },
+          {
+            "filename": "Shadow Banks- Vanguard and Blackrock.pptx",
+            "url": "https://drive.google.com/file/d/1fVXzi0Exss9W_Xah3KKLXryYALcRlpCk/view"
+          },
+          {
+            "filename": "Starbucks.pptx",
+            "url": "https://drive.google.com/file/d/10aReDwYWpCmBwmIp25QCnMmreU6axhqY/view"
+          }
+        ],
+        "Slides": [
+          {
+            "filename": "2023_ODDSEM_UHU003_MST_FINALversion.pptx",
+            "url": "https://drive.google.com/file/d/12r_SYnNNNYyOOSBHjoOqa_dkE0k6XSo2/view"
+          },
+          {
+            "filename": "MST EVEN 23.docx",
+            "url": "https://drive.google.com/file/d/1Gi2KD4T6OcTKVHOMQ329O2CCAuNeqK1s/view"
+          },
+          {
+            "filename": "Introduction to Communication (Model) (1).pptx",
+            "url": "https://drive.google.com/file/d/16rTk-p4RoY4toDy389_IY5gy9hfSAnMg/view"
+          },
+          {
+            "filename": "Writing as a Process.pptx",
+            "url": "https://drive.google.com/file/d/1nrTNLT_f9Z64qjAVmYbpBpqdOzHlWOTY/view"
+          },
+          {
+            "filename": "Email Etiquette and Netiquette.pptx",
+            "url": "https://drive.google.com/file/d/1KZ3G1XhuLQN8HL10mkiub91mvghI6ZEw/view"
+          },
+          {
+            "filename": "Resume_n_CoverLetter.pptx",
+            "url": "https://drive.google.com/file/d/13hRYde_yrxK8EWC1S4t-3Xy4pG1nmJmS/view"
+          },
+          {
+            "filename": "SELF STUDY MATERIAL, CHANNEL OF COMMUNICATION IN AN ORGANIZATION.pptx",
+            "url": "https://drive.google.com/file/d/12TcGk4O_AvSZWHL4DlpOK27mxzwQat4x/view"
+          },
+          {
+            "filename": "UHU003_LECTURE_2021 COMPLETE COURSE SLIDES.pptx",
+            "url": "https://drive.google.com/file/d/1l70t_CIlT5YQo-vKypVuOuJrE3uWnn5m/view"
+          },
+          {
+            "filename": "Animal Farm and Ideas.docx",
+            "url": "https://drive.google.com/file/d/1Fg7KMDkFP-hyYX2hVQs6giigurXMz_AD/view"
+          },
+          {
+            "filename": "non-verbal communication.pptx",
+            "url": "https://drive.google.com/file/d/1DpHJNNXgiuJuqp34KTB5TXdpujAD5s8T/view"
+          },
+          {
+            "filename": "after mst_merged.pdf",
+            "url": "https://drive.google.com/file/d/1s9ys-GvivCMHXxPb-DnXHOZ6zDJOX5N5/view"
+          }
+        ],
+        "PYQ": [
+          {
+            "filename": "MST EVEN 23.docx",
+            "url": "https://drive.google.com/file/d/1dIMRBRHBmVPhqUk5NdRlta1JiXkpgYMj/view"
+          },
+          {
+            "filename": "UHU003.PDF",
+            "url": "https://drive.google.com/file/d/16XDxxBA-w55I4icplM4zPQVoF1C94WHk/view"
+          },
+          {
+            "filename": "UHU003 (1).PDF",
+            "url": "https://drive.google.com/file/d/11ObdhFNkeNNRW8uvn2cYVox6FwU0j61X/view"
+          },
+          {
+            "filename": "UHU003 (2).PDF",
+            "url": "https://drive.google.com/file/d/1aFtPVZW8phJPz9WI9jtbhBnaXqgnNMVZ/view"
+          },
+          {
+            "filename": "UHU003_MST-Even-24.pdf",
+            "url": "https://drive.google.com/file/d/1Prn_2VI5mY4eF7qDMvGqTUBrDj5t3EP0/view"
+          },
+          {
+            "filename": "UHU003_EST-Even-24.pdf",
+            "url": "https://drive.google.com/file/d/1qJTmiWbmt3pD5anXbhWA55OYNJsOy_2W/view"
+          },
+          {
+            "filename": "UHU003 (3).pdf",
+            "url": "https://drive.google.com/file/d/1ChXGqDDo5_C21AjRgAuFq97nqkN3dOlr/view"
+          },
+          {
+            "filename": "UHU003 (4).pdf",
+            "url": "https://drive.google.com/file/d/1IvQmFUkx4HsEHp_J4U3mUnIWloV8FCJ3/view"
+          },
+          {
+            "filename": "UHU003 (5).PDF",
+            "url": "https://drive.google.com/file/d/1JmC-VBS1lit71hMvWgQxnKbI9VAiMPGQ/view"
+          },
+          {
+            "filename": "UHU003 (6).pdf",
+            "url": "https://drive.google.com/file/d/1mqLW5GaZv4CvNtwUPTcLy8g49jCnBweg/view"
+          },
+          {
+            "filename": "UHU003 (7).pdf",
+            "url": "https://drive.google.com/file/d/1ZgoKiXilwjHt4ezg3ou3xQbiBfJI_VSG/view"
+          },
+          {
+            "filename": "UHU003 (8).PDF",
+            "url": "https://drive.google.com/file/d/1FpDSw447--2BsJj4TSB31QG4yIYcqjad/view"
+          }
+        ]
+      },
+      "Manufacturing Processes": {
+        "Quiz": [
+          {
+            "filename": "Set B - solution (1).docx",
+            "url": "https://drive.google.com/file/d/1-y8uvChiCl5AswlPBO3uzJrKJC-rybWK/view"
+          },
+          {
+            "filename": "Set A - solution (1).docx",
+            "url": "https://drive.google.com/file/d/1xkzmkHU1tIseqK3pBQGexj991JaHLxlZ/view"
+          }
+        ],
+        "Notes": [
+          {
+            "filename": "L22_CASTING_DEFECTS.pdf",
+            "url": "https://drive.google.com/file/d/1xioiADSzQSdskXDr9VZIiDD2aeZJA_o4/view"
+          },
+          {
+            "filename": "L21_Die Casting.pdf",
+            "url": "https://drive.google.com/file/d/14cbWbYtIWHE3QnYlTBsdLhajp3xq33FX/view"
+          },
+          {
+            "filename": "L19_ Pouring and Solidifications.pdf",
+            "url": "https://drive.google.com/file/d/1u8iq-DoTzUAnXphJzJZeqOOgpoi88Iag/view"
+          },
+          {
+            "filename": "L17_MOULD  GATING SYSTEM.pdf",
+            "url": "https://drive.google.com/file/d/1GRYqXWp7hkgVahvubqJLZPQOhjzX-Ifb/view"
+          },
+          {
+            "filename": "L16_PATTERN.pdf",
+            "url": "https://drive.google.com/file/d/1mj2KIbNBLe0EASrM6-4iIk6EkriJx_ES/view"
+          },
+          {
+            "filename": "L15 CASTING_INTRO.pdf",
+            "url": "https://drive.google.com/file/d/1xL0Hp3m8KtMdKvvqeUigesV-aLEx7mUg/view"
+          },
+          {
+            "filename": "L14_Drawing and spinning.pdf",
+            "url": "https://drive.google.com/file/d/1mkoXrRFErSGROkEk9Aph9aaStonmxvD1/view"
+          },
+          {
+            "filename": "L13_Sheet metal.pdf",
+            "url": "https://drive.google.com/file/d/14F6-FlnbWoX3uffYxNoc0pj7-KfzvK5C/view"
+          },
+          {
+            "filename": "9 ROLLING, FORGING.pptx",
+            "url": "https://drive.google.com/file/d/1SeEsv09KzIL0IIlvAF4MtAJiTN8xd8Y1/view"
+          },
+          {
+            "filename": "4 Types of Chips.pptx",
+            "url": "https://drive.google.com/file/d/1UPd21CUMJ3gBghOoqdo3bBkdDOELgS2P/view"
+          },
+          {
+            "filename": "Additive Manufacturing_for all.pptx",
+            "url": "https://drive.google.com/file/d/18i7wDx0ipcUvt-MQ6ftCS6RPsvmoYMoU/view"
+          },
+          {
+            "filename": "1. Additive Manufacturing.pptx",
+            "url": "https://drive.google.com/file/d/12VvTU4TnjwqdcXLLBQpW0HI68gSXcwwn/view"
+          },
+          {
+            "filename": "2 TURNING .pptx",
+            "url": "https://drive.google.com/file/d/18RUEjuiq9hKTG78snq3ANwb7j8614nXU/view"
+          },
+          {
+            "filename": "Cutting Tool Material.pptx",
+            "url": "https://drive.google.com/file/d/1DZlt_qgu4VDW2GvGVR_OEQuNlDjVo9oY/view"
+          },
+          {
+            "filename": "0 Man Pro stating & CNC.pptx",
+            "url": "https://drive.google.com/file/d/1WZK72k-GZyCWJzVv_UcbCMnfVf0C6_fK/view"
+          },
+          {
+            "filename": "Manufacturing Processes(Slides).pdf",
+            "url": "https://drive.google.com/file/d/1k80Rv_xhAnDmeGlaSodS03fEuudkXWho/view"
+          },
+          {
+            "filename": "Manufacturing Processes(Notes).pdf",
+            "url": "https://drive.google.com/file/d/1O6NxmOtiB5Gq7E7NQogxvSgS7cVeG74_/view"
+          }
+        ],
+        "PYQ": [
+          {
+            "filename": "Final_EST_Answer Key.pdf",
+            "url": "https://drive.google.com/file/d/1GK7q0xuCd-v1kJ-Y8x2FfccFkdLvG28M/view"
+          },
+          {
+            "filename": "mst manpro sol.pdf",
+            "url": "https://drive.google.com/file/d/10RZWPd94i4D345QHPdjpc7osMf6wYjnk/view"
+          }
+        ]
+      },
+      "Physics": {
+        "Handwritten Notes": [
+          {
+            "filename": "Physics(Notes).pdf",
+            "url": "https://drive.google.com/file/d/1mcPk-nIXYcAmrDZUBdi3Mq8K4Xny6GyD/view"
+          }
+        ],
+        "Books": [
+          {
+            "filename": "Ultrasonics(Khanna & Bedi).pdf",
+            "url": "https://drive.google.com/file/d/1kaAsnJkfauZ1v8L4G2jVAIqMYUsxhuU7/view"
+          },
+          {
+            "filename": "Acoustics(Khanna& Bedi).pdf",
+            "url": "https://drive.google.com/file/d/1WGwQO5tIbBcB4OiNY8zhNClbFPaFmTVp/view"
+          }
+        ],
+        "Slides": [
+          {
+            "filename": "diffraction.pdf",
+            "url": "https://drive.google.com/file/d/1fQK8aTB2bQ6hAMBzi9iLoO2IaBv7YDcY/view"
+          },
+          {
+            "filename": "Electromagnetic-theory.pdf",
+            "url": "https://drive.google.com/file/d/1PyNzrKkF8b73l8MV2Tv-AVP_3vj9Z8kC/view"
+          },
+          {
+            "filename": "QM.pdf",
+            "url": "https://drive.google.com/file/d/1Eb8F7opK1IruxVkNxgg9eGTBh8Y87L_N/view"
+          },
+          {
+            "filename": "ultrasonics.pdf",
+            "url": "https://drive.google.com/file/d/1NnEDoFVpJE2obz0v5YzEWy6n-zCAAkBY/view"
+          },
+          {
+            "filename": "Acoustics.pdf",
+            "url": "https://drive.google.com/file/d/1dZPXGwhS5hmldJZjSidTQ_9olHoVBbiu/view"
+          },
+          {
+            "filename": "Polarization.pdf",
+            "url": "https://drive.google.com/file/d/1meU6FS-PFMRJp7_79KpW5aXWCKimVHfs/view"
+          },
+          {
+            "filename": "Laser.pdf",
+            "url": "https://drive.google.com/file/d/1kRi6vGw2ytz039AweXJj416_neU4U_MS/view"
+          },
+          {
+            "filename": "interference.pdf",
+            "url": "https://drive.google.com/file/d/1FpPNoQgGWXVfYgbfvkD3uebf29GmnScX/view"
+          },
+          {
+            "filename": "1 .Waves_Oscillations.pdf",
+            "url": "https://drive.google.com/file/d/1m5SoUfO1tpxWUCrZ3r9D4878VLLnTmtn/view"
+          }
+        ],
+        "Tut Solution": [
+          {
+            "filename": "Tut-4-Electromagnetic-Wave-Solution.pdf",
+            "url": "https://drive.google.com/file/d/1l1LCKLbBRrEDtmv4MxoyW5OTRTpBho03/view"
+          },
+          {
+            "filename": "Tut-2-3-Acoustics-Ultrasonics-Solution-Part-2.pdf",
+            "url": "https://drive.google.com/file/d/1u2Cvp0Sd-c1MjHrY6AbAl2CJxAmA1PJ_/view"
+          },
+          {
+            "filename": "Tut1(solution).pdf",
+            "url": "https://drive.google.com/file/d/1yHp-Ff3mLiUG3jSZW8O4YWxtvuEwO-Mh/view"
+          },
+          {
+            "filename": "Tut-7-Polarisation-Solution.pdf",
+            "url": "https://drive.google.com/file/d/10Dj61jRe5hS54psT9aR3bti8G6bvKeE_/view"
+          },
+          {
+            "filename": "Tut5 (solution).pdf",
+            "url": "https://drive.google.com/file/d/1lDidHbNd2FzVdNRkfbAOc2uRltN01Rnv/view"
+          },
+          {
+            "filename": "Tut-8-Quantum-Mechanics-Solutions.pdf",
+            "url": "https://drive.google.com/file/d/1cLdpkGcnZJ8fOOMzNbwqOJWyoRp2M9QR/view"
+          },
+          {
+            "filename": "Tut-6-Diffraction-Solution.pdf",
+            "url": "https://drive.google.com/file/d/14Vru0KxLSgSNvx6RbFNRGyyekNlMkvvY/view"
+          },
+          {
+            "filename": "Physics(Tuts).pdf",
+            "url": "https://drive.google.com/file/d/1NOPKX6Fbv-M3stXOc3NWV2FgYYfkD8wB/view"
+          }
+        ]
+      },
+      "Calculus for Engineers": {
+        "Tut": [
+          {
+            "filename": "Tutorial Sheet_6.pdf",
+            "url": "https://drive.google.com/file/d/1J2M7uV3fWLG-6xdJBjXZqMNuteYoQyrc/view"
+          },
+          {
+            "filename": "Tutorial Sheet_9 new.pdf",
+            "url": "https://drive.google.com/file/d/1Mn7Bodg1pREtqsO2DignbYV8Bdbe0le9/view"
+          },
+          {
+            "filename": "Tutorial Sheet_8 new.pdf",
+            "url": "https://drive.google.com/file/d/15RA4a4B_BP43451k5FbV8gsnXUJYVYfZ/view"
+          },
+          {
+            "filename": "Tutorial Sheet_9.pdf",
+            "url": "https://drive.google.com/file/d/1tscfpnZusokR2y3-S8lK76cL2eoQybQt/view"
+          },
+          {
+            "filename": "Tutorial Sheet_8.pdf",
+            "url": "https://drive.google.com/file/d/13CIJ8Ex0_cfvwR9xpFyVlOu1hrX0l3b8/view"
+          },
+          {
+            "filename": "Tutorial Sheet_7.pdf",
+            "url": "https://drive.google.com/file/d/11Lj97BJH5dnNrefpODWwsqO-B7Wjsmfg/view"
+          },
+          {
+            "filename": "Tutorial Sheet_5.pdf",
+            "url": "https://drive.google.com/file/d/1AEiY_ndDkKPPebX05NwcYlB79iSvomMs/view"
+          },
+          {
+            "filename": "Tutorial Sheet_4.pdf",
+            "url": "https://drive.google.com/file/d/1WhXdixAjJiIybJEpbLwNOVz_T4e6EPLS/view"
+          },
+          {
+            "filename": "Tutorial Sheet_2.pdf",
+            "url": "https://drive.google.com/file/d/1YgB1XemU3J75WnqLSFvbI8qgwSbMMoDt/view"
+          },
+          {
+            "filename": "Tutorial Sheet_3.pdf",
+            "url": "https://drive.google.com/file/d/1GwAPC5dh4bn3-NzI1EqWMcxf4mH6E_1S/view"
+          },
+          {
+            "filename": "Tutorial Sheet_1.pdf",
+            "url": "https://drive.google.com/file/d/14SngYMuOUoTwVXpdaP-495_R6uEdyCv2/view"
+          },
+          {
+            "filename": "Tutorial-0_Basics.pdf",
+            "url": "https://drive.google.com/file/d/1MW37MxBglp9E_x5jjmM6PKAXs-CZ8iY2/view"
+          }
+        ]
+      }
+    },
+    "Pool A ": {
+      "Differential Equation": {
+        "Tuts": [
+          {
+            "filename": "Mathematics-2-Tuts.pdf",
+            "url": "https://drive.google.com/file/d/1Y8jPKwdXsIUTy-IhbDByvwCGl0yFXxBK/view"
+          }
+        ],
+        "Notes": [
+          {
+            "filename": "Mathematics-2-Notes.pdf",
+            "url": "https://drive.google.com/file/d/1IjNJnvoFb5gKQoLXmPr2cPPSi2-JjYjT/view"
+          }
+        ]
+      },
+      "Electrical and Electronics": {
+        "Slides": [
+          {
+            "filename": "UES013_syllabus_Revised.docx",
+            "url": "https://drive.google.com/file/d/1g82JmbKDCeJljmeJqe2ZBGZ11WNFiXZ8/view"
+          },
+          {
+            "filename": "PPT-4_AC Single Phase_Resonance_Parallel.pptx",
+            "url": "https://drive.google.com/file/d/1YfhC6xZk0JJuh7m1aIdHbU2da3BC2rMX/view"
+          },
+          {
+            "filename": "PPT-3_AC Single Phase_Resonance_Series.pptx",
+            "url": "https://drive.google.com/file/d/1oCrdDNQc1hQUwLRkB9rS3t3TvCQRA7Of/view"
+          },
+          {
+            "filename": "Lecture_OpAmp pdf.pdf",
+            "url": "https://drive.google.com/file/d/1M_iH-HfHdflO9m8r2xXVRaISWCXn0dya/view"
+          },
+          {
+            "filename": "L1 basic of PN Junction.pdf",
+            "url": "https://drive.google.com/file/d/15x-eigdEGbffCkjcsCvgoXrzA8PiQ1hy/view"
+          },
+          {
+            "filename": "Lecture_OpAmp (1).ppt",
+            "url": "https://drive.google.com/file/d/14295M_oSgs93TDX99F9gURPg9y9YeS7I/view"
+          },
+          {
+            "filename": "analog-lect-1-diode.pptx",
+            "url": "https://drive.google.com/file/d/170UmOhZnOnlKmme90TC7IlAT3e9FGa-O/view"
+          },
+          {
+            "filename": "Adder.ppt",
+            "url": "https://drive.google.com/file/d/1h2FVcluy2nb08r4K78chAAjkA12Id8Dj/view"
+          },
+          {
+            "filename": "SYLLABUS_Electrical and Electronics Engineering (UES013).pdf",
+            "url": "https://drive.google.com/file/d/18YYb6krz8G_XPn8obBiEw58nBsFwpojg/view"
+          },
+          {
+            "filename": "Single Phase Transformer_05.05.2025.pdf",
+            "url": "https://drive.google.com/file/d/1CRnSg1uupHMe-qCteLwmMARvTskytQaP/view"
+          },
+          {
+            "filename": "Electromagnetism_1.pdf",
+            "url": "https://drive.google.com/file/d/1oPQspidkWPfl1REBPzErqHTBaNtq6T4c/view"
+          },
+          {
+            "filename": "ppt 2_bjt[1].pdf",
+            "url": "https://drive.google.com/file/d/1BGy_7lmEjTtovvXEAS7yO3s_jt71tvR1/view"
+          },
+          {
+            "filename": "ppt 3_op amp[1].pdf",
+            "url": "https://drive.google.com/file/d/1g-1disO-iwREU8IfjLSM5HyLcNJRa7UG/view"
+          },
+          {
+            "filename": "PPT-2_AC Single Phase_AC Circuit Analysis.pptx",
+            "url": "https://drive.google.com/file/d/1HnDexvmbfXHOtW8kKFDc46sOEisBtYJ3/view"
+          },
+          {
+            "filename": "PPT-5_AC Single Phase_Pf Correction.pptx",
+            "url": "https://drive.google.com/file/d/1tZs7loglrZBlHq_8cn9j5VXN3rbJ42lC/view"
+          },
+          {
+            "filename": "PPT-7_AC Three Phase_2.pptx",
+            "url": "https://drive.google.com/file/d/11M3jTRXjCeQMSp2svnpxs8fuOyjbUSR2/view"
+          },
+          {
+            "filename": "PPT-6_AC Three Phase_1.pptx",
+            "url": "https://drive.google.com/file/d/1qXqG661FhJ0FnAM0ZMHyDAoxTC9ywXdc/view"
+          },
+          {
+            "filename": "Flip-flops.ppt",
+            "url": "https://drive.google.com/file/d/1iDf-TtNc_exMZAsgcnBPOJqyA63cdxzk/view"
+          },
+          {
+            "filename": "L14_DC Transients.pptx",
+            "url": "https://drive.google.com/file/d/178BAqXo7-ntYZzooLG-vWUcTr3FXMlDe/view"
+          },
+          {
+            "filename": "L8_Stat-Delta conversion.pptx",
+            "url": "https://drive.google.com/file/d/1RFugYWEl552q186VvKo09qYWHmhVqFqt/view"
+          },
+          {
+            "filename": "Digital_Topic2_Complement and Logic Gates.pdf",
+            "url": "https://drive.google.com/file/d/1jAiKC0HiljeETT5jYxUpV9bQQnlJoozQ/view"
+          },
+          {
+            "filename": "Digital_Topic1_Common Number Systems.pptx",
+            "url": "https://drive.google.com/file/d/1LocI9hw-gJFUrMeI4rOLoSFr1VF6Y0K_/view"
+          },
+          {
+            "filename": "Boolean Algebra and K-Map.ppt",
+            "url": "https://drive.google.com/file/d/156N-I2BBbDdsCIs5-fTMYWhQQT9EcBaJ/view"
+          },
+          {
+            "filename": "PPT_8_Stat-Delta conversion.pptx",
+            "url": "https://drive.google.com/file/d/1FJKPE-z9m8Mojdck7Vl5Lj10f_X_jay2/view"
+          },
+          {
+            "filename": "PPT_14_DC Transients.pptx",
+            "url": "https://drive.google.com/file/d/1a8p-a2kAZFhjAPVzE2tdokbRM6eLiUQ8/view"
+          },
+          {
+            "filename": "PPT_7_Mesh Analysis_2.pptx",
+            "url": "https://drive.google.com/file/d/1Yq-FR2eK_T3_YAKaoKg5qgGt25rN_-yR/view"
+          },
+          {
+            "filename": "PPT_6_Mesh Analysis_1.pptx",
+            "url": "https://drive.google.com/file/d/10HfFp5PVMcybwqSWkdqWaKFNNBFDlQtu/view"
+          },
+          {
+            "filename": "PPT_5_Nodal Analysis_2.pptx",
+            "url": "https://drive.google.com/file/d/1uTA_QxTdP-wdYxbY2tJivu03n1DHVc4P/view"
+          },
+          {
+            "filename": "PPT_4_Nodal Analysis_1.pptx",
+            "url": "https://drive.google.com/file/d/12Y6RVN2UH3oTnkJIM9AHPjr__K-J5kX7/view"
+          },
+          {
+            "filename": "PPT_3_Source Conversion.pptx",
+            "url": "https://drive.google.com/file/d/1P8GLCbkSS-FDeYys8FHzXgERaoWoHJIo/view"
+          },
+          {
+            "filename": "PPT_2_Network Element KVL KCL.pptx",
+            "url": "https://drive.google.com/file/d/1TkoBYWYD512ap5w5PttFH-P3zba7d8ps/view"
+          },
+          {
+            "filename": "PPT_1_KCL,KVL.pptx",
+            "url": "https://drive.google.com/file/d/1TnNc0jVgzbP9pVfBJLB9q8S1lPWYJAEA/view"
+          },
+          {
+            "filename": "Lecture_Source transformation.pdf",
+            "url": "https://drive.google.com/file/d/1s25L9N6Rn_fTwSQWnl4ZOL8wJPEF1PfV/view"
+          },
+          {
+            "filename": "Lecture-2.pdf",
+            "url": "https://drive.google.com/file/d/1Y-kxT2tuzCV--_GIDnQ9VTPTUbH2ji0s/view"
+          },
+          {
+            "filename": "Lecture-1.pdf",
+            "url": "https://drive.google.com/file/d/1Hv3nFDcTHcZTP3I2iM2A6OTMYQ0GQqeS/view"
+          },
+          {
+            "filename": "PPT-1_AC Single Phase_Phasor.pptx",
+            "url": "https://drive.google.com/file/d/1nW0kbb2JlsY4HhbxuussBMtYkMrMUSva/view"
+          }
+        ],
+        "Handwritten Notes": [
+          {
+            "filename": "Prof's Notes_Super Position, Thevenin's, Norton's, Maximum Power Theorm.pdf",
+            "url": "https://drive.google.com/file/d/1Y2ZeMtZDL-8h8VHCGNvOCazCZCiTg1GQ/view"
+          },
+          {
+            "filename": "Prof's Notes_KVL, Mesh And Nodal Analysis.pdf",
+            "url": "https://drive.google.com/file/d/1g-LFlakTefSf57Yhd0DZHWmY0nf48LJt/view"
+          }
+        ],
+        "Lab Manual": [
+          {
+            "filename": "Handwritten Lab Manual_Electronics Engineering.pdf",
+            "url": "https://drive.google.com/file/d/1TFowplkjsBwmXZP41Y45HVs74yP2z7-F/view"
+          },
+          {
+            "filename": "Lab Manual_Electronics Engineering.pdf",
+            "url": "https://drive.google.com/file/d/1_7kQW0yLzyakBWMlyRQdJk-VLFct0Ofc/view"
+          }
+        ],
+        "Books": [
+          {
+            "filename": "Copy of 5th edition.pdf",
+            "url": "https://drive.google.com/file/d/11n9oj7KOm6EpgW9v1ZXr2pnkb5O9-a0q/view"
+          },
+          {
+            "filename": "Copy of Electronic-Devices-and-Circuit-Theory-11th-Edition-Ebook.pdf",
+            "url": "https://drive.google.com/file/d/1WV7BjtJ3_D9dIFsGdvOKM_rgyvRiYjyQ/view"
+          },
+          {
+            "filename": "Book_Fundametal of Electric Circuits.pdf",
+            "url": "https://drive.google.com/file/d/1kdBieGVwgb9_-AlFGRkxEJvxgIMRLtAH/view"
+          },
+          {
+            "filename": "Book_Basics of Electrical Engineering.pdf",
+            "url": "https://drive.google.com/file/d/12FtFAuveTVZMgAA2-qyovSG2edFCzkQK/view"
+          }
+        ],
+        "TUT": [
+          {
+            "filename": "Tutorial_7.pdf",
+            "url": "https://drive.google.com/file/d/1ESqw_uRr7OIbBY0XhSbHJnZ73S6uq-Ho/view"
+          },
+          {
+            "filename": "Tutorial_7_Solution.pdf",
+            "url": "https://drive.google.com/file/d/1j4x1d-3f1TTUq9Mzi0dzR-_vlDG5hzQE/view"
+          },
+          {
+            "filename": "TUTORIAL sheet 8 solution.pdf",
+            "url": "https://drive.google.com/file/d/1Ma4yS6nOiHt0fLYVOCWtqRrgWxBwuVb3/view"
+          },
+          {
+            "filename": "TUTORIAL sheet 8.pdf",
+            "url": "https://drive.google.com/file/d/1Vvjb_daaeyh-2NPSo0qy6bTfYP9oapFC/view"
+          },
+          {
+            "filename": "Tutorial_5.pdf",
+            "url": "https://drive.google.com/file/d/14LV6KSJy8y0wsvlaPUNqXDmaYUZDkUY7/view"
+          },
+          {
+            "filename": "Tutorial_6_Solution.pdf",
+            "url": "https://drive.google.com/file/d/1YvZhGGQTV__cOkPg6BwZ-ZKUKjza33t_/view"
+          },
+          {
+            "filename": "Tutorial_6.pdf",
+            "url": "https://drive.google.com/file/d/1rT179spgp_8PBoeq0955oh5Wz3uAJCYi/view"
+          },
+          {
+            "filename": "Tutorial_3.pdf",
+            "url": "https://drive.google.com/file/d/19CZQFwi-tEvc2KpWsw0ZLquMrKlEayck/view"
+          },
+          {
+            "filename": "Solution tut4.pdf",
+            "url": "https://drive.google.com/file/d/1BeUSUItpfCMZBfjSDO5x8whuQHkp_6Vy/view"
+          },
+          {
+            "filename": "Solutions_Tutorial_1 (DC Circuits-1).pdf",
+            "url": "https://drive.google.com/file/d/16rT6CPQD7NkbSjw-oXneTxzaLmG8wmut/view"
+          },
+          {
+            "filename": "Solutions_Tutorial_2 (DC Circuits-2).pdf",
+            "url": "https://drive.google.com/file/d/1Uks-0fH8-7NOXGKupJmDDGGoLl4-aXd5/view"
+          },
+          {
+            "filename": "UES013_Tut 3_Solution.pdf",
+            "url": "https://drive.google.com/file/d/1rBB93NIIf5ex9lU44FppJK6MiZWZ3-eK/view"
+          },
+          {
+            "filename": "tutorial 4.pdf",
+            "url": "https://drive.google.com/file/d/1z7_cEeemi0mmCYB1bxwKhqqAFc9HHkZZ/view"
+          },
+          {
+            "filename": "TUTORIAL 3.pdf",
+            "url": "https://drive.google.com/file/d/1ELveffUSnA-IFrJDF2PXlyxBBroUhrjQ/view"
+          },
+          {
+            "filename": "Tutorial_2 (DC Circuits-2).pdf",
+            "url": "https://drive.google.com/file/d/1mjTLLmpmTzV21AYK81uaZ2IDoTd8KVE4/view"
+          },
+          {
+            "filename": "Tutorial Sheet_02.pdf",
+            "url": "https://drive.google.com/file/d/1DYRmk1axurWu9Qt3LETI_ipDSqU3sCv8/view"
+          },
+          {
+            "filename": "Tutorial Sheet_01.pdf",
+            "url": "https://drive.google.com/file/d/1XJcYpFd9i9BnPbiTpIuyXVxz1UvVSHK4/view"
+          },
+          {
+            "filename": "Tutorial_1 (DC Circuits-1).pdf",
+            "url": "https://drive.google.com/file/d/1SOqDuq_ZNJt3WEWoZSjcD62TEFP0bbOT/view"
+          }
+        ]
+      },
+      "Programing C": {
+        "Books": [
+          {
+            "filename": "Let Us C.pdf",
+            "url": "https://drive.google.com/file/d/1EDvL3qvE-_RZytI30KfsrzIM0kqUiYox/view"
+          }
+        ],
+        "Lecture Slides": [
+          {
+            "filename": "LectureSlides_8_StructureUnion.pptx",
+            "url": "https://drive.google.com/file/d/1lqZ4ETJ3wA_hPhv2uiLo-DGaxHrlQkwf/view"
+          },
+          {
+            "filename": "LectureSlides_7_Files.pptx",
+            "url": "https://drive.google.com/file/d/1YhxOKdYp0cJMng-QMkE-sW9VWkP7SMp9/view"
+          },
+          {
+            "filename": "LectureSlides_6_Pointers.pptx",
+            "url": "https://drive.google.com/file/d/1F5MG8vfAgwjkYlFZv4rn0QTGuvPe65SS/view"
+          },
+          {
+            "filename": "Lecture-5_Functions.pptx",
+            "url": "https://drive.google.com/file/d/1bBrKrH79_NtSvCkTuHtRBX5Wlo-gNnN9/view"
+          },
+          {
+            "filename": "Lecture-4_Arrays.pdf",
+            "url": "https://drive.google.com/file/d/1Ey9e1YdHe95jbbMOLzp9hNU7uAyTubE4/view"
+          },
+          {
+            "filename": "Notes_Strings.pdf",
+            "url": "https://drive.google.com/file/d/1ttodOdcQw8xUmAP-uBaqCxAF-zdhBeMK/view"
+          },
+          {
+            "filename": "Short Notes_EST.pdf",
+            "url": "https://drive.google.com/file/d/1CHMjo5uopm_udH-m7dpHNy02rl8rWxNr/view"
+          },
+          {
+            "filename": "Lecture-1_Fundamentals.pptx",
+            "url": "https://drive.google.com/file/d/1L5UfrNky2OtNwo9paSaJBBcm8YATvhCm/view"
+          },
+          {
+            "filename": "SYLLABUS_C-Programming (UES103).pdf",
+            "url": "https://drive.google.com/file/d/1onRTToo9VNE7QuVKZOkl2F5EGqn0jtXr/view"
+          },
+          {
+            "filename": "Unit 7.pptx",
+            "url": "https://drive.google.com/file/d/1HNCKVNR69xd6Zu-DCs23hH_oWwps6RW9/view"
+          },
+          {
+            "filename": "Unit 6.pptx",
+            "url": "https://drive.google.com/file/d/1n0QyrcTSCVUiAEeH00f97Kf452vvuiuL/view"
+          },
+          {
+            "filename": "Unit 5.pptx",
+            "url": "https://drive.google.com/file/d/1t_pExn9Hhdv2qWouUuMY4XdV9JgJAcCf/view"
+          },
+          {
+            "filename": "Unit 4.pptx",
+            "url": "https://drive.google.com/file/d/11N62VxjusgKC86TUbARhen6I2jfa9cXC/view"
+          },
+          {
+            "filename": "Unit 3 - Functions onwards.pptx",
+            "url": "https://drive.google.com/file/d/1rDicgrmdGAl_gS-dbiK2C7wTn738NFf0/view"
+          },
+          {
+            "filename": "C programming 2Darray and strings.pptx",
+            "url": "https://drive.google.com/file/d/1pu0VdiKTgn8pGlVLoMehiYGprj7BMzYM/view"
+          },
+          {
+            "filename": "C programming unit 3-Arrays.pptx",
+            "url": "https://drive.google.com/file/d/1s5Tsoy_yknXhtXXtld3YF6zEpkIKcBUp/view"
+          },
+          {
+            "filename": "week 1.pptx",
+            "url": "https://drive.google.com/file/d/1Lg53x9NdR8-RL5OePWf92VIXCGaAaaxC/view"
+          },
+          {
+            "filename": "C programing .pptx",
+            "url": "https://drive.google.com/file/d/1REc6kmkd4FZaH3NnPsmTHURsOtB352UM/view"
+          }
+        ],
+        "Lab Assignments": [
+          {
+            "filename": "Assignment_6.docx",
+            "url": "https://drive.google.com/file/d/15wmMn8uFb7NosUpaXljuOWSAr0P_F_QV/view"
+          },
+          {
+            "filename": "Assignment_5.pdf",
+            "url": "https://drive.google.com/file/d/1D-n_JugkqoCqyLzcK3p1_seZKU_7NoJe/view"
+          },
+          {
+            "filename": "Assignment_2.docx",
+            "url": "https://drive.google.com/file/d/1suaQjhVEyTvS2IuEPwkvv8UAJiMhVqfx/view"
+          },
+          {
+            "filename": "Assignment_3.pdf",
+            "url": "https://drive.google.com/file/d/1e8ZSRHew_inZ3Fg-NXE_oBWLRNYOjpNV/view"
+          },
+          {
+            "filename": "Assignment_1.docx",
+            "url": "https://drive.google.com/file/d/1SsmXNklHaopvNjfiRvr3RngziNKTZwwi/view"
+          },
+          {
+            "filename": "Assignment_4.pdf",
+            "url": "https://drive.google.com/file/d/1csEYDHq2HVjkGKUaObsnOGymYSFN4F7r/view"
+          }
+        ]
+      },
+      "Chemistry": {
+        "Books": [
+          {
+            "filename": "Copy of Engineering_Chemistry_by_Jain_and_Jain.pdf",
+            "url": "https://drive.google.com/file/d/11rJKw79xX-aWtcZeZmb51g0dCeLNHgfo/view"
+          }
+        ],
+        "PYQ": [
+          {
+            "filename": "Previous Question Paper.zip",
+            "url": "https://drive.google.com/file/d/1kUa9W8fHYgSMjn-gGKAaYE7dqo4-XGJS/view"
+          },
+          {
+            "filename": "EST-2023, May.pdf",
+            "url": "https://drive.google.com/file/d/1H6sCzp5Q3fmkC10nk13LJT1iUC-ocZ0B/view"
+          },
+          {
+            "filename": "EST-2022, December.pdf",
+            "url": "https://drive.google.com/file/d/1dDNuldUssXnWb2wGQhS70jbRUjqerKDT/view"
+          },
+          {
+            "filename": "EST-2022, May.pdf",
+            "url": "https://drive.google.com/file/d/1sbjv56QYfYTG-nVsAog8F0qI_w1DECKf/view"
+          },
+          {
+            "filename": "EST-2023, December.pdf",
+            "url": "https://drive.google.com/file/d/1SUjvSwG01vy8M_hi8yIR9D6aywjR_Eqs/view"
+          },
+          {
+            "filename": "Answer-MST-2023, September.pdf",
+            "url": "https://drive.google.com/file/d/12azlKFCk7zi1sr9O80UJ2xYRMZUMNqny/view"
+          },
+          {
+            "filename": "Answer-MST-2022, November.pdf",
+            "url": "https://drive.google.com/file/d/1rQzWga8zpC7_eZhtCKnBc4ifjt3Q0-TS/view"
+          },
+          {
+            "filename": "Answer-MST-2022, March.pdf",
+            "url": "https://drive.google.com/file/d/1teEAZK3t7Wk7Zhet0TzqO2LFqefvOopn/view"
+          },
+          {
+            "filename": "Answer-MST-2020, March.pdf",
+            "url": "https://drive.google.com/file/d/1qtC0wqWCCukXmiDZvYvLcG8iQ3aeaI8p/view"
+          },
+          {
+            "filename": "Answer-MST-2019, September.pdf",
+            "url": "https://drive.google.com/file/d/1g9QKobm9ZQUA6WbYwX55sNE4CDPZzKp6/view"
+          },
+          {
+            "filename": "Answer-MST-2019, March.pdf",
+            "url": "https://drive.google.com/file/d/11djFSlehySRMYB5Lv0NWnKGXHizEFOHY/view"
+          },
+          {
+            "filename": "Answer-EST-2022, December.pdf",
+            "url": "https://drive.google.com/file/d/1_f09Kly7W1J71B7mR8JsUr8XDwQtej59/view"
+          },
+          {
+            "filename": "Answer-EST-2023, January.pdf",
+            "url": "https://drive.google.com/file/d/1epvpMXzoafloIwwLlkDrM-3a8M_POwjD/view"
+          },
+          {
+            "filename": "Answer-EST-2019, May.pdf",
+            "url": "https://drive.google.com/file/d/1OechVf4P0QLBp7XYk9KK0JCMXLHg0XiU/view"
+          },
+          {
+            "filename": "Answer-EST-2022, May.pdf",
+            "url": "https://drive.google.com/file/d/1EifW_6_btfOOVc7XK2ET4G4NG5jWtdG3/view"
+          },
+          {
+            "filename": "Answer-EST-2023, December.pdf",
+            "url": "https://drive.google.com/file/d/1eTGrEy9KbQJcqC76akeKsChJkfMKETJd/view"
+          },
+          {
+            "filename": "Answer-EST-2019, December.pdf",
+            "url": "https://drive.google.com/file/d/1Vu4R51qEsrpf7_yp7Wz3ZvvffMYCYfTT/view"
+          },
+          {
+            "filename": "EST-2020, December.pdf",
+            "url": "https://drive.google.com/file/d/1nYAcibZU158RTEc3P32yj34Mwmnd91AL/view"
+          },
+          {
+            "filename": "EST-2017, December.pdf",
+            "url": "https://drive.google.com/file/d/1xDy_sKQU4GEhWsWyonj5SYLXXC6b77N5/view"
+          },
+          {
+            "filename": "EST-2019, May.pdf",
+            "url": "https://drive.google.com/file/d/1oZrmvHqkUU5Jp907AXrHenGljk5WdEyl/view"
+          },
+          {
+            "filename": "MST-2023, September (1).pdf",
+            "url": "https://drive.google.com/file/d/1DJ59_eh4v3nh9dMRfSFM8hcqI06foOWZ/view"
+          },
+          {
+            "filename": "EST-2018, December.pdf",
+            "url": "https://drive.google.com/file/d/1UmhdUiYTAUhc3eP3O7tfQQCFy0k35oFZ/view"
+          },
+          {
+            "filename": "EST-2018, May.pdf",
+            "url": "https://drive.google.com/file/d/1rtQpYdNPqmYuC4j2ED9rumaZjeULAPBe/view"
+          },
+          {
+            "filename": "MST-2020, March.pdf",
+            "url": "https://drive.google.com/file/d/1gPSKIPYRauT7PMyyh9aerdLEoMY5yzSf/view"
+          },
+          {
+            "filename": "MST-2023, March (1).pdf",
+            "url": "https://drive.google.com/file/d/1iM1IWafBCh5cN_b-UdS-0poGdiMETkkU/view"
+          },
+          {
+            "filename": "EST-2017, May.pdf",
+            "url": "https://drive.google.com/file/d/1A46_uQz1G4LhGYm3rCqMdXZk3JkhbPK1/view"
+          },
+          {
+            "filename": "EST-2019, December.pdf",
+            "url": "https://drive.google.com/file/d/1QKBjKWxEGClz0laiAArO4fEvTDhJhH38/view"
+          },
+          {
+            "filename": "MST-2017, September.pdf",
+            "url": "https://drive.google.com/file/d/18chVCKSAkmv6dPU0M0e6_83STEGxdzmZ/view"
+          },
+          {
+            "filename": "MST-2022, November (1).pdf",
+            "url": "https://drive.google.com/file/d/1ZGFFAGLKyTpTHwOtAVNpVlLsssB5GHAD/view"
+          },
+          {
+            "filename": "MST-2022, March.pdf",
+            "url": "https://drive.google.com/file/d/1pz2za1SxgbcBRZpS6taKcLiV3-VoZ86O/view"
+          },
+          {
+            "filename": "MST-2019, September.pdf",
+            "url": "https://drive.google.com/file/d/186nvjTPsaoZBdY7YtM0BY5W_XWq1rIRE/view"
+          },
+          {
+            "filename": "MST-2019, March.pdf",
+            "url": "https://drive.google.com/file/d/1AxMDywsWzp6RBvq4qwXecRgPBlyBC9rm/view"
+          },
+          {
+            "filename": "MST-2018, September.pdf",
+            "url": "https://drive.google.com/file/d/1-CNXC-X2uwNHlIUl0SG97GgEaE13-lFs/view"
+          },
+          {
+            "filename": "MST-2017, March.pdf",
+            "url": "https://drive.google.com/file/d/1PEFhIhWC4GOBuZV8GVjMIQXFf8ul7fIF/view"
+          }
+        ],
+        "Assignments": [
+          {
+            "filename": "Assignment_Electrochemistry_with solution.pdf",
+            "url": "https://drive.google.com/file/d/1RSO_KDIN_Dq_QSE31IT4JsxliSLEgygZ/view"
+          },
+          {
+            "filename": "Assignment_Water_with solutions.docx",
+            "url": "https://drive.google.com/file/d/1r1QX2lqRm3oYvur8U3ZeDGItprdalMyU/view"
+          },
+          {
+            "filename": "Assignment_Polymer.docx",
+            "url": "https://drive.google.com/file/d/1uvryc3aCPhofKu_8CFB7shCcP6eQZ_q4/view"
+          },
+          {
+            "filename": "Assignment_IR spectroscopy_with Solution.pdf",
+            "url": "https://drive.google.com/file/d/1NVmcmeeFK-7oeUQ0ns7ZtUuPKIAEPpem/view"
+          },
+          {
+            "filename": "Assignment_Solutions_Beer Law.docx.pdf",
+            "url": "https://drive.google.com/file/d/1lO5Dm95yKWyOTyG5gvR_dMXDx89-Glxx/view"
+          },
+          {
+            "filename": "Atomic Spectroscopy_Questions+Solutions_2.pdf",
+            "url": "https://drive.google.com/file/d/1rtybwbdO5w2jthQTOwttB4C3_bG68c0s/view"
+          },
+          {
+            "filename": "Atomic Spectroscopy_Questions+Solutions_1.pdf",
+            "url": "https://drive.google.com/file/d/1HbHWqYg0Jf1D58N-GrdhSdeNJhiCLISy/view"
+          },
+          {
+            "filename": "Assignment_Beer Law.docx",
+            "url": "https://drive.google.com/file/d/1vLqLfzrCz8g7pWgNGy2chuLULAXOCbjP/view"
+          }
+        ],
+        "Lab": [
+          {
+            "filename": "Handwritten Lab Manual_Applied Chemistry.pdf",
+            "url": "https://drive.google.com/file/d/1kZOiWaLDQcd4OfaWKJI1weVrijq9kHUT/view"
+          },
+          {
+            "filename": "Lab Manual_Applied Chemistry.pdf",
+            "url": "https://drive.google.com/file/d/1IhwuBIUU0CqtQgg_xGP6nvwAiXbGF8J-/view"
+          }
+        ],
+        "Slides": [
+          {
+            "filename": "Notes_Electrochemistry.pdf",
+            "url": "https://drive.google.com/file/d/1lfoK86tYJR-UzlR_esmRVm1x6lV4zWjk/view"
+          },
+          {
+            "filename": "Notes_Water.pdf",
+            "url": "https://drive.google.com/file/d/1iz_1fA9Vkw0E3bMK1F9wl9veVxvRe4cv/view"
+          },
+          {
+            "filename": "Notes_Fuel.pdf",
+            "url": "https://drive.google.com/file/d/185YSw6Qg4PZw7dlTD8obRKTAbbNn5gJi/view"
+          },
+          {
+            "filename": "Notes_Polymers.pdf",
+            "url": "https://drive.google.com/file/d/1X73kvOQfPy-HyiILD_eG2tLjzz8qEgJW/view"
+          },
+          {
+            "filename": "Notes_IR Spectroscopy.pdf",
+            "url": "https://drive.google.com/file/d/1b_9cfER8V6c82nS1lCiqbvRWAD3P7B_S/view"
+          },
+          {
+            "filename": "Notes_IR Spectroscopy_till MST.pdf",
+            "url": "https://drive.google.com/file/d/1aE7L3-yRxVC0Z9OD84bhwOxcp5Sq4Gjo/view"
+          },
+          {
+            "filename": "Spectroscopy_Handwritten Notes.pdf",
+            "url": "https://drive.google.com/file/d/1rIeW-K2mEXG0l89Wkx-9JYr1xs3K2tRI/view"
+          },
+          {
+            "filename": "Notes_Molecular Spectroscopy_UV Visible Spectroscopy.pdf",
+            "url": "https://drive.google.com/file/d/1I0tuqNQwnAnnTj96Zbnss_ExUH7lVamG/view"
+          },
+          {
+            "filename": "Notes_General Spectroscopy.pdf",
+            "url": "https://drive.google.com/file/d/1kqeTwh8CUYTV1Y7dlG93mVIX53lShuQs/view"
+          },
+          {
+            "filename": "Book Notes_Beers Law.pdf",
+            "url": "https://drive.google.com/file/d/1f3z6MXVYmx7Rg0g8twLIuHgm1qkBHGQf/view"
+          },
+          {
+            "filename": "Notes_Beers Law.pdf",
+            "url": "https://drive.google.com/file/d/1wb7bZ5g-CBkHBU6bxDN8p7GGXsmJgvFJ/view"
+          },
+          {
+            "filename": "SYLLABUS_Applied Chemistry (UCB009).pdf",
+            "url": "https://drive.google.com/file/d/12MWsmWZ18PLOj_V9MqL8_X4r2f--6UKQ/view"
+          }
+        ]
+      },
+      "Energy": {
+        "Slides": [
+          {
+            "filename": "PPT_3_Solid Waste Management_Worksheet.docx",
+            "url": "https://drive.google.com/file/d/1bzDBU8GxJSpYRYS1teK1cjQqkGjT-MF3/view"
+          },
+          {
+            "filename": "MST_Important Questions.docx",
+            "url": "https://drive.google.com/file/d/1HlihOfXgBcmLgjhtsZGObjAg_PhVhoCd/view"
+          },
+          {
+            "filename": "PPT_2_Water Pollution_Worksheet.pdf",
+            "url": "https://drive.google.com/file/d/1C5gTpkrhPi62Dr1XAoctZvroMiG93uGf/view"
+          },
+          {
+            "filename": "PPT_2_Water Pollution_Numericals.ppt",
+            "url": "https://drive.google.com/file/d/19-W6_kUPcYrInLbME2ujXnJYtClFVpiY/view"
+          }
+        ],
+        "Quiz": [
+          {
+            "filename": "Sample quiz",
+            "url": "https://drive.google.com/file/d/1neJpqBmHMZu7U61GP75vXZIdPTDcZ5bU/view"
+          }
+        ]
+      }
+    }
+  }
+}
